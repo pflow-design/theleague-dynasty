@@ -183,23 +183,23 @@ const weeklyGames = weeks.map((w) => {
   .note { margin-bottom: 8px; color: var(--muted); }
 
   .week-picker { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
-  .week-picker label { font-weight: 800; color: var(--brand-900); font-size: 13px; display: flex; align-items: center; gap: 8px; }
-  .week-picker select { font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: #fff; font-weight: 700; }
+  .week-picker label { font-weight: 800; color: var(--text); font-size: 13px; display: flex; align-items: center; gap: 8px; }
+  .week-picker select { font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); font-weight: 700; }
 
   .matchups { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
-  .matchup { text-align: left; cursor: pointer; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font: inherit; transition: border-color .15s, box-shadow .15s; }
-  .matchup:hover { border-color: var(--brand-500); box-shadow: 0 4px 14px rgba(10,107,64,.12); }
+  .matchup { text-align: left; cursor: pointer; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font: inherit; transition: border-color .15s, box-shadow .15s; }
+  .matchup:hover { border-color: var(--accent); box-shadow: 0 4px 14px rgba(0,255,249,.15); }
   .mu-side { display: flex; justify-content: space-between; gap: 10px; padding: 3px 0; }
   .mu-side .mu-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .mu-side.win .mu-name { font-weight: 800; color: var(--brand-900); }
+  .mu-side.win .mu-name { font-weight: 800; color: var(--text); }
   .mu-side.win .mu-pts { font-weight: 800; color: var(--brand-700); }
   .mu-pts { font-variant-numeric: tabular-nums; color: var(--muted); }
   .mu-hint { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--brand-500); margin-top: 6px; font-weight: 700; }
 
-  .box-modal { position: fixed; inset: 0; background: rgba(5,51,30,.55); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 200; }
-  .box-inner { background: var(--bg); border-radius: 14px; max-width: 720px; width: 100%; max-height: 86vh; overflow: auto; padding: 22px; position: relative; }
-  .box-close { position: absolute; top: 12px; right: 12px; border: none; background: var(--brand-900); color: #fff; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; font-weight: 700; }
-  .box-title { color: var(--brand-900); margin-bottom: 12px; }
+  .box-modal { position: fixed; inset: 0; background: rgba(3,6,18,.72); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 200; }
+  .box-inner { background: var(--bg-2); border: 1px solid var(--line); border-radius: 14px; max-width: 720px; width: 100%; max-height: 86vh; overflow: auto; padding: 22px; position: relative; }
+  .box-close { position: absolute; top: 12px; right: 12px; border: none; background: var(--panel-2); color: #fff; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; font-weight: 700; }
+  .box-title { color: var(--text); margin-bottom: 12px; }
   .box-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   @media (max-width: 640px) { .box-grid { grid-template-columns: 1fr; } }
 </style>

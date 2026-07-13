@@ -47,11 +47,11 @@ const posClass = (p: string) => (p || '').toLowerCase();
 
 <style>
   .picker { margin-bottom: 6px; }
-  .picker label { font-weight: 800; color: var(--brand-900); font-size: 12px; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; gap: 10px; }
-  .picker select { font: inherit; text-transform: none; letter-spacing: 0; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line); background: #fff; font-weight: 700; }
+  .picker label { font-weight: 800; color: var(--text); font-size: 12px; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; gap: 10px; }
+  .picker select { font: inherit; text-transform: none; letter-spacing: 0; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); font-weight: 700; }
   .team-link { color: var(--brand-700); text-decoration: none; font-weight: 700; }
   .team-link:hover { text-decoration: underline; }
-  .pill.pos { background: #eef4f0; color: var(--brand-900); }
+  .pill.pos { background: var(--panel-2); color: var(--text); }
   .pill.pos.qb { background: #fde2e4; color: #b4232a; }
   .pill.pos.rb { background: #dff3e6; color: #0a6b40; }
   .pill.pos.wr { background: #e0ecfb; color: #1e5fa8; }

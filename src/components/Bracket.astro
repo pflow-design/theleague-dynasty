@@ -79,15 +79,15 @@ const gameLabel = (p: number | null) => (p === 1 ? '🏆 Title' : p === 3 ? '3rd
   .bracket { display: flex; gap: 18px; overflow-x: auto; padding: 4px 2px 10px; }
   .round { display: flex; flex-direction: column; justify-content: space-around; gap: 14px; min-width: 200px; }
   .round-name { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); font-weight: 800; text-align: center; }
-  .game { background: #fff; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; box-shadow: 0 1px 6px rgba(0,0,0,.05); }
-  .game.final { border-color: var(--gold); box-shadow: 0 2px 12px rgba(242,183,5,.28); }
-  .glabel { background: var(--brand-900); color: #fff; font-size: 9px; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; padding: 3px 8px; text-align: center; }
-  .game.final .glabel { background: var(--gold); color: var(--brand-900); }
+  .game { background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; box-shadow: 0 1px 6px rgba(0,0,0,.3); }
+  .game.final { border-color: var(--gold); box-shadow: 0 2px 14px rgba(245,196,81,.3); }
+  .glabel { background: var(--panel-2); color: #fff; font-size: 9px; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; padding: 3px 8px; text-align: center; }
+  .game.final .glabel { background: var(--gold); color: var(--accent-ink); }
   .side { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 8px 11px; font-size: 13px; }
-  .side + .side { border-top: 1px solid #eef4f0; }
-  .side .nm { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .side + .side { border-top: 1px solid var(--line); }
+  .side .nm { font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .side .sc { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 700; }
-  .side.won { background: #f3faf6; }
-  .side.won .nm { color: var(--brand-900); font-weight: 800; }
-  .side.won .sc { color: var(--brand-700); }
+  .side.won { background: rgba(25,227,221,.10); }
+  .side.won .nm { color: var(--text); font-weight: 800; }
+  .side.won .sc { color: var(--accent); }
 </style>

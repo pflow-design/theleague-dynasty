@@ -34,9 +34,9 @@ import { seasons, label, avatarUrl } from '../../lib/data.ts';
 <style>
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
   .scard { text-decoration: none; color: inherit; transition: transform .15s, box-shadow .15s; }
-  .scard:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(10,107,64,.16); }
+  .scard:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,255,249,.14); border-color: var(--accent); }
   .scard-top { display: flex; align-items: center; justify-content: space-between; }
-  .yr { font-size: 26px; font-weight: 900; color: var(--brand-900); }
+  .yr { font-size: 26px; font-weight: 900; color: var(--text); }
   .champ { margin-top: 10px; font-size: 15px; display: flex; align-items: center; gap: 8px; }
   .champ.up { color: var(--muted); font-weight: 600; }
   .team { margin-top: 2px; }

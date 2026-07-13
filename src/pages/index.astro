@@ -97,14 +97,14 @@ const recent = completeSeasons.slice(0, 8).map((s) => ({
   @media (max-width: 860px) { .features { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 460px) { .features { grid-template-columns: 1fr; } }
   .feature { text-decoration: none; color: inherit; transition: transform .15s, box-shadow .15s; }
-  .feature:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(10,107,64,.16); }
+  .feature:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,255,249,.14); }
   .f-icon { font-size: 26px; }
-  .f-title { font-size: 17px; font-weight: 800; color: var(--brand-900); margin: 8px 0 4px; }
+  .f-title { font-size: 17px; font-weight: 800; color: var(--text); margin: 8px 0 4px; }
 
   .season-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
   .sg { text-decoration: none; color: inherit; transition: transform .15s, box-shadow .15s; }
-  .sg:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(10,107,64,.16); }
-  .sg-year { font-size: 22px; font-weight: 900; color: var(--brand-900); }
+  .sg:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,255,249,.14); }
+  .sg-year { font-size: 22px; font-weight: 900; color: var(--text); }
   .sg-champ { font-weight: 700; font-size: 13px; margin-top: 4px; }
   .sg.all { display: flex; align-items: center; justify-content: center; font-weight: 800; color: var(--brand-700); }
 </style>

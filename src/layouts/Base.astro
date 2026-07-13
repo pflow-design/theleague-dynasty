@@ -1,6 +1,7 @@
 ---
-// Site-wide shell. Emerald/gold "dynasty" theme (recolored from the sibling
-// Go Cougs site's purple/gold layout for a consistent family look).
+// Site-wide shell. Dark "Sleeper" theme — midnight-navy backgrounds, electric
+// cyan accent, steel-blue muted text, Inter typeface — to match the Sleeper app
+// this league lives in.
 interface Props {
   title?: string;
   subtitle?: string;
@@ -25,7 +26,11 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content="'The League - dyNASTY Edition' fantasy football history — standings, playoffs, records, drafts, trades, and head-to-head across every season." />
+    <meta name="theme-color" content="#05091d" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" />
   </head>
   <body>
     <header class="hdr">
@@ -63,68 +68,78 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
 
     <style is:global>
       :root {
-        --bg: #eef4f0;
-        --ink: #0e2019;
-        --brand-900: #05331e;
-        --brand-700: #0a6b40;
-        --brand-500: #12a05e;
-        --gold: #f2b705;
-        --gold-deep: #d98b00;
-        --card: #ffffff;
-        --line: #d9e7e0;
-        --muted: #6f8579;
-        --win: #16a34a;
-        --loss: #dc2626;
+        /* Sleeper palette */
+        --bg: #05091d;          /* midnight navy (Sleeper body) */
+        --bg-2: #0a1230;        /* section / page-head background */
+        --card: #111b38;        /* panel (Sleeper #131B38) */
+        --panel-2: #25345d;     /* elevated rows / hover (Sleeper #25345D) */
+        --line: #26315c;        /* borders */
+        --text: #ffffff;
+        --muted: #98b3d6;       /* steel blue (Sleeper) */
+        --accent: #19e3dd;      /* electric cyan */
+        --accent-strong: #00fff9;
+        --accent-ink: #05091d;  /* dark text placed on cyan/gold fills */
+        --coral: #ff6482;       /* Sleeper coral (live / negative) */
+        --gold: #f5c451;        /* trophy / champion accent */
+        --gold-deep: #d99a1c;
+        --win: #3ddc97;
+        --loss: #ff6482;
+        /* aliases so component/page styles keep working on the dark theme */
+        --brand-900: #0b1533;   /* dark surface / text-on-gold */
+        --brand-700: var(--accent);
+        --brand-500: var(--accent);
+        --ink: var(--text);
       }
       * { margin: 0; padding: 0; box-sizing: border-box; }
       body {
-        font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+        font-family: 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif;
         background: var(--bg);
-        color: var(--ink);
+        color: var(--text);
         line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
       }
-      a { color: var(--brand-700); }
+      a { color: var(--accent); }
       .wrap { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
 
-      .hdr { background: linear-gradient(135deg, #05331e 0%, #0a6b40 62%, #12a05e 100%); color: #fff; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(5, 51, 30, .3); }
+      .hdr { background: linear-gradient(135deg, #060b24 0%, #0c1740 60%, #0e1c4d 100%); color: #fff; position: sticky; top: 0; z-index: 100; border-bottom: 1px solid var(--line); box-shadow: 0 2px 14px rgba(0,0,0,.5); }
       .hdr-inner {
         max-width: 1100px; margin: 0 auto; padding: 14px 24px;
         display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
       }
       .brand { display: inline-flex; align-items: center; gap: 12px; color: #fff; text-decoration: none; }
       .crest {
-        background: var(--gold); font-size: 20px; line-height: 1;
-        width: 38px; height: 38px; border-radius: 9px; display: flex; align-items: center; justify-content: center;
-        box-shadow: 0 2px 6px rgba(0,0,0,.2);
+        background: var(--accent); font-size: 20px; line-height: 1;
+        width: 38px; height: 38px; border-radius: 10px; display: flex; align-items: center; justify-content: center;
+        box-shadow: 0 0 16px rgba(0,255,249,.35);
       }
-      .brand-eyebrow { display: block; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; opacity: .75; }
+      .brand-eyebrow { display: block; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); }
       .brand-title { display: block; font-size: 20px; font-weight: 900; letter-spacing: -.5px; }
-      .brand-title .dyn { color: var(--gold); }
+      .brand-title .dyn { color: var(--accent); }
       .nav { display: flex; gap: 4px; flex-wrap: wrap; }
       .nav a {
-        color: rgba(255,255,255,.85); text-decoration: none; font-size: 13px; font-weight: 700;
+        color: rgba(255,255,255,.82); text-decoration: none; font-size: 13px; font-weight: 700;
         padding: 7px 11px; border-radius: 20px;
       }
-      .nav a:hover { background: rgba(255,255,255,.14); color: #fff; }
-      .nav a.active { background: var(--gold); color: var(--brand-900); }
+      .nav a:hover { background: rgba(255,255,255,.10); color: #fff; }
+      .nav a.active { background: var(--accent); color: var(--accent-ink); }
 
-      .pagehead { background: #fff; border-bottom: 1px solid var(--line); }
+      .pagehead { background: var(--bg-2); border-bottom: 1px solid var(--line); }
       .pagehead .wrap { padding: 28px 24px; }
-      .pagehead h1 { font-size: 30px; font-weight: 900; color: var(--brand-900); letter-spacing: -.5px; }
+      .pagehead h1 { font-size: 30px; font-weight: 900; color: var(--text); letter-spacing: -.5px; }
       .pagehead p { color: var(--muted); margin-top: 4px; }
 
       main.wrap { padding-top: 32px; padding-bottom: 48px; }
 
-      .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 22px; box-shadow: 0 2px 12px rgba(0,0,0,.05); }
+      .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 22px; box-shadow: 0 2px 12px rgba(0,0,0,.35); }
 
-      .ftr { background: var(--brand-900); color: rgba(255,255,255,.72); text-align: center; padding: 22px; font-size: 12px; margin-top: 48px; }
+      .ftr { background: #04081a; color: var(--muted); text-align: center; padding: 22px; font-size: 12px; margin-top: 48px; border-top: 1px solid var(--line); }
       .ftr strong { color: #fff; }
 
       /* Section headers */
-      .sec-hdr { display: flex; align-items: center; gap: 10px; margin: 36px 0 16px; padding-bottom: 10px; border-bottom: 2px solid var(--brand-700); }
+      .sec-hdr { display: flex; align-items: center; gap: 10px; margin: 36px 0 16px; padding-bottom: 10px; border-bottom: 2px solid var(--accent); }
       .sec-hdr:first-child { margin-top: 0; }
       .sec-hdr .icon { font-size: 20px; }
-      .sec-hdr h2 { font-size: 19px; font-weight: 800; color: var(--brand-900); }
+      .sec-hdr h2 { font-size: 19px; font-weight: 800; color: var(--text); }
 
       /* Grids */
       .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -133,45 +148,48 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
 
       /* Standings / data tables */
       .stbl { width: 100%; border-collapse: collapse; font-size: 13.5px; }
-      .stbl thead tr { background: var(--brand-900); color: #fff; }
+      .stbl thead tr { background: #0d1636; color: var(--muted); }
       .stbl thead th { padding: 11px 12px; text-align: left; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; white-space: nowrap; }
       .stbl thead th.r { text-align: right; }
-      .stbl tbody tr { border-bottom: 1px solid #eaf3ee; }
-      .stbl tbody tr:hover { background: #f3faf6; }
+      .stbl tbody tr { border-bottom: 1px solid var(--line); }
+      .stbl tbody tr:hover { background: rgba(152,179,214,.06); }
       .stbl tbody td { padding: 10px 12px; vertical-align: middle; }
       .stbl tbody td.r { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-      .tn { font-weight: 700; }
+      .tn { font-weight: 700; color: var(--text); }
       .sub { font-size: 11px; color: var(--muted); }
-      .rec { font-weight: 700; color: var(--brand-700); }
+      .rec { font-weight: 700; color: var(--accent); }
       .pos { color: var(--win); font-weight: 700; }
       .neg { color: var(--loss); font-weight: 700; }
-      .rank { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 50%; font-weight: 800; font-size: 12px; background: #dcefe4; color: var(--brand-900); }
-      .rank.champ { background: var(--gold); color: var(--brand-900); }
-      .rank.po { background: var(--brand-900); color: #fff; }
+      .rank { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 50%; font-weight: 800; font-size: 12px; background: var(--panel-2); color: var(--text); }
+      .rank.champ { background: var(--gold); color: var(--accent-ink); }
+      .rank.po { background: var(--accent); color: var(--accent-ink); }
       .table-scroll { overflow-x: auto; }
 
       /* Record book tables */
       .rtbl { width: 100%; border-collapse: collapse; }
-      .rtbl tr { border-bottom: 1px solid #eaf3ee; }
+      .rtbl tr { border-bottom: 1px solid var(--line); }
       .rtbl tr:last-child { border-bottom: none; }
       .rtbl td { padding: 9px 10px; font-size: 12.5px; vertical-align: top; }
-      .rtbl .rc { font-weight: 700; color: var(--brand-700); width: 40%; }
-      .rtbl .rh { color: #444; width: 34%; }
-      .rtbl .rv { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; width: 26%; }
-      .card-title { font-weight: 800; color: var(--brand-900); margin-bottom: 12px; font-size: 14px; }
+      .rtbl .rc { font-weight: 700; color: var(--accent); width: 40%; }
+      .rtbl .rh { color: var(--muted); width: 34%; }
+      .rtbl .rv { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; width: 26%; color: var(--text); }
+      .card-title { font-weight: 800; color: var(--text); margin-bottom: 12px; font-size: 14px; }
 
       /* Pills / badges */
       .pill { display: inline-block; font-size: 10px; letter-spacing: .5px; text-transform: uppercase; padding: 2px 8px; border-radius: 20px; font-weight: 700; }
-      .pill.gold { background: var(--gold); color: var(--brand-900); }
-      .pill.green { background: #dcefe4; color: var(--brand-900); }
+      .pill.gold { background: var(--gold); color: var(--accent-ink); }
+      .pill.green { background: rgba(25,227,221,.16); color: var(--accent); }
       .pill.ghost { background: transparent; border: 1px solid var(--line); color: var(--muted); }
 
-      .avatar { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; background: #dcefe4; vertical-align: middle; }
+      .avatar { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; background: var(--panel-2); vertical-align: middle; }
+
+      /* Form controls (dark) */
+      select, input { color-scheme: dark; }
 
       /* Sortable tables */
       table.sortable thead th { cursor: pointer; user-select: none; white-space: nowrap; }
-      table.sortable thead th:hover { color: var(--gold); }
-      .sort-arrow { opacity: .8; font-size: 10px; margin-left: 2px; }
+      table.sortable thead th:hover { color: var(--accent-strong); }
+      .sort-arrow { opacity: .9; font-size: 10px; margin-left: 2px; color: var(--accent); }
     </style>
 
     <script>

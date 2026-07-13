@@ -1,0 +1,110 @@
+---
+import Base from '../layouts/Base.astro';
+import { seasons, completeSeasons, champions, managers, league, teamNameFor, label, avatarUrl } from '../lib/data.ts';
+
+const latest = completeSeasons[0];
+const champKey = latest.champion?.key ?? null;
+const champAvatar = avatarUrl(champKey);
+
+const titles = Object.entries((champions as any).titlesByManager as Record<string, number>)
+  .map(([key, n]) => ({ key, label: label(key), n }))
+  .sort((a, b) => b.n - a.n);
+const topTitle = titles[0];
+
+const upcoming = seasons.find((s) => s.upcoming);
+
+const features = [
+  { href: '/seasons/', icon: '📅', title: 'Seasons', body: `Standings, playoff brackets & weekly scores — all ${completeSeasons.length} seasons.` },
+  { href: '/teams/', icon: '🏈', title: 'Teams', body: 'Every franchise: career record, rosters, draft picks & trades.' },
+  { href: '/records/', icon: '📚', title: 'Record Book', body: 'All-time highs, blowouts, streaks & champions.' },
+  { href: '/head-to-head/', icon: '⚔️', title: 'Head-to-Head', body: 'Any two managers’ complete rivalry history.' },
+  { href: '/drafts/', icon: '🎯', title: 'Drafts', body: 'The startup draft & every rookie draft, pick by pick.' },
+  { href: '/trades/', icon: '🔁', title: 'Trades', body: 'Every completed trade — players and picks.' },
+];
+
+const recent = completeSeasons.slice(0, 8).map((s) => ({
+  year: s.year, team: s.champion?.team, key: s.champion?.key,
+}));
+---
+<Base title="The League — dyNASTY Edition" subtitle={`${completeSeasons.length} completed seasons of a 10-team dynasty — standings, records, drafts, trades, and head-to-head.`}>
+
+  <div class="hero">
+    <div class="hero-champ">
+      <div class="hc-eye">🏆 Reigning Champion · {latest.year}</div>
+      <div class="hc-name">{latest.champion?.team ?? '—'}</div>
+      <div class="hc-mgr">
+        {champAvatar && <img class="avatar" src={champAvatar} alt="" />}
+        {label(champKey)}
+      </div>
+      <a class="hc-link" href={`/seasons/${latest.year}/`}>See the {latest.year} season →</a>
+    </div>
+    <div class="hero-facts">
+      <div class="fact"><b>{completeSeasons.length}</b><span>Seasons Played</span></div>
+      <div class="fact"><b>{league.firstSeason}</b><span>Dynasty Est.</span></div>
+      <div class="fact"><b>{topTitle?.n}</b><span>Most Titles · {topTitle?.label}</span></div>
+    </div>
+  </div>
+
+  {upcoming && (
+    <a href={`/seasons/${upcoming.year}/`} class="upcoming card">
+      <span class="pill gold">Upcoming</span>
+      <span><b>{upcoming.year} season</b> — rosters set & rookie draft complete. Kickoff pending.</span>
+      <span class="up-arrow">→</span>
+    </a>
+  )}
+
+  <div class="features">
+    {features.map((f) => (
+      <a href={f.href} class="card feature">
+        <span class="f-icon">{f.icon}</span>
+        <div class="f-title">{f.title}</div>
+        <div class="sub">{f.body}</div>
+      </a>
+    ))}
+  </div>
+
+  <div class="sec-hdr"><span class="icon">🏆</span><h2>Champions</h2></div>
+  <div class="season-grid">
+    {recent.map((s) => (
+      <a href={`/seasons/${s.year}/`} class="card sg">
+        <div class="sg-year">{s.year}</div>
+        <div class="sg-champ">🏆 {label(s.key)}</div>
+        <div class="sub">{s.team ?? ''}</div>
+      </a>
+    ))}
+    <a href="/seasons/" class="card sg all">All seasons →</a>
+  </div>
+</Base>
+
+<style>
+  .hero { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; margin-bottom: 18px; }
+  @media (max-width: 720px) { .hero { grid-template-columns: 1fr; } }
+  .hero-champ { background: linear-gradient(135deg, var(--gold), var(--gold-deep)); border-radius: 14px; padding: 26px; }
+  .hc-eye { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; font-weight: 800; color: rgba(0,0,0,.55); }
+  .hc-name { font-size: 30px; font-weight: 900; color: var(--brand-900); margin-top: 6px; line-height: 1.05; }
+  .hc-mgr { font-size: 16px; color: rgba(0,0,0,.7); font-weight: 800; margin-top: 4px; display: flex; align-items: center; gap: 8px; }
+  .hc-mgr .avatar { width: 28px; height: 28px; }
+  .hc-link { display: inline-block; margin-top: 14px; font-size: 13px; font-weight: 800; color: var(--brand-900); }
+  .hero-facts { background: var(--brand-900); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+  .fact b { font-size: 28px; font-weight: 900; color: var(--gold); display: block; line-height: 1; }
+  .fact span { font-size: 11px; color: rgba(255,255,255,.72); text-transform: uppercase; letter-spacing: 1px; }
+
+  .upcoming { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; text-decoration: none; color: inherit; padding: 14px 18px; }
+  .upcoming:hover { border-color: var(--gold); }
+  .upcoming .up-arrow { margin-left: auto; color: var(--brand-700); font-weight: 800; }
+
+  .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 8px; }
+  @media (max-width: 860px) { .features { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 460px) { .features { grid-template-columns: 1fr; } }
+  .feature { text-decoration: none; color: inherit; transition: transform .15s, box-shadow .15s; }
+  .feature:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(10,107,64,.16); }
+  .f-icon { font-size: 26px; }
+  .f-title { font-size: 17px; font-weight: 800; color: var(--brand-900); margin: 8px 0 4px; }
+
+  .season-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+  .sg { text-decoration: none; color: inherit; transition: transform .15s, box-shadow .15s; }
+  .sg:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(10,107,64,.16); }
+  .sg-year { font-size: 22px; font-weight: 900; color: var(--brand-900); }
+  .sg-champ { font-weight: 700; font-size: 13px; margin-top: 4px; }
+  .sg.all { display: flex; align-items: center; justify-content: center; font-weight: 800; color: var(--brand-700); }
+</style>

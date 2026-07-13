@@ -1,0 +1,29 @@
+{
+  "byYear": [
+    {
+      "year": 2022,
+      "champion": "dtpt",
+      "team": "DTPT"
+    },
+    {
+      "year": 2023,
+      "champion": "rycow",
+      "team": "COWBALLS"
+    },
+    {
+      "year": 2024,
+      "champion": "nickgilb2",
+      "team": "Big Worm's Perm"
+    },
+    {
+      "year": 2025,
+      "champion": "rycow",
+      "team": "COWBALLS"
+    }
+  ],
+  "titlesByManager": {
+    "dtpt": 1,
+    "rycow": 2,
+    "nickgilb2": 1
+  }
+}

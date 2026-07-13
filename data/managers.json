@@ -1,0 +1,278 @@
+{
+  "managers": [
+    {
+      "key": "rycow",
+      "userId": "858154500060475392",
+      "display": "RyCow",
+      "avatar": "5ecb9164e370f2980166311654e05acb",
+      "teamName": "COWBALLS",
+      "teamNames": {
+        "2022": "COWBALLS",
+        "2023": "COWBALLS",
+        "2024": "COWBALLS",
+        "2025": "COWBALLS",
+        "2026": "COWBALLS"
+      },
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "titles": 2,
+      "w": 57,
+      "l": 27,
+      "t": 0,
+      "pf": 7890.52,
+      "pa": 7156.38,
+      "playoffApps": 3,
+      "bestFinish": 1
+    },
+    {
+      "key": "nickgilb2",
+      "userId": "730628996731142144",
+      "display": "nickgilb2",
+      "avatar": "b3338675f635c2c1f42b469621d38ec6",
+      "teamName": "Big Worm's Perm",
+      "teamNames": {
+        "2022": "Big Worm's Perm",
+        "2023": "Big Worm's Perm",
+        "2024": "Big Worm's Perm",
+        "2025": "Big Worm's Perm",
+        "2026": "Big Worm's Perm"
+      },
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "titles": 1,
+      "w": 54,
+      "l": 30,
+      "t": 0,
+      "pf": 7751.2,
+      "pa": 7371.48,
+      "playoffApps": 4,
+      "bestFinish": 1
+    },
+    {
+      "key": "dtpt",
+      "userId": "864008375783043072",
+      "display": "DTPT",
+      "avatar": "6d50559e22212faafb9e6bc4ef9a084f",
+      "teamName": "DTPT",
+      "teamNames": {},
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "titles": 1,
+      "w": 40,
+      "l": 44,
+      "t": 0,
+      "pf": 7020.22,
+      "pa": 7283.32,
+      "playoffApps": 2,
+      "bestFinish": 1
+    },
+    {
+      "key": "dirtybombs",
+      "userId": "872544662102147072",
+      "display": "DirtyBombs",
+      "avatar": "b3338675f635c2c1f42b469621d38ec6",
+      "teamName": "DirtyBombs",
+      "teamNames": {},
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "titles": 0,
+      "w": 52,
+      "l": 32,
+      "t": 0,
+      "pf": 7773.9,
+      "pa": 7368.18,
+      "playoffApps": 3,
+      "bestFinish": null
+    },
+    {
+      "key": "tomlockhart",
+      "userId": "228982860701233152",
+      "display": "tomlockhart",
+      "avatar": "6bc19613412c8c87973243d82fca3d4b",
+      "teamName": "FUCK CITY",
+      "teamNames": {
+        "2022": "FUCK CITY",
+        "2023": "FUCK CITY",
+        "2024": "FUCK CITY",
+        "2025": "FUCK CITY",
+        "2026": "FUCK CITY"
+      },
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "titles": 0,
+      "w": 44,
+      "l": 40,
+      "t": 0,
+      "pf": 7540.33,
+      "pa": 7437.62,
+      "playoffApps": 3,
+      "bestFinish": null
+    },
+    {
+      "key": "numbercrunchies",
+      "userId": "862382192066699264",
+      "display": "NumberCrunchies",
+      "avatar": "e7af4deab0289b4f5505646424895246",
+      "teamName": "NumberCrunchies",
+      "teamNames": {},
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "titles": 0,
+      "w": 39,
+      "l": 45,
+      "t": 0,
+      "pf": 7545.31,
+      "pa": 7150.58,
+      "playoffApps": 3,
+      "bestFinish": null
+    },
+    {
+      "key": "stork1120",
+      "userId": "872164860954337280",
+      "display": "Stork1120",
+      "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+      "teamName": "Stork1120",
+      "teamNames": {},
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "titles": 0,
+      "w": 37,
+      "l": 47,
+      "t": 0,
+      "pf": 6929.08,
+      "pa": 7364.34,
+      "playoffApps": 2,
+      "bestFinish": null
+    },
+    {
+      "key": "pflower",
+      "userId": "489702867624521728",
+      "display": "pflower",
+      "avatar": "a060e290420ccebff9ae9827b757e8c0",
+      "teamName": "🍼 Bottle Service 👶🏻",
+      "teamNames": {
+        "2022": "🍼 Bottle Service 👶🏻",
+        "2023": "🍼 Bottle Service 👶🏻",
+        "2024": "🍼 Bottle Service 👶🏻",
+        "2025": "🍼 Bottle Service 👶🏻",
+        "2026": "🍼 Bottle Service 👶🏻"
+      },
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "titles": 0,
+      "w": 37,
+      "l": 47,
+      "t": 0,
+      "pf": 6880.8,
+      "pa": 7410.88,
+      "playoffApps": 2,
+      "bestFinish": null
+    },
+    {
+      "key": "mattgross",
+      "userId": "730638549224919040",
+      "display": "MattGross",
+      "avatar": "92899386f1cf1c0afe299e96da636720",
+      "teamName": "Popcorn Playaz",
+      "teamNames": {
+        "2022": "Popcorn Playaz",
+        "2023": "Popcorn Playaz",
+        "2024": "Popcorn Playaz",
+        "2025": "Popcorn Playaz",
+        "2026": "Popcorn Playaz"
+      },
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "titles": 0,
+      "w": 31,
+      "l": 53,
+      "t": 0,
+      "pf": 7568.84,
+      "pa": 7409.82,
+      "playoffApps": 2,
+      "bestFinish": null
+    },
+    {
+      "key": "connorcowan",
+      "userId": "858362854598914048",
+      "display": "connorcowan",
+      "avatar": "4fb4b0a2ad2c8b6411f843be05e6c2d4",
+      "teamName": "The Wagon ©",
+      "teamNames": {
+        "2022": "The Wagon ©",
+        "2023": "The Wagon ©",
+        "2024": "The Wagon ©",
+        "2025": "The Wagon ©",
+        "2026": "The Wagon ©"
+      },
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "titles": 0,
+      "w": 29,
+      "l": 55,
+      "t": 0,
+      "pf": 6910.52,
+      "pa": 7858.14,
+      "playoffApps": 0,
+      "bestFinish": null
+    }
+  ],
+  "seasons": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "currentSeason": 2026
+}

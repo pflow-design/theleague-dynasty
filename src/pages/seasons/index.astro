@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import { seasons, label, avatarUrl } from '../../lib/data.ts';
+---
+<Base title="Seasons" subtitle="Every season of the dynasty — champions, standings, playoff brackets and weekly scores.">
+  <div class="grid">
+    {seasons.map((s) => {
+      const champAvatar = avatarUrl(s.champion?.key);
+      const runner = s.standings.find((x) => x.rank === 2);
+      return (
+        <a href={`/seasons/${s.year}/`} class="card scard">
+          <div class="scard-top">
+            <div class="yr">{s.year}</div>
+            {s.upcoming ? <span class="pill gold">Upcoming</span> : <span class="pill green">{s.teams} teams</span>}
+          </div>
+          {s.upcoming ? (
+            <div class="champ up">Rosters set · rookie draft done</div>
+          ) : (
+            <>
+              <div class="champ">
+                {champAvatar && <img class="avatar" src={champAvatar} alt="" />}
+                <span>🏆 <b>{label(s.champion?.key)}</b></span>
+              </div>
+              <div class="sub team">{s.champion?.team}</div>
+              {runner && <div class="sub runner">Reg. #1: {runner.team}</div>}
+            </>
+          )}
+        </a>
+      );
+    })}
+  </div>
+</Base>
+
+<style>
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+  .scard { text-decoration: none; color: inherit; transition: transform .15s, box-shadow .15s; }
+  .scard:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(10,107,64,.16); }
+  .scard-top { display: flex; align-items: center; justify-content: space-between; }
+  .yr { font-size: 26px; font-weight: 900; color: var(--brand-900); }
+  .champ { margin-top: 10px; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+  .champ.up { color: var(--muted); font-weight: 600; }
+  .team { margin-top: 2px; }
+  .runner { margin-top: 6px; opacity: .8; }
+</style>

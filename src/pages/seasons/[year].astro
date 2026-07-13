@@ -1,0 +1,205 @@
+---
+import Base from '../../layouts/Base.astro';
+import StandingsTable from '../../components/StandingsTable.astro';
+import Bracket from '../../components/Bracket.astro';
+import { seasons, label, teamNameFor, avatarUrl, drafts } from '../../lib/data.ts';
+
+export function getStaticPaths() {
+  return seasons.map((s) => ({ params: { year: String(s.year) } }));
+}
+const year = Number(Astro.params.year);
+const season = seasons.find((s) => s.year === year)!;
+const weeks = Object.keys(season.weeklyScores).map(Number).sort((a, b) => a - b);
+const regWeeks = weeks.filter((w) => w < season.playoffWeekStart);
+const champAvatar = avatarUrl(season.champion?.key);
+const rookieDraft = (drafts as any).drafts.find((d: any) => d.year === year && d.kind === 'rookie');
+
+// Pre-shape weekly matchups (dedupe the two mirrored rows into one per game).
+const weeklyGames = weeks.map((w) => {
+  const rows = season.weeklyScores[String(w)];
+  const seen = new Set<string>();
+  const games: any[] = [];
+  for (const r of rows) {
+    const id = [r.managerKey, r.oppKey].sort().join('|');
+    if (seen.has(id)) continue;
+    seen.add(id);
+    const hi = r.points >= r.oppPoints ? r : { managerKey: r.oppKey, points: r.oppPoints, oppKey: r.managerKey, oppPoints: r.points };
+    games.push({
+      aKey: hi.managerKey, aName: teamNameFor(hi.managerKey, year), aPts: hi.points,
+      bKey: hi.oppKey, bName: teamNameFor(hi.oppKey, year), bPts: hi.oppPoints,
+    });
+  }
+  return { week: w, isPlayoff: w >= season.playoffWeekStart, games };
+});
+---
+<Base title={`${year} Season`} subtitle={season.upcoming ? 'Upcoming — rosters set, rookie draft complete.' : `${season.teams}-team season · ${season.regularSeasonWeeks}-week regular season · top ${season.playoffTeams} make the playoffs.`}>
+
+  <p class="backlink"><a href="/seasons/">← All seasons</a></p>
+
+  {!season.upcoming && season.champion && (
+    <div class="champ-banner">
+      <div class="cb-trophy">🏆</div>
+      <div>
+        <div class="cb-eye">{year} Champion</div>
+        <div class="cb-name">{season.champion.team}</div>
+        <div class="cb-mgr">
+          {champAvatar && <img class="avatar" src={champAvatar} alt="" />}
+          <a href={`/teams/${season.champion.key}/`}>{label(season.champion.key)}</a>
+          {season.runnerUp && <span class="cb-runner"> · def. {teamNameFor(season.runnerUp.key, year)}</span>}
+        </div>
+      </div>
+    </div>
+  )}
+
+  {season.upcoming ? (
+    <>
+      <div class="note card">This season hasn’t kicked off yet. Rosters are set and the rookie draft is complete — check back once games are played for standings, brackets and scores.</div>
+      {rookieDraft && (
+        <>
+          <div class="sec-hdr"><span class="icon">🎯</span><h2>{year} Rookie Draft</h2></div>
+          <div class="table-scroll">
+            <table class="stbl">
+              <thead><tr><th class="r">Pick</th><th>Player</th><th>Pos</th><th>Team</th><th>Drafted by</th></tr></thead>
+              <tbody>
+                {rookieDraft.picks.map((p: any) => (
+                  <tr>
+                    <td class="r rec">{p.round}.{String(p.pick_no).padStart(2, '0')}</td>
+                    <td class="tn">{p.player}</td>
+                    <td><span class="sub">{p.pos}</span></td>
+                    <td><span class="sub">{p.nflTeam ?? ''}</span></td>
+                    <td><a href={`/teams/${p.managerKey}/`}>{label(p.managerKey)}</a></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )}
+    </>
+  ) : (
+    <>
+      <div class="sec-hdr"><span class="icon">📊</span><h2>Final Standings</h2></div>
+      {season.medianGames && <p class="sub" style="margin:-8px 0 12px;">Records include the weekly median game (each week you play your opponent <em>and</em> the league median), so every team plays two games per week.</p>}
+      <StandingsTable standings={season.standings} playoffCount={season.playoffTeams} year={year} />
+
+      {season.playoffs.winners.length > 0 && (
+        <>
+          <div class="sec-hdr"><span class="icon">🏟️</span><h2>Playoff Bracket</h2></div>
+          <Bracket season={season} />
+        </>
+      )}
+
+      <div class="sec-hdr"><span class="icon">📅</span><h2>Weekly Scores</h2></div>
+      <div class="week-picker">
+        <label>Week
+          <select id="weekSel">
+            {weeklyGames.map((wg) => (
+              <option value={wg.week}>{wg.isPlayoff ? `Wk ${wg.week} · Playoffs` : `Week ${wg.week}`}</option>
+            ))}
+          </select>
+        </label>
+        <span class="sub">Click a matchup to see the starting lineups.</span>
+      </div>
+      {weeklyGames.map((wg) => (
+        <div class="weekblock" data-week={wg.week} hidden={wg.week !== regWeeks[regWeeks.length - 1]}>
+          <div class="matchups">
+            {wg.games.map((g) => (
+              <button class="matchup" data-a={g.aKey} data-b={g.bKey} data-week={wg.week}>
+                <div class="mu-side win">
+                  <span class="mu-name">{g.aName}</span>
+                  <span class="mu-pts">{g.aPts.toFixed(2)}</span>
+                </div>
+                <div class="mu-side">
+                  <span class="mu-name">{g.bName}</span>
+                  <span class="mu-pts">{g.bPts.toFixed(2)}</span>
+                </div>
+                <div class="mu-hint">box score ▾</div>
+              </button>
+            ))}
+          </div>
+        </div>
+      ))}
+      <div id="boxscore" class="box-modal" hidden>
+        <div class="box-inner">
+          <button id="boxClose" class="box-close" aria-label="Close">✕</button>
+          <div id="boxBody"></div>
+        </div>
+      </div>
+    </>
+  )}
+</Base>
+
+<script define:vars={{ year }}>
+  const sel = document.getElementById('weekSel');
+  const blocks = Array.from(document.querySelectorAll('.weekblock'));
+  const show = (w) => blocks.forEach((b) => (b.hidden = b.dataset.week !== String(w)));
+  sel?.addEventListener('change', () => show(sel.value));
+
+  // Lazy-load box scores for the season, cache in memory.
+  let boxCache = null;
+  async function loadBox() {
+    if (boxCache) return boxCache;
+    const res = await fetch(`/boxscores/${year}.json`);
+    boxCache = await res.json();
+    return boxCache;
+  }
+  const modal = document.getElementById('boxscore');
+  const body = document.getElementById('boxBody');
+  const posOrder = { QB: 0, RB: 1, WR: 2, TE: 3, FLEX: 4, K: 5, DEF: 6 };
+  function lineup(team) {
+    const rows = (team.starters || []).map((p) =>
+      `<tr><td class="sub">${p.pos ?? ''}</td><td class="tn">${p.name}</td><td class="r rec">${(p.pts ?? 0).toFixed(2)}</td></tr>`).join('');
+    return `<table class="stbl"><thead><tr><th></th><th>${team.team ?? ''}</th><th class="r">${(team.points ?? 0).toFixed(2)}</th></tr></thead><tbody>${rows}</tbody></table>`;
+  }
+  document.querySelectorAll('.matchup').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const { a, b, week } = btn.dataset;
+      const data = await loadBox();
+      const wk = data.weeks[week];
+      if (!wk) return;
+      const find = (k) => wk.teams.find((t) => t.managerKey === k);
+      const ta = find(a), tb = find(b);
+      const nameA = btn.querySelector('.mu-side:nth-child(1) .mu-name').textContent;
+      const nameB = btn.querySelector('.mu-side:nth-child(2) .mu-name').textContent;
+      if (ta) ta.team = nameA; if (tb) tb.team = nameB;
+      body.innerHTML = `<h3 class="box-title">Week ${week} · Box Score</h3><div class="box-grid">${ta ? lineup(ta) : ''}${tb ? lineup(tb) : ''}</div>`;
+      modal.hidden = false;
+    });
+  });
+  document.getElementById('boxClose')?.addEventListener('click', () => (modal.hidden = true));
+  modal?.addEventListener('click', (e) => { if (e.target === modal) modal.hidden = true; });
+</script>
+
+<style>
+  .backlink { margin-bottom: 12px; }
+  .backlink a { text-decoration: none; font-weight: 700; font-size: 13px; }
+  .champ-banner { display: flex; align-items: center; gap: 18px; background: linear-gradient(135deg, var(--gold), var(--gold-deep)); border-radius: 14px; padding: 20px 24px; margin-bottom: 8px; }
+  .cb-trophy { font-size: 40px; }
+  .cb-eye { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; font-weight: 800; color: rgba(0,0,0,.55); }
+  .cb-name { font-size: 26px; font-weight: 900; color: var(--brand-900); line-height: 1.1; }
+  .cb-mgr { font-weight: 700; color: rgba(0,0,0,.75); display: flex; align-items: center; gap: 8px; margin-top: 2px; }
+  .cb-mgr a { color: var(--brand-900); }
+  .cb-runner { color: rgba(0,0,0,.6); font-weight: 600; }
+  .note { margin-bottom: 8px; color: var(--muted); }
+
+  .week-picker { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+  .week-picker label { font-weight: 800; color: var(--brand-900); font-size: 13px; display: flex; align-items: center; gap: 8px; }
+  .week-picker select { font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: #fff; font-weight: 700; }
+
+  .matchups { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+  .matchup { text-align: left; cursor: pointer; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font: inherit; transition: border-color .15s, box-shadow .15s; }
+  .matchup:hover { border-color: var(--brand-500); box-shadow: 0 4px 14px rgba(10,107,64,.12); }
+  .mu-side { display: flex; justify-content: space-between; gap: 10px; padding: 3px 0; }
+  .mu-side .mu-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .mu-side.win .mu-name { font-weight: 800; color: var(--brand-900); }
+  .mu-side.win .mu-pts { font-weight: 800; color: var(--brand-700); }
+  .mu-pts { font-variant-numeric: tabular-nums; color: var(--muted); }
+  .mu-hint { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--brand-500); margin-top: 6px; font-weight: 700; }
+
+  .box-modal { position: fixed; inset: 0; background: rgba(5,51,30,.55); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 200; }
+  .box-inner { background: var(--bg); border-radius: 14px; max-width: 720px; width: 100%; max-height: 86vh; overflow: auto; padding: 22px; position: relative; }
+  .box-close { position: absolute; top: 12px; right: 12px; border: none; background: var(--brand-900); color: #fff; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; font-weight: 700; }
+  .box-title { color: var(--brand-900); margin-bottom: 12px; }
+  .box-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .box-grid { grid-template-columns: 1fr; } }
+</style>

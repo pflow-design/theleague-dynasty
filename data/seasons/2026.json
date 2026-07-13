@@ -1,0 +1,281 @@
+{
+  "year": 2026,
+  "leagueId": "1314370265806835712",
+  "status": "in_season",
+  "upcoming": true,
+  "teams": 10,
+  "regularSeasonWeeks": 14,
+  "playoffWeekStart": 15,
+  "playoffTeams": 6,
+  "medianGames": true,
+  "champion": null,
+  "runnerUp": null,
+  "standings": [
+    {
+      "roster_id": 3,
+      "managerKey": "pflower",
+      "manager": "pflower",
+      "team": "🍼 Bottle Service 👶🏻",
+      "w": 0,
+      "l": 0,
+      "t": 0,
+      "pf": 0,
+      "pa": 0,
+      "ppts": 0,
+      "diff": 0
+    },
+    {
+      "roster_id": 2,
+      "managerKey": "nickgilb2",
+      "manager": "nickgilb2",
+      "team": "Big Worm's Perm",
+      "w": 0,
+      "l": 0,
+      "t": 0,
+      "pf": 0,
+      "pa": 0,
+      "ppts": 0,
+      "diff": 0
+    },
+    {
+      "roster_id": 5,
+      "managerKey": "rycow",
+      "manager": "RyCow",
+      "team": "COWBALLS",
+      "w": 0,
+      "l": 0,
+      "t": 0,
+      "pf": 0,
+      "pa": 0,
+      "ppts": 0,
+      "diff": 0
+    },
+    {
+      "roster_id": 9,
+      "managerKey": "dirtybombs",
+      "manager": "DirtyBombs",
+      "team": "DirtyBombs",
+      "w": 0,
+      "l": 0,
+      "t": 0,
+      "pf": 0,
+      "pa": 0,
+      "ppts": 0,
+      "diff": 0
+    },
+    {
+      "roster_id": 7,
+      "managerKey": "dtpt",
+      "manager": "DTPT",
+      "team": "DTPT",
+      "w": 0,
+      "l": 0,
+      "t": 0,
+      "pf": 0,
+      "pa": 0,
+      "ppts": 0,
+      "diff": 0
+    },
+    {
+      "roster_id": 1,
+      "managerKey": "tomlockhart",
+      "manager": "tomlockhart",
+      "team": "FUCK CITY",
+      "w": 0,
+      "l": 0,
+      "t": 0,
+      "pf": 0,
+      "pa": 0,
+      "ppts": 0,
+      "diff": 0
+    },
+    {
+      "roster_id": 10,
+      "managerKey": "numbercrunchies",
+      "manager": "NumberCrunchies",
+      "team": "NumberCrunchies",
+      "w": 0,
+      "l": 0,
+      "t": 0,
+      "pf": 0,
+      "pa": 0,
+      "ppts": 0,
+      "diff": 0
+    },
+    {
+      "roster_id": 4,
+      "managerKey": "mattgross",
+      "manager": "MattGross",
+      "team": "Popcorn Playaz",
+      "w": 0,
+      "l": 0,
+      "t": 0,
+      "pf": 0,
+      "pa": 0,
+      "ppts": 0,
+      "diff": 0
+    },
+    {
+      "roster_id": 8,
+      "managerKey": "stork1120",
+      "manager": "Stork1120",
+      "team": "Stork1120",
+      "w": 0,
+      "l": 0,
+      "t": 0,
+      "pf": 0,
+      "pa": 0,
+      "ppts": 0,
+      "diff": 0
+    },
+    {
+      "roster_id": 6,
+      "managerKey": "connorcowan",
+      "manager": "connorcowan",
+      "team": "The Wagon ©",
+      "w": 0,
+      "l": 0,
+      "t": 0,
+      "pf": 0,
+      "pa": 0,
+      "ppts": 0,
+      "diff": 0
+    }
+  ],
+  "playoffs": {
+    "winners": [
+      {
+        "m": 1,
+        "r": 1,
+        "p": null,
+        "t1": {
+          "key": "numbercrunchies",
+          "roster": 10
+        },
+        "t2": {
+          "key": "nickgilb2",
+          "roster": 2
+        },
+        "winner": null,
+        "loser": null
+      },
+      {
+        "m": 2,
+        "r": 1,
+        "p": null,
+        "t1": {
+          "key": "dtpt",
+          "roster": 7
+        },
+        "t2": {
+          "key": "dirtybombs",
+          "roster": 9
+        },
+        "winner": null,
+        "loser": null
+      },
+      {
+        "m": 3,
+        "r": 2,
+        "p": null,
+        "t1": {
+          "key": "rycow",
+          "roster": 5
+        },
+        "t2": null,
+        "winner": null,
+        "loser": null
+      },
+      {
+        "m": 4,
+        "r": 2,
+        "p": null,
+        "t1": {
+          "key": "tomlockhart",
+          "roster": 1
+        },
+        "t2": null,
+        "winner": null,
+        "loser": null
+      },
+      {
+        "m": 5,
+        "r": 2,
+        "p": 5,
+        "t1": null,
+        "t2": null,
+        "winner": null,
+        "loser": null
+      },
+      {
+        "m": 6,
+        "r": 3,
+        "p": 1,
+        "t1": null,
+        "t2": null,
+        "winner": null,
+        "loser": null
+      },
+      {
+        "m": 7,
+        "r": 3,
+        "p": 3,
+        "t1": null,
+        "t2": null,
+        "winner": null,
+        "loser": null
+      }
+    ],
+    "losers": [
+      {
+        "m": 1,
+        "r": 1,
+        "p": null,
+        "t1": {
+          "key": "connorcowan",
+          "roster": 6
+        },
+        "t2": {
+          "key": "mattgross",
+          "roster": 4
+        },
+        "winner": null,
+        "loser": null
+      },
+      {
+        "m": 2,
+        "r": 1,
+        "p": null,
+        "t1": {
+          "key": "stork1120",
+          "roster": 8
+        },
+        "t2": {
+          "key": "pflower",
+          "roster": 3
+        },
+        "winner": null,
+        "loser": null
+      },
+      {
+        "m": 3,
+        "r": 2,
+        "p": 1,
+        "t1": null,
+        "t2": null,
+        "winner": null,
+        "loser": null
+      },
+      {
+        "m": 4,
+        "r": 2,
+        "p": 3,
+        "t1": null,
+        "t2": null,
+        "winner": null,
+        "loser": null
+      }
+    ]
+  },
+  "weeklyScores": {}
+}

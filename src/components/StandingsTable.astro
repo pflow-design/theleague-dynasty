@@ -1,0 +1,65 @@
+---
+import type { Standing } from '../lib/data.ts';
+import { avatarUrl } from '../lib/data.ts';
+interface Props {
+  standings: Standing[];
+  playoffCount?: number;   // ranks 1..playoffCount marked as playoff seeds
+  year?: number;           // when set, team names link to that team's page
+  showRank?: boolean;      // hide rank for upcoming seasons
+}
+const { standings, playoffCount = 0, year, showRank = true } = Astro.props;
+const fmt = (n?: number) =>
+  typeof n === 'number' ? n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '—';
+
+// Precompute comparisons here — Astro's template parser mis-reads `<`/`>=` in {expressions}.
+const rows = standings.map((s) => {
+  const isChamp = showRank && s.rank === 1;
+  const isPlayoff = showRank && playoffCount > 0 && (s.rank ?? 99) <= playoffCount;
+  const rankClass = isChamp ? 'rank champ' : isPlayoff ? 'rank po' : 'rank';
+  const diff = typeof s.diff === 'number' ? s.diff : +(s.pf - s.pa).toFixed(2);
+  const diffPos = diff >= 0;
+  return { s, isChamp, rankClass, diff, diffPos, avatar: avatarUrl(s.managerKey) };
+});
+---
+<div class="table-scroll">
+  <table class="stbl sortable">
+    <thead>
+      <tr>
+        {showRank && <th></th>}
+        <th>Team</th>
+        <th>Manager</th>
+        <th class="r">W-L</th>
+        <th class="r">PF</th>
+        <th class="r">PA</th>
+        <th class="r">+/−</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map(({ s, isChamp, rankClass, diff, diffPos, avatar }) => (
+        <tr>
+          {showRank && <td><span class={rankClass}>{s.rank}</span></td>}
+          <td class="tn">
+            {isChamp && '🏆 '}
+            {year
+              ? <a class="team-link" href={`/teams/${s.managerKey}/?season=${year}`}>{s.team}</a>
+              : s.team}
+          </td>
+          <td>
+            {avatar && <img class="avatar" src={avatar} alt="" loading="lazy" />}
+            <span> {s.manager}</span>
+          </td>
+          <td class="r rec">{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</td>
+          <td class="r">{fmt(s.pf)}</td>
+          <td class="r">{fmt(s.pa)}</td>
+          <td class="r"><span class={diffPos ? 'pos' : 'neg'}>{diffPos ? '+' : '−'}{Math.abs(diff).toFixed(1)}</span></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .team-link { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--muted); }
+  .team-link:hover { color: var(--brand-700); border-bottom-color: var(--brand-700); }
+  .avatar { margin-right: 2px; }
+</style>

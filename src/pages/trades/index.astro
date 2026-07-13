@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import { transactions, label } from '../../lib/data.ts';
+const trades = (transactions as any).trades;
+const byYear: Record<number, any[]> = {};
+for (const t of trades) (byYear[t.year] = byYear[t.year] || []).push(t);
+const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
+---
+<Base title="Trades" subtitle={`Every completed trade in dynasty history — ${trades.length} deals, players and picks.`}>
+  {years.map((y) => (
+    <>
+      <div class="sec-hdr"><span class="icon">🔁</span><h2>{y} · {byYear[y].length} trade{byYear[y].length === 1 ? '' : 's'}</h2></div>
+      <div class="trades">
+        {byYear[y].map((t: any) => (
+          <div class="trade card">
+            <div class="t-head">
+              <span class="pill green">Week {t.week}</span>
+              {t.date && <span class="sub">{t.date}</span>}
+            </div>
+            <div class="t-sides">
+              {t.sides.map((sd: any) => (
+                <div class="t-side">
+                  <a class="t-name" href={`/teams/${sd.managerKey}/`}>{label(sd.managerKey)}</a>
+                  <div class="t-got">received</div>
+                  <ul>
+                    {sd.adds.map((a: any) => <li>{a.name} <span class="sub">{a.pos}</span></li>)}
+                    {sd.picks.map((pk: any) => <li class="pick">{pk.season} Round {pk.round} pick</li>)}
+                    {sd.adds.length === 0 && sd.picks.length === 0 && <li class="sub">nothing (dropped players)</li>}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  ))}
+</Base>
+
+<style>
+  .trades { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+  .t-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .t-sides { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .t-name { font-weight: 800; color: var(--brand-900); text-decoration: none; }
+  .t-name:hover { text-decoration: underline; }
+  .t-got { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin: 4px 0; }
+  .t-side ul { list-style: none; font-size: 13px; }
+  .t-side li { padding: 2px 0; }
+  .t-side li.pick { color: var(--brand-700); font-weight: 600; }
+</style>

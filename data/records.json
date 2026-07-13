@@ -1,0 +1,60 @@
+{
+  "highWeek": {
+    "key": "tomlockhart",
+    "value": 264.14,
+    "year": 2023,
+    "week": 5
+  },
+  "lowWeek": {
+    "key": "connorcowan",
+    "value": 47.68,
+    "year": 2024,
+    "week": 7
+  },
+  "blowout": {
+    "key": "tomlockhart",
+    "oppKey": "connorcowan",
+    "value": 178.52,
+    "year": 2023,
+    "week": 5,
+    "score": "264.14–85.62"
+  },
+  "nailbiter": {
+    "key": "rycow",
+    "oppKey": "mattgross",
+    "value": 0.04,
+    "year": 2023,
+    "week": 13,
+    "score": "172.36–172.32"
+  },
+  "highSeason": {
+    "key": "mattgross",
+    "value": 2226.34,
+    "year": 2022
+  },
+  "mostWins": {
+    "key": "rycow",
+    "value": 24,
+    "year": 2025
+  },
+  "longestWinStreak": {
+    "key": "mattgross",
+    "value": 11,
+    "year": 2023,
+    "week": 8
+  },
+  "longestLossStreak": {
+    "key": "mattgross",
+    "value": 12,
+    "year": 2024,
+    "week": 10
+  },
+  "bestPlayerWeek": {
+    "key": "dtpt",
+    "player": "Josh Allen",
+    "pos": "QB",
+    "value": 63.88,
+    "year": 2024,
+    "week": 14
+  }
+}

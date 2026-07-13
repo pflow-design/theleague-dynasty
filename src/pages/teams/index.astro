@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+import { managers, avatarUrl } from '../../lib/data.ts';
+const rows = managers.map((m) => ({ ...m, avatar: avatarUrl(m.key), pct: m.w + m.l ? m.w / (m.w + m.l) : 0 }));
+---
+<Base title="Teams" subtitle="Every franchise in the dynasty — career records, titles and total points.">
+  <div class="table-scroll">
+    <table class="stbl sortable">
+      <thead>
+        <tr>
+          <th>Franchise</th>
+          <th class="r">Titles</th>
+          <th class="r">W-L</th>
+          <th class="r">Win%</th>
+          <th class="r">PF</th>
+          <th class="r">PA</th>
+          <th class="r">Playoffs</th>
+          <th class="r">Seasons</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((m) => (
+          <tr>
+            <td class="tn">
+              {m.avatar && <img class="avatar" src={m.avatar} alt="" loading="lazy" />}
+              <a class="team-link" href={`/teams/${m.key}/`}> {m.display}</a>
+              <div class="sub">{m.teamName}</div>
+            </td>
+            <td class="r">{m.titles ? '🏆'.repeat(m.titles) : '—'}</td>
+            <td class="r rec">{m.w}-{m.l}{m.t ? `-${m.t}` : ''}</td>
+            <td class="r">{(m.pct * 100).toFixed(1)}%</td>
+            <td class="r">{m.pf.toLocaleString('en-US', { maximumFractionDigits: 0 })}</td>
+            <td class="r">{m.pa.toLocaleString('en-US', { maximumFractionDigits: 0 })}</td>
+            <td class="r">{m.playoffApps}</td>
+            <td class="r">{m.seasons.length}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Base>
+<style>
+  .team-link { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--muted); font-weight: 700; }
+  .team-link:hover { color: var(--brand-700); border-bottom-color: var(--brand-700); }
+</style>

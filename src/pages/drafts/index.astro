@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import { drafts, label } from '../../lib/data.ts';
+const list = (drafts as any).drafts;
+const latest = list[0]?.year;
+const posClass = (p: string) => (p || '').toLowerCase();
+---
+<Base title="Drafts" subtitle="The 2022 startup draft and every rookie draft since — pick by pick.">
+  <div class="picker">
+    <label>Draft
+      <select id="draftSel">
+        {list.map((d: any) => (
+          <option value={d.year}>{d.year} · {d.kind === 'startup' ? 'Startup Draft' : 'Rookie Draft'} ({d.picks.length} picks)</option>
+        ))}
+      </select>
+    </label>
+  </div>
+
+  {list.map((d: any) => (
+    <div class="draftblock" data-year={d.year} hidden={d.year !== latest}>
+      <div class="sec-hdr"><span class="icon">🎯</span><h2>{d.year} {d.kind === 'startup' ? 'Startup' : 'Rookie'} Draft · {d.type} · {d.rounds} rounds</h2></div>
+      <div class="table-scroll">
+        <table class="stbl">
+          <thead><tr><th class="r">Pick</th><th>Player</th><th>Pos</th><th>NFL</th><th>Drafted by</th></tr></thead>
+          <tbody>
+            {d.picks.map((p: any) => (
+              <tr>
+                <td class="r rec">{p.round}.{String(p.pick_no).padStart(2, '0')}</td>
+                <td class="tn">{p.player}</td>
+                <td><span class={`pill pos ${posClass(p.pos)}`}>{p.pos ?? ''}</span></td>
+                <td><span class="sub">{p.nflTeam ?? ''}</span></td>
+                <td><a class="team-link" href={`/teams/${p.managerKey}/`}>{label(p.managerKey)}</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  ))}
+</Base>
+
+<script>
+  const sel = document.getElementById('draftSel') as HTMLSelectElement | null;
+  const blocks = Array.from(document.querySelectorAll('.draftblock')) as HTMLElement[];
+  sel?.addEventListener('change', () => blocks.forEach((b) => (b.hidden = b.dataset.year !== sel.value)));
+</script>
+
+<style>
+  .picker { margin-bottom: 6px; }
+  .picker label { font-weight: 800; color: var(--brand-900); font-size: 12px; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; gap: 10px; }
+  .picker select { font: inherit; text-transform: none; letter-spacing: 0; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line); background: #fff; font-weight: 700; }
+  .team-link { color: var(--brand-700); text-decoration: none; font-weight: 700; }
+  .team-link:hover { text-decoration: underline; }
+  .pill.pos { background: #eef4f0; color: var(--brand-900); }
+  .pill.pos.qb { background: #fde2e4; color: #b4232a; }
+  .pill.pos.rb { background: #dff3e6; color: #0a6b40; }
+  .pill.pos.wr { background: #e0ecfb; color: #1e5fa8; }
+  .pill.pos.te { background: #fdefd6; color: #a5720a; }
+</style>

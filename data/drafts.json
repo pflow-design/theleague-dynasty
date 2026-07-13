@@ -1,0 +1,5279 @@
+{
+  "drafts": [
+    {
+      "year": 2026,
+      "draftId": "1314370265815191552",
+      "type": "linear",
+      "rounds": 6,
+      "startTime": 1777242709625,
+      "status": "complete",
+      "kind": "rookie",
+      "picks": [
+        {
+          "round": 1,
+          "pick_no": 1,
+          "managerKey": "mattgross",
+          "player": "Jeremiyah Love",
+          "pos": "RB",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 2,
+          "managerKey": "pflower",
+          "player": "Jadarian Price",
+          "pos": "RB",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 3,
+          "managerKey": "stork1120",
+          "player": "Carnell Tate",
+          "pos": "WR",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 4,
+          "managerKey": "connorcowan",
+          "player": "Jordyn Tyson",
+          "pos": "WR",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 5,
+          "managerKey": "dtpt",
+          "player": "Makai Lemon",
+          "pos": "WR",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 6,
+          "managerKey": "dtpt",
+          "player": "Kenyon Sadiq",
+          "pos": "TE",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 7,
+          "managerKey": "numbercrunchies",
+          "player": "KC Concepcion",
+          "pos": "WR",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 8,
+          "managerKey": "dirtybombs",
+          "player": "Omar Cooper",
+          "pos": "WR",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 9,
+          "managerKey": "tomlockhart",
+          "player": "Denzel Boston",
+          "pos": "WR",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 10,
+          "managerKey": "mattgross",
+          "player": "Jonah Coleman",
+          "pos": "RB",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 11,
+          "managerKey": "mattgross",
+          "player": "Eli Stowers",
+          "pos": "TE",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 12,
+          "managerKey": "pflower",
+          "player": "Emmett Johnson",
+          "pos": "RB",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 13,
+          "managerKey": "stork1120",
+          "player": "Nicholas Singleton",
+          "pos": "RB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 14,
+          "managerKey": "connorcowan",
+          "player": "Mike Washington",
+          "pos": "RB",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 15,
+          "managerKey": "dtpt",
+          "player": "Chris Bell",
+          "pos": "WR",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 16,
+          "managerKey": "nickgilb2",
+          "player": "Fernando Mendoza",
+          "pos": "QB",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 17,
+          "managerKey": "numbercrunchies",
+          "player": "Kaytron Allen",
+          "pos": "RB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 18,
+          "managerKey": "dirtybombs",
+          "player": "De'Zhaun Stribling",
+          "pos": "WR",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 19,
+          "managerKey": "tomlockhart",
+          "player": "Antonio Williams",
+          "pos": "WR",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 20,
+          "managerKey": "rycow",
+          "player": "Germie Bernard",
+          "pos": "WR",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 21,
+          "managerKey": "mattgross",
+          "player": "Chris Brazzell",
+          "pos": "WR",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 22,
+          "managerKey": "pflower",
+          "player": "Ted Hurst",
+          "pos": "WR",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 23,
+          "managerKey": "stork1120",
+          "player": "Zachariah Branch",
+          "pos": "WR",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 24,
+          "managerKey": "connorcowan",
+          "player": "Adam Randall",
+          "pos": "RB",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 25,
+          "managerKey": "dtpt",
+          "player": "Skyler Bell",
+          "pos": "WR",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 26,
+          "managerKey": "nickgilb2",
+          "player": "Demond Claiborne",
+          "pos": "RB",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 27,
+          "managerKey": "connorcowan",
+          "player": "Ja'Kobi Lane",
+          "pos": "WR",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 28,
+          "managerKey": "dirtybombs",
+          "player": "Elijah Sarratt",
+          "pos": "WR",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 29,
+          "managerKey": "tomlockhart",
+          "player": "Kaelon Black",
+          "pos": "RB",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 30,
+          "managerKey": "rycow",
+          "player": "Malachi Fields",
+          "pos": "WR",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 31,
+          "managerKey": "mattgross",
+          "player": "Eli Heidenreich",
+          "pos": "RB",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 32,
+          "managerKey": "pflower",
+          "player": "Max Klare",
+          "pos": "TE",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 33,
+          "managerKey": "stork1120",
+          "player": "Michael Trigg",
+          "pos": "TE",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 34,
+          "managerKey": "connorcowan",
+          "player": "Jam Miller",
+          "pos": "RB",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 35,
+          "managerKey": "dtpt",
+          "player": "Jeff Caldwell",
+          "pos": "WR",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 36,
+          "managerKey": "nickgilb2",
+          "player": "Brenen Thompson",
+          "pos": "WR",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 37,
+          "managerKey": "numbercrunchies",
+          "player": "Seth McGowan",
+          "pos": "RB",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 38,
+          "managerKey": "dirtybombs",
+          "player": "Bryce Lance",
+          "pos": "WR",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 39,
+          "managerKey": "tomlockhart",
+          "player": "Eli Raridon",
+          "pos": "TE",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 40,
+          "managerKey": "rycow",
+          "player": "Caleb Douglas",
+          "pos": "WR",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 41,
+          "managerKey": "mattgross",
+          "player": "Ty Simpson",
+          "pos": "QB",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 42,
+          "managerKey": "pflower",
+          "player": "CJ Daniels",
+          "pos": "WR",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 43,
+          "managerKey": "stork1120",
+          "player": "Kevin Coleman",
+          "pos": "WR",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 44,
+          "managerKey": "connorcowan",
+          "player": "Cyrus Allen",
+          "pos": "WR",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 45,
+          "managerKey": "dtpt",
+          "player": "Zavion Thomas",
+          "pos": "WR",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 46,
+          "managerKey": "nickgilb2",
+          "player": "Oscar Delp",
+          "pos": "TE",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 47,
+          "managerKey": "numbercrunchies",
+          "player": "Justin Joly",
+          "pos": "TE",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 48,
+          "managerKey": "dirtybombs",
+          "player": "Malik Benson",
+          "pos": "WR",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 49,
+          "managerKey": "rycow",
+          "player": "Deion Burks",
+          "pos": "WR",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 50,
+          "managerKey": "rycow",
+          "player": "Drew Allar",
+          "pos": "QB",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 51,
+          "managerKey": "mattgross",
+          "player": "J'Mari Taylor",
+          "pos": "RB",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 52,
+          "managerKey": "pflower",
+          "player": "Carson Beck",
+          "pos": "QB",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 53,
+          "managerKey": "stork1120",
+          "player": "Roman Hemby",
+          "pos": "RB",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 54,
+          "managerKey": "connorcowan",
+          "player": "Robert Henry",
+          "pos": "RB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 55,
+          "managerKey": "dtpt",
+          "player": "Sam Roush",
+          "pos": "TE",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 56,
+          "managerKey": "nickgilb2",
+          "player": "Jack Endries",
+          "pos": "TE",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 57,
+          "managerKey": "numbercrunchies",
+          "player": "Le'Veon Moss",
+          "pos": "RB",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 58,
+          "managerKey": "dirtybombs",
+          "player": "Tanner Koziol",
+          "pos": "TE",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 59,
+          "managerKey": "tomlockhart",
+          "player": "Kejon Owens",
+          "pos": "RB",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 60,
+          "managerKey": "tomlockhart",
+          "player": "Kendrick Law",
+          "pos": "WR",
+          "nflTeam": "DET",
+          "isKeeper": false
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "draftId": "1180290113871183873",
+      "type": "linear",
+      "rounds": 6,
+      "startTime": 1745785723486,
+      "status": "complete",
+      "kind": "rookie",
+      "picks": [
+        {
+          "round": 1,
+          "pick_no": 1,
+          "managerKey": "dtpt",
+          "player": "Ashton Jeanty",
+          "pos": "RB",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 2,
+          "managerKey": "mattgross",
+          "player": "Omarion Hampton",
+          "pos": "RB",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 3,
+          "managerKey": "connorcowan",
+          "player": "Travis Hunter",
+          "pos": "WR",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 4,
+          "managerKey": "numbercrunchies",
+          "player": "TreVeyon Henderson",
+          "pos": "RB",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 5,
+          "managerKey": "pflower",
+          "player": "Tetairoa McMillan",
+          "pos": "WR",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 6,
+          "managerKey": "dirtybombs",
+          "player": "Quinshon Judkins",
+          "pos": "RB",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 7,
+          "managerKey": "tomlockhart",
+          "player": "Kaleb Johnson",
+          "pos": "RB",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 8,
+          "managerKey": "stork1120",
+          "player": "Tyler Warren",
+          "pos": "TE",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 9,
+          "managerKey": "connorcowan",
+          "player": "Colston Loveland",
+          "pos": "TE",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 10,
+          "managerKey": "dtpt",
+          "player": "Emeka Egbuka",
+          "pos": "WR",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 11,
+          "managerKey": "dtpt",
+          "player": "Matthew Golden",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 12,
+          "managerKey": "mattgross",
+          "player": "Luther Burden",
+          "pos": "WR",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 13,
+          "managerKey": "connorcowan",
+          "player": "Cam Skattebo",
+          "pos": "RB",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 14,
+          "managerKey": "numbercrunchies",
+          "player": "Cam Ward",
+          "pos": "QB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 15,
+          "managerKey": "tomlockhart",
+          "player": "RJ Harvey",
+          "pos": "RB",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 16,
+          "managerKey": "dirtybombs",
+          "player": "Jayden Higgins",
+          "pos": "WR",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 17,
+          "managerKey": "pflower",
+          "player": "Devin Neal",
+          "pos": "RB",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 18,
+          "managerKey": "stork1120",
+          "player": "Ollie Gordon",
+          "pos": "RB",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 19,
+          "managerKey": "mattgross",
+          "player": "Tre Harris",
+          "pos": "WR",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 20,
+          "managerKey": "nickgilb2",
+          "player": "Jack Bech",
+          "pos": "WR",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 21,
+          "managerKey": "dtpt",
+          "player": "Bhayshul Tuten",
+          "pos": "RB",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 22,
+          "managerKey": "mattgross",
+          "player": "Kyle Williams",
+          "pos": "WR",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 23,
+          "managerKey": "connorcowan",
+          "player": "Dylan Sampson",
+          "pos": "RB",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 24,
+          "managerKey": "numbercrunchies",
+          "player": "Elijah Arroyo",
+          "pos": "TE",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 25,
+          "managerKey": "pflower",
+          "player": "Jordan James",
+          "pos": "RB",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 26,
+          "managerKey": "dirtybombs",
+          "player": "Jalen Royals",
+          "pos": "WR",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 27,
+          "managerKey": "pflower",
+          "player": "Jaylin Noel",
+          "pos": "WR",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 28,
+          "managerKey": "stork1120",
+          "player": "Tai Felton",
+          "pos": "WR",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 29,
+          "managerKey": "rycow",
+          "player": "Jaydon Blue",
+          "pos": "RB",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 30,
+          "managerKey": "nickgilb2",
+          "player": "Terrance Ferguson",
+          "pos": "TE",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 31,
+          "managerKey": "dtpt",
+          "player": "DJ Giddens",
+          "pos": "RB",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 32,
+          "managerKey": "mattgross",
+          "player": "Tory Horton",
+          "pos": "WR",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 33,
+          "managerKey": "connorcowan",
+          "player": "Jalen Milroe",
+          "pos": "QB",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 34,
+          "managerKey": "numbercrunchies",
+          "player": "Pat Bryant",
+          "pos": "WR",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 35,
+          "managerKey": "tomlockhart",
+          "player": "Jarquez Hunter",
+          "pos": "RB",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 36,
+          "managerKey": "dirtybombs",
+          "player": "Woody Marks",
+          "pos": "RB",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 37,
+          "managerKey": "tomlockhart",
+          "player": "Brashard Smith",
+          "pos": "RB",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 38,
+          "managerKey": "stork1120",
+          "player": "Jaxson Dart",
+          "pos": "QB",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 39,
+          "managerKey": "rycow",
+          "player": "Savion Williams",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 40,
+          "managerKey": "nickgilb2",
+          "player": "Tahj Brooks",
+          "pos": "RB",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 41,
+          "managerKey": "dtpt",
+          "player": "Isaac TeSlaa",
+          "pos": "WR",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 42,
+          "managerKey": "mattgross",
+          "player": "Elic Ayomanor",
+          "pos": "WR",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 43,
+          "managerKey": "connorcowan",
+          "player": "Harold Fannin",
+          "pos": "TE",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 44,
+          "managerKey": "numbercrunchies",
+          "player": "Mason Taylor",
+          "pos": "TE",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 45,
+          "managerKey": "pflower",
+          "player": "Jacory Croskey-Merritt",
+          "pos": "RB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 46,
+          "managerKey": "dirtybombs",
+          "player": "Kyle Monangai",
+          "pos": "RB",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 47,
+          "managerKey": "tomlockhart",
+          "player": "Trevor Etienne",
+          "pos": "RB",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 48,
+          "managerKey": "stork1120",
+          "player": "Oronde Gadsden",
+          "pos": "TE",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 49,
+          "managerKey": "rycow",
+          "player": "Damien Martinez",
+          "pos": "RB",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 50,
+          "managerKey": "nickgilb2",
+          "player": "Tez Johnson",
+          "pos": "WR",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 51,
+          "managerKey": "dtpt",
+          "player": "Jordan Watkins",
+          "pos": "WR",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 52,
+          "managerKey": "rycow",
+          "player": "Chimere Dike",
+          "pos": "WR",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 53,
+          "managerKey": "connorcowan",
+          "player": "Dont'e Thornton",
+          "pos": "WR",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 54,
+          "managerKey": "numbercrunchies",
+          "player": "Shedeur Sanders",
+          "pos": "QB",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 55,
+          "managerKey": "pflower",
+          "player": "Xavier Restrepo",
+          "pos": "WR",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 56,
+          "managerKey": "dirtybombs",
+          "player": "Jaylin Lane",
+          "pos": "WR",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 57,
+          "managerKey": "tomlockhart",
+          "player": "LeQuint Allen",
+          "pos": "RB",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 58,
+          "managerKey": "stork1120",
+          "player": "Raheim Sanders",
+          "pos": "RB",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 59,
+          "managerKey": "rycow",
+          "player": "Kalel Mullings",
+          "pos": "RB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 60,
+          "managerKey": "nickgilb2",
+          "player": "Isaiah Bond",
+          "pos": "WR",
+          "nflTeam": null,
+          "isKeeper": false
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "draftId": "1053896940158668801",
+      "type": "linear",
+      "rounds": 6,
+      "startTime": 1714178131864,
+      "status": "complete",
+      "kind": "rookie",
+      "picks": [
+        {
+          "round": 1,
+          "pick_no": 1,
+          "managerKey": "dtpt",
+          "player": "Marvin Harrison",
+          "pos": "WR",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 2,
+          "managerKey": "pflower",
+          "player": "Malik Nabers",
+          "pos": "WR",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 3,
+          "managerKey": "stork1120",
+          "player": "Rome Odunze",
+          "pos": "WR",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 4,
+          "managerKey": "connorcowan",
+          "player": "Caleb Williams",
+          "pos": "QB",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 5,
+          "managerKey": "numbercrunchies",
+          "player": "Brian Thomas",
+          "pos": "WR",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 6,
+          "managerKey": "connorcowan",
+          "player": "Jonathon Brooks",
+          "pos": "RB",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 7,
+          "managerKey": "mattgross",
+          "player": "Xavier Worthy",
+          "pos": "WR",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 8,
+          "managerKey": "dirtybombs",
+          "player": "Brock Bowers",
+          "pos": "TE",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 9,
+          "managerKey": "numbercrunchies",
+          "player": "Keon Coleman",
+          "pos": "WR",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 10,
+          "managerKey": "dtpt",
+          "player": "Trey Benson",
+          "pos": "RB",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 11,
+          "managerKey": "dtpt",
+          "player": "Jaylen Wright",
+          "pos": "RB",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 12,
+          "managerKey": "pflower",
+          "player": "Troy Franklin",
+          "pos": "WR",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 13,
+          "managerKey": "stork1120",
+          "player": "Ladd McConkey",
+          "pos": "WR",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 14,
+          "managerKey": "connorcowan",
+          "player": "Braelon Allen",
+          "pos": "RB",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 15,
+          "managerKey": "nickgilb2",
+          "player": "Jayden Daniels",
+          "pos": "QB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 16,
+          "managerKey": "numbercrunchies",
+          "player": "Ricky Pearsall",
+          "pos": "WR",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 17,
+          "managerKey": "mattgross",
+          "player": "Adonai Mitchell",
+          "pos": "WR",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 18,
+          "managerKey": "dirtybombs",
+          "player": "Roman Wilson",
+          "pos": "WR",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 19,
+          "managerKey": "rycow",
+          "player": "Xavier Legette",
+          "pos": "WR",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 20,
+          "managerKey": "rycow",
+          "player": "MarShawn Lloyd",
+          "pos": "RB",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 21,
+          "managerKey": "dtpt",
+          "player": "Malachi Corley",
+          "pos": "WR",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 22,
+          "managerKey": "pflower",
+          "player": "Blake Corum",
+          "pos": "RB",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 23,
+          "managerKey": "stork1120",
+          "player": "Bucky Irving",
+          "pos": "RB",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 24,
+          "managerKey": "connorcowan",
+          "player": "Jermaine Burton",
+          "pos": "WR",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 25,
+          "managerKey": "numbercrunchies",
+          "player": "Ray Davis",
+          "pos": "RB",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 26,
+          "managerKey": "tomlockhart",
+          "player": "Ja'Lynn Polk",
+          "pos": "WR",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 27,
+          "managerKey": "mattgross",
+          "player": "Audric Estime",
+          "pos": "RB",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 28,
+          "managerKey": "dirtybombs",
+          "player": "Luke McCaffrey",
+          "pos": "WR",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 29,
+          "managerKey": "nickgilb2",
+          "player": "Javon Baker",
+          "pos": "WR",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 30,
+          "managerKey": "dtpt",
+          "player": "Devontez Walker",
+          "pos": "WR",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 31,
+          "managerKey": "dtpt",
+          "player": "Isaac Guerendo",
+          "pos": "RB",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 32,
+          "managerKey": "pflower",
+          "player": "Ja'Tavion Sanders",
+          "pos": "TE",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 33,
+          "managerKey": "stork1120",
+          "player": "Jalen McMillan",
+          "pos": "WR",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 34,
+          "managerKey": "connorcowan",
+          "player": "Malik Washington",
+          "pos": "WR",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 35,
+          "managerKey": "numbercrunchies",
+          "player": "Brenden Rice",
+          "pos": "WR",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 36,
+          "managerKey": "tomlockhart",
+          "player": "Ben Sinnott",
+          "pos": "TE",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 37,
+          "managerKey": "mattgross",
+          "player": "Isaiah Davis",
+          "pos": "RB",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 38,
+          "managerKey": "dirtybombs",
+          "player": "Kimani Vidal",
+          "pos": "RB",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 39,
+          "managerKey": "rycow",
+          "player": "Jacob Cowing",
+          "pos": "WR",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 40,
+          "managerKey": "rycow",
+          "player": "Drake Maye",
+          "pos": "QB",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 41,
+          "managerKey": "dtpt",
+          "player": "Michael Penix",
+          "pos": "QB",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 42,
+          "managerKey": "pflower",
+          "player": "Jamari Thrash",
+          "pos": "WR",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 43,
+          "managerKey": "stork1120",
+          "player": "J.J. McCarthy",
+          "pos": "QB",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 44,
+          "managerKey": "connorcowan",
+          "player": "Will Shipley",
+          "pos": "RB",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 45,
+          "managerKey": "numbercrunchies",
+          "player": "Bo Nix",
+          "pos": "QB",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 46,
+          "managerKey": "tomlockhart",
+          "player": "Tyrone Tracy",
+          "pos": "RB",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 47,
+          "managerKey": "mattgross",
+          "player": "Theo Johnson",
+          "pos": "TE",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 48,
+          "managerKey": "dirtybombs",
+          "player": "Rasheen Ali",
+          "pos": "RB",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 49,
+          "managerKey": "dtpt",
+          "player": "Dylan Laube",
+          "pos": "RB",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 50,
+          "managerKey": "rycow",
+          "player": "Jared Wiley",
+          "pos": "TE",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 51,
+          "managerKey": "dtpt",
+          "player": "Erick All",
+          "pos": "TE",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 52,
+          "managerKey": "pflower",
+          "player": "Cade Stover",
+          "pos": "TE",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 53,
+          "managerKey": "stork1120",
+          "player": "AJ Barner",
+          "pos": "TE",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 54,
+          "managerKey": "connorcowan",
+          "player": "Anthony Gould",
+          "pos": "WR",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 55,
+          "managerKey": "numbercrunchies",
+          "player": "Isaiah Williams",
+          "pos": "WR",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 56,
+          "managerKey": "tomlockhart",
+          "player": "Dillon Johnson",
+          "pos": "RB",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 57,
+          "managerKey": "mattgross",
+          "player": "Spencer Rattler",
+          "pos": "QB",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 58,
+          "managerKey": "dirtybombs",
+          "player": "Frank Gore",
+          "pos": "RB",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 59,
+          "managerKey": "nickgilb2",
+          "player": "Jase McClellan",
+          "pos": "RB",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 60,
+          "managerKey": "rycow",
+          "player": "Cody Schrader",
+          "pos": "RB",
+          "nflTeam": "SF",
+          "isKeeper": false
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "draftId": "916933648128040961",
+      "type": "linear",
+      "rounds": 6,
+      "startTime": 1683057864645,
+      "status": "complete",
+      "kind": "rookie",
+      "picks": [
+        {
+          "round": 1,
+          "pick_no": 1,
+          "managerKey": "dirtybombs",
+          "player": "Bijan Robinson",
+          "pos": "RB",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 2,
+          "managerKey": "rycow",
+          "player": "Jahmyr Gibbs",
+          "pos": "RB",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 3,
+          "managerKey": "connorcowan",
+          "player": "Anthony Richardson",
+          "pos": "QB",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 4,
+          "managerKey": "tomlockhart",
+          "player": "Jaxon Smith-Njigba",
+          "pos": "WR",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 5,
+          "managerKey": "pflower",
+          "player": "Jordan Addison",
+          "pos": "WR",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 6,
+          "managerKey": "stork1120",
+          "player": "Quentin Johnston",
+          "pos": "WR",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 7,
+          "managerKey": "mattgross",
+          "player": "Roschon Johnson",
+          "pos": "RB",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 8,
+          "managerKey": "numbercrunchies",
+          "player": "Zach Charbonnet",
+          "pos": "RB",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 9,
+          "managerKey": "rycow",
+          "player": "Zay Flowers",
+          "pos": "WR",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 10,
+          "managerKey": "dtpt",
+          "player": "Devon Achane",
+          "pos": "RB",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 11,
+          "managerKey": "dirtybombs",
+          "player": "Kendre Miller",
+          "pos": "RB",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 12,
+          "managerKey": "rycow",
+          "player": "Bryce Young",
+          "pos": "QB",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 13,
+          "managerKey": "connorcowan",
+          "player": "Dalton Kincaid",
+          "pos": "TE",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 14,
+          "managerKey": "tomlockhart",
+          "player": "Jayden Reed",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 15,
+          "managerKey": "pflower",
+          "player": "Rashee Rice",
+          "pos": "WR",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 16,
+          "managerKey": "nickgilb2",
+          "player": "Jonathan Mingo",
+          "pos": "WR",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 17,
+          "managerKey": "mattgross",
+          "player": "Tyjae Spears",
+          "pos": "RB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 18,
+          "managerKey": "tomlockhart",
+          "player": "Tank Bigsby",
+          "pos": "RB",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 19,
+          "managerKey": "rycow",
+          "player": "Michael Mayer",
+          "pos": "TE",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 20,
+          "managerKey": "dtpt",
+          "player": "Chase Brown",
+          "pos": "RB",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 21,
+          "managerKey": "dirtybombs",
+          "player": "Jalin Hyatt",
+          "pos": "WR",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 22,
+          "managerKey": "rycow",
+          "player": "Josh Downs",
+          "pos": "WR",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 23,
+          "managerKey": "connorcowan",
+          "player": "Israel Abanikanda",
+          "pos": "RB",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 24,
+          "managerKey": "numbercrunchies",
+          "player": "Sam LaPorta",
+          "pos": "TE",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 25,
+          "managerKey": "pflower",
+          "player": "C.J. Stroud",
+          "pos": "QB",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 26,
+          "managerKey": "stork1120",
+          "player": "Zach Evans",
+          "pos": "RB",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 27,
+          "managerKey": "mattgross",
+          "player": "Marvin Mims",
+          "pos": "WR",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 28,
+          "managerKey": "tomlockhart",
+          "player": "Cedric Tillman",
+          "pos": "WR",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 29,
+          "managerKey": "rycow",
+          "player": "Michael Wilson",
+          "pos": "WR",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 30,
+          "managerKey": "dtpt",
+          "player": "Kayshon Boutte",
+          "pos": "WR",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 31,
+          "managerKey": "dirtybombs",
+          "player": "Evan Hull",
+          "pos": "RB",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 32,
+          "managerKey": "nickgilb2",
+          "player": "Sean Tucker",
+          "pos": "RB",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 33,
+          "managerKey": "connorcowan",
+          "player": "Tank Dell",
+          "pos": "WR",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 34,
+          "managerKey": "tomlockhart",
+          "player": "Will Levis",
+          "pos": "QB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 35,
+          "managerKey": "pflower",
+          "player": "Luke Musgrave",
+          "pos": "TE",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 36,
+          "managerKey": "stork1120",
+          "player": "Hendon Hooker",
+          "pos": "QB",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 37,
+          "managerKey": "mattgross",
+          "player": "Xavier Hutchinson",
+          "pos": "WR",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 38,
+          "managerKey": "numbercrunchies",
+          "player": "Deuce Vaughn",
+          "pos": "RB",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 39,
+          "managerKey": "stork1120",
+          "player": "Kenny McIntosh",
+          "pos": "RB",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 40,
+          "managerKey": "dtpt",
+          "player": "DeWayne McBride",
+          "pos": "RB",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 41,
+          "managerKey": "dirtybombs",
+          "player": "A.T. Perry",
+          "pos": "WR",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 42,
+          "managerKey": "rycow",
+          "player": "Eric Gray",
+          "pos": "RB",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 43,
+          "managerKey": "connorcowan",
+          "player": "Chris Rodriguez",
+          "pos": "RB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 44,
+          "managerKey": "tomlockhart",
+          "player": "Puka Nacua",
+          "pos": "WR",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 45,
+          "managerKey": "pflower",
+          "player": "Tyler Scott",
+          "pos": "WR",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 46,
+          "managerKey": "stork1120",
+          "player": "Keaton Mitchell",
+          "pos": "RB",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 47,
+          "managerKey": "mattgross",
+          "player": "Trey Palmer",
+          "pos": "WR",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 48,
+          "managerKey": "numbercrunchies",
+          "player": "Mohamed Ibrahim",
+          "pos": "RB",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 49,
+          "managerKey": "nickgilb2",
+          "player": "Tucker Kraft",
+          "pos": "TE",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 50,
+          "managerKey": "dtpt",
+          "player": "Darnell Washington",
+          "pos": "TE",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 51,
+          "managerKey": "dirtybombs",
+          "player": "Derius Davis",
+          "pos": "WR",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 52,
+          "managerKey": "rycow",
+          "player": "Justin Shorter",
+          "pos": "WR",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 53,
+          "managerKey": "connorcowan",
+          "player": "Dontayvion Wicks",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 54,
+          "managerKey": "tomlockhart",
+          "player": "Luke Schoonmaker",
+          "pos": "TE",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 55,
+          "managerKey": "pflower",
+          "player": "Lew Nichols",
+          "pos": "RB",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 56,
+          "managerKey": "stork1120",
+          "player": "Brenton Strange",
+          "pos": "TE",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 57,
+          "managerKey": "mattgross",
+          "player": "Charlie Jones",
+          "pos": "WR",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 58,
+          "managerKey": "numbercrunchies",
+          "player": "Parker Washington",
+          "pos": "WR",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 59,
+          "managerKey": "nickgilb2",
+          "player": "Zack Kuntz",
+          "pos": "TE",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 60,
+          "managerKey": "dtpt",
+          "player": "Tre Tucker",
+          "pos": "WR",
+          "nflTeam": "LV",
+          "isKeeper": false
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "draftId": "858051671861858304",
+      "type": "snake",
+      "rounds": 34,
+      "startTime": 1662517891850,
+      "status": "complete",
+      "kind": "startup",
+      "picks": [
+        {
+          "round": 1,
+          "pick_no": 1,
+          "managerKey": "connorcowan",
+          "player": "Ja'Marr Chase",
+          "pos": "WR",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 2,
+          "managerKey": "dirtybombs",
+          "player": "Jonathan Taylor",
+          "pos": "RB",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 3,
+          "managerKey": "nickgilb2",
+          "player": "Justin Jefferson",
+          "pos": "WR",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 4,
+          "managerKey": "tomlockhart",
+          "player": "D'Andre Swift",
+          "pos": "RB",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 5,
+          "managerKey": "stork1120",
+          "player": "Najee Harris",
+          "pos": "RB",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 6,
+          "managerKey": "dtpt",
+          "player": "Josh Allen",
+          "pos": "QB",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 7,
+          "managerKey": "mattgross",
+          "player": "Christian McCaffrey",
+          "pos": "RB",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 8,
+          "managerKey": "rycow",
+          "player": "Javonte Williams",
+          "pos": "RB",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 9,
+          "managerKey": "numbercrunchies",
+          "player": "CeeDee Lamb",
+          "pos": "WR",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 1,
+          "pick_no": 10,
+          "managerKey": "pflower",
+          "player": "Cooper Kupp",
+          "pos": "WR",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 11,
+          "managerKey": "pflower",
+          "player": "Kyle Pitts",
+          "pos": "TE",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 12,
+          "managerKey": "numbercrunchies",
+          "player": "Breece Hall",
+          "pos": "RB",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 13,
+          "managerKey": "rycow",
+          "player": "A.J. Brown",
+          "pos": "WR",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 14,
+          "managerKey": "mattgross",
+          "player": "Austin Ekeler",
+          "pos": "RB",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 15,
+          "managerKey": "dtpt",
+          "player": "Cam Akers",
+          "pos": "RB",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 16,
+          "managerKey": "stork1120",
+          "player": "Justin Herbert",
+          "pos": "QB",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 17,
+          "managerKey": "tomlockhart",
+          "player": "Travis Etienne",
+          "pos": "RB",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 18,
+          "managerKey": "nickgilb2",
+          "player": "Tee Higgins",
+          "pos": "WR",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 19,
+          "managerKey": "dirtybombs",
+          "player": "DK Metcalf",
+          "pos": "WR",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 2,
+          "pick_no": 20,
+          "managerKey": "connorcowan",
+          "player": "Dalvin Cook",
+          "pos": "RB",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 21,
+          "managerKey": "connorcowan",
+          "player": "Stefon Diggs",
+          "pos": "WR",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 22,
+          "managerKey": "dirtybombs",
+          "player": "Joe Mixon",
+          "pos": "RB",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 23,
+          "managerKey": "nickgilb2",
+          "player": "Saquon Barkley",
+          "pos": "RB",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 24,
+          "managerKey": "tomlockhart",
+          "player": "DJ Moore",
+          "pos": "WR",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 25,
+          "managerKey": "stork1120",
+          "player": "Jaylen Waddle",
+          "pos": "WR",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 26,
+          "managerKey": "dtpt",
+          "player": "Derrick Henry",
+          "pos": "RB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 27,
+          "managerKey": "mattgross",
+          "player": "Alvin Kamara",
+          "pos": "RB",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 28,
+          "managerKey": "rycow",
+          "player": "Deebo Samuel",
+          "pos": "WR",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 29,
+          "managerKey": "numbercrunchies",
+          "player": "Patrick Mahomes",
+          "pos": "QB",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 3,
+          "pick_no": 30,
+          "managerKey": "pflower",
+          "player": "Nick Chubb",
+          "pos": "RB",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 31,
+          "managerKey": "pflower",
+          "player": "Joe Burrow",
+          "pos": "QB",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 32,
+          "managerKey": "numbercrunchies",
+          "player": "Davante Adams",
+          "pos": "WR",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 33,
+          "managerKey": "rycow",
+          "player": "Mark Andrews",
+          "pos": "TE",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 34,
+          "managerKey": "mattgross",
+          "player": "Tyreek Hill",
+          "pos": "WR",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 35,
+          "managerKey": "dtpt",
+          "player": "Michael Pittman",
+          "pos": "WR",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 36,
+          "managerKey": "stork1120",
+          "player": "J.K. Dobbins",
+          "pos": "RB",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 37,
+          "managerKey": "tomlockhart",
+          "player": "Rashod Bateman",
+          "pos": "WR",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 38,
+          "managerKey": "nickgilb2",
+          "player": "Kenneth Walker",
+          "pos": "RB",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 39,
+          "managerKey": "dirtybombs",
+          "player": "Chris Godwin",
+          "pos": "WR",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 4,
+          "pick_no": 40,
+          "managerKey": "connorcowan",
+          "player": "Kyler Murray",
+          "pos": "QB",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 41,
+          "managerKey": "connorcowan",
+          "player": "Jameson Williams",
+          "pos": "WR",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 42,
+          "managerKey": "dirtybombs",
+          "player": "Terry McLaurin",
+          "pos": "WR",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 43,
+          "managerKey": "nickgilb2",
+          "player": "Drake London",
+          "pos": "WR",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 44,
+          "managerKey": "tomlockhart",
+          "player": "Diontae Johnson",
+          "pos": "WR",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 45,
+          "managerKey": "stork1120",
+          "player": "Jerry Jeudy",
+          "pos": "WR",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 46,
+          "managerKey": "dtpt",
+          "player": "Treylon Burks",
+          "pos": "WR",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 47,
+          "managerKey": "mattgross",
+          "player": "Courtland Sutton",
+          "pos": "WR",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 48,
+          "managerKey": "rycow",
+          "player": "Elijah Moore",
+          "pos": "WR",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 49,
+          "managerKey": "numbercrunchies",
+          "player": "Aaron Jones",
+          "pos": "RB",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 5,
+          "pick_no": 50,
+          "managerKey": "pflower",
+          "player": "Elijah Mitchell",
+          "pos": "RB",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 51,
+          "managerKey": "pflower",
+          "player": "Darnell Mooney",
+          "pos": "WR",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 52,
+          "managerKey": "numbercrunchies",
+          "player": "Garrett Wilson",
+          "pos": "WR",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 53,
+          "managerKey": "rycow",
+          "player": "Antonio Gibson",
+          "pos": "RB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 54,
+          "managerKey": "mattgross",
+          "player": "Leonard Fournette",
+          "pos": "RB",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 55,
+          "managerKey": "dtpt",
+          "player": "Mike Evans",
+          "pos": "WR",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 56,
+          "managerKey": "stork1120",
+          "player": "AJ Dillon",
+          "pos": "RB",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 57,
+          "managerKey": "tomlockhart",
+          "player": "Dameon Pierce",
+          "pos": "RB",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 58,
+          "managerKey": "nickgilb2",
+          "player": "Amon-Ra St. Brown",
+          "pos": "WR",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 59,
+          "managerKey": "dirtybombs",
+          "player": "Dak Prescott",
+          "pos": "QB",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 6,
+          "pick_no": 60,
+          "managerKey": "connorcowan",
+          "player": "Brandon Aiyuk",
+          "pos": "WR",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 7,
+          "pick_no": 61,
+          "managerKey": "connorcowan",
+          "player": "James Cook",
+          "pos": "RB",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 7,
+          "pick_no": 62,
+          "managerKey": "dirtybombs",
+          "player": "Brian Robinson",
+          "pos": "RB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 7,
+          "pick_no": 63,
+          "managerKey": "nickgilb2",
+          "player": "Rhamondre Stevenson",
+          "pos": "RB",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 7,
+          "pick_no": 64,
+          "managerKey": "tomlockhart",
+          "player": "Chris Olave",
+          "pos": "WR",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 7,
+          "pick_no": 65,
+          "managerKey": "stork1120",
+          "player": "DeVonta Smith",
+          "pos": "WR",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 7,
+          "pick_no": 66,
+          "managerKey": "dtpt",
+          "player": "Travis Kelce",
+          "pos": "TE",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 7,
+          "pick_no": 67,
+          "managerKey": "mattgross",
+          "player": "Ezekiel Elliott",
+          "pos": "RB",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 7,
+          "pick_no": 68,
+          "managerKey": "rycow",
+          "player": "David Montgomery",
+          "pos": "RB",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 7,
+          "pick_no": 69,
+          "managerKey": "numbercrunchies",
+          "player": "Mike Williams",
+          "pos": "WR",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 7,
+          "pick_no": 70,
+          "managerKey": "pflower",
+          "player": "Marquise Brown",
+          "pos": "WR",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 8,
+          "pick_no": 71,
+          "managerKey": "pflower",
+          "player": "Tony Pollard",
+          "pos": "RB",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 8,
+          "pick_no": 72,
+          "managerKey": "numbercrunchies",
+          "player": "Josh Jacobs",
+          "pos": "RB",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 8,
+          "pick_no": 73,
+          "managerKey": "rycow",
+          "player": "Lamar Jackson",
+          "pos": "QB",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 8,
+          "pick_no": 74,
+          "managerKey": "mattgross",
+          "player": "James Conner",
+          "pos": "RB",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 8,
+          "pick_no": 75,
+          "managerKey": "dtpt",
+          "player": "Skyy Moore",
+          "pos": "WR",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 8,
+          "pick_no": 76,
+          "managerKey": "stork1120",
+          "player": "Clyde Edwards-Helaire",
+          "pos": "RB",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 8,
+          "pick_no": 77,
+          "managerKey": "tomlockhart",
+          "player": "George Pickens",
+          "pos": "WR",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 8,
+          "pick_no": 78,
+          "managerKey": "nickgilb2",
+          "player": "Gabe Davis",
+          "pos": "WR",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 8,
+          "pick_no": 79,
+          "managerKey": "dirtybombs",
+          "player": "Darren Waller",
+          "pos": "TE",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 8,
+          "pick_no": 80,
+          "managerKey": "connorcowan",
+          "player": "Chase Edmonds",
+          "pos": "RB",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 9,
+          "pick_no": 81,
+          "managerKey": "connorcowan",
+          "player": "Keenan Allen",
+          "pos": "WR",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 9,
+          "pick_no": 82,
+          "managerKey": "dirtybombs",
+          "player": "T.J. Hockenson",
+          "pos": "TE",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 9,
+          "pick_no": 83,
+          "managerKey": "nickgilb2",
+          "player": "Rachaad White",
+          "pos": "RB",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 9,
+          "pick_no": 84,
+          "managerKey": "tomlockhart",
+          "player": "Allen Robinson",
+          "pos": "WR",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 9,
+          "pick_no": 85,
+          "managerKey": "stork1120",
+          "player": "George Kittle",
+          "pos": "TE",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 9,
+          "pick_no": 86,
+          "managerKey": "dtpt",
+          "player": "Miles Sanders",
+          "pos": "RB",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 9,
+          "pick_no": 87,
+          "managerKey": "mattgross",
+          "player": "Jalen Hurts",
+          "pos": "QB",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 9,
+          "pick_no": 88,
+          "managerKey": "rycow",
+          "player": "Amari Cooper",
+          "pos": "WR",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 9,
+          "pick_no": 89,
+          "managerKey": "numbercrunchies",
+          "player": "Dalton Schultz",
+          "pos": "TE",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 9,
+          "pick_no": 90,
+          "managerKey": "pflower",
+          "player": "Brandin Cooks",
+          "pos": "WR",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 10,
+          "pick_no": 91,
+          "managerKey": "pflower",
+          "player": "Dallas Goedert",
+          "pos": "TE",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 10,
+          "pick_no": 92,
+          "managerKey": "numbercrunchies",
+          "player": "JuJu Smith-Schuster",
+          "pos": "WR",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 10,
+          "pick_no": 93,
+          "managerKey": "rycow",
+          "player": "Michael Thomas",
+          "pos": "WR",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 10,
+          "pick_no": 94,
+          "managerKey": "mattgross",
+          "player": "Christian Kirk",
+          "pos": "WR",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 10,
+          "pick_no": 95,
+          "managerKey": "dtpt",
+          "player": "Christian Watson",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 10,
+          "pick_no": 96,
+          "managerKey": "stork1120",
+          "player": "DeAndre Hopkins",
+          "pos": "WR",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 10,
+          "pick_no": 97,
+          "managerKey": "tomlockhart",
+          "player": "Trey Lance",
+          "pos": "QB",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 10,
+          "pick_no": 98,
+          "managerKey": "nickgilb2",
+          "player": "Jahan Dotson",
+          "pos": "WR",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 10,
+          "pick_no": 99,
+          "managerKey": "dirtybombs",
+          "player": "Michael Gallup",
+          "pos": "WR",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 10,
+          "pick_no": 100,
+          "managerKey": "connorcowan",
+          "player": "Kareem Hunt",
+          "pos": "RB",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 11,
+          "pick_no": 101,
+          "managerKey": "connorcowan",
+          "player": "Rashaad Penny",
+          "pos": "RB",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 11,
+          "pick_no": 102,
+          "managerKey": "dirtybombs",
+          "player": "Chase Claypool",
+          "pos": "WR",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 11,
+          "pick_no": 103,
+          "managerKey": "nickgilb2",
+          "player": "Kadarius Toney",
+          "pos": "WR",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 11,
+          "pick_no": 104,
+          "managerKey": "tomlockhart",
+          "player": "Russell Wilson",
+          "pos": "QB",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 11,
+          "pick_no": 105,
+          "managerKey": "stork1120",
+          "player": "Allen Lazard",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 11,
+          "pick_no": 106,
+          "managerKey": "dtpt",
+          "player": "Zamir White",
+          "pos": "RB",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 11,
+          "pick_no": 107,
+          "managerKey": "mattgross",
+          "player": "Trevor Lawrence",
+          "pos": "QB",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 11,
+          "pick_no": 108,
+          "managerKey": "rycow",
+          "player": "Alec Pierce",
+          "pos": "WR",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 11,
+          "pick_no": 109,
+          "managerKey": "numbercrunchies",
+          "player": "Deshaun Watson",
+          "pos": "QB",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 11,
+          "pick_no": 110,
+          "managerKey": "pflower",
+          "player": "Devin Singletary",
+          "pos": "RB",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 12,
+          "pick_no": 111,
+          "managerKey": "pflower",
+          "player": "Calvin Ridley",
+          "pos": "WR",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 12,
+          "pick_no": 112,
+          "managerKey": "numbercrunchies",
+          "player": "Cole Kmet",
+          "pos": "TE",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 12,
+          "pick_no": 113,
+          "managerKey": "rycow",
+          "player": "Damien Harris",
+          "pos": "RB",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 12,
+          "pick_no": 114,
+          "managerKey": "mattgross",
+          "player": "Isaiah Spiller",
+          "pos": "RB",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 12,
+          "pick_no": 115,
+          "managerKey": "dtpt",
+          "player": "Hunter Renfrow",
+          "pos": "WR",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 12,
+          "pick_no": 116,
+          "managerKey": "stork1120",
+          "player": "Tyler Allgeier",
+          "pos": "RB",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 12,
+          "pick_no": 117,
+          "managerKey": "tomlockhart",
+          "player": "Kenneth Gainwell",
+          "pos": "RB",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 12,
+          "pick_no": 118,
+          "managerKey": "nickgilb2",
+          "player": "Justin Fields",
+          "pos": "QB",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 12,
+          "pick_no": 119,
+          "managerKey": "dirtybombs",
+          "player": "Tyrion Davis-Price",
+          "pos": "RB",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 12,
+          "pick_no": 120,
+          "managerKey": "connorcowan",
+          "player": "Pat Freiermuth",
+          "pos": "TE",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 13,
+          "pick_no": 121,
+          "managerKey": "connorcowan",
+          "player": "Wan'Dale Robinson",
+          "pos": "WR",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 13,
+          "pick_no": 122,
+          "managerKey": "dirtybombs",
+          "player": "Alexander Mattison",
+          "pos": "RB",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 13,
+          "pick_no": 123,
+          "managerKey": "nickgilb2",
+          "player": "Michael Carter",
+          "pos": "RB",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 13,
+          "pick_no": 124,
+          "managerKey": "tomlockhart",
+          "player": "Isiah Pacheco",
+          "pos": "RB",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 13,
+          "pick_no": 125,
+          "managerKey": "stork1120",
+          "player": "Albert Okwuegbunam",
+          "pos": "TE",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 13,
+          "pick_no": 126,
+          "managerKey": "dtpt",
+          "player": "Julio Jones",
+          "pos": "WR",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 13,
+          "pick_no": 127,
+          "managerKey": "mattgross",
+          "player": "Dawson Knox",
+          "pos": "TE",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 13,
+          "pick_no": 128,
+          "managerKey": "rycow",
+          "player": "Tyler Lockett",
+          "pos": "WR",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 13,
+          "pick_no": 129,
+          "managerKey": "numbercrunchies",
+          "player": "Khalil Herbert",
+          "pos": "RB",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 13,
+          "pick_no": 130,
+          "managerKey": "pflower",
+          "player": "K.J. Osborn",
+          "pos": "WR",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 14,
+          "pick_no": 131,
+          "managerKey": "pflower",
+          "player": "Derek Carr",
+          "pos": "QB",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 14,
+          "pick_no": 132,
+          "managerKey": "numbercrunchies",
+          "player": "Rondale Moore",
+          "pos": "WR",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 14,
+          "pick_no": 133,
+          "managerKey": "rycow",
+          "player": "James Robinson",
+          "pos": "RB",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 14,
+          "pick_no": 134,
+          "managerKey": "mattgross",
+          "player": "Adam Thielen",
+          "pos": "WR",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 14,
+          "pick_no": 135,
+          "managerKey": "dtpt",
+          "player": "John Metchie",
+          "pos": "WR",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 14,
+          "pick_no": 136,
+          "managerKey": "stork1120",
+          "player": "Romeo Doubs",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 14,
+          "pick_no": 137,
+          "managerKey": "tomlockhart",
+          "player": "Jalen Tolbert",
+          "pos": "WR",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 14,
+          "pick_no": 138,
+          "managerKey": "nickgilb2",
+          "player": "Joshua Palmer",
+          "pos": "WR",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 14,
+          "pick_no": 139,
+          "managerKey": "dirtybombs",
+          "player": "Nico Collins",
+          "pos": "WR",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 14,
+          "pick_no": 140,
+          "managerKey": "connorcowan",
+          "player": "Isaiah Likely",
+          "pos": "TE",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 15,
+          "pick_no": 141,
+          "managerKey": "connorcowan",
+          "player": "Keaontay Ingram",
+          "pos": "RB",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 15,
+          "pick_no": 142,
+          "managerKey": "dirtybombs",
+          "player": "Matthew Stafford",
+          "pos": "QB",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 15,
+          "pick_no": 143,
+          "managerKey": "nickgilb2",
+          "player": "Mike Gesicki",
+          "pos": "TE",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 15,
+          "pick_no": 144,
+          "managerKey": "tomlockhart",
+          "player": "Jakobi Meyers",
+          "pos": "WR",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 15,
+          "pick_no": 145,
+          "managerKey": "stork1120",
+          "player": "Chuba Hubbard",
+          "pos": "RB",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 15,
+          "pick_no": 146,
+          "managerKey": "dtpt",
+          "player": "DJ Chark",
+          "pos": "WR",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 15,
+          "pick_no": 147,
+          "managerKey": "mattgross",
+          "player": "Marquez Valdes-Scantling",
+          "pos": "WR",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 15,
+          "pick_no": 148,
+          "managerKey": "rycow",
+          "player": "Irv Smith",
+          "pos": "TE",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 15,
+          "pick_no": 149,
+          "managerKey": "numbercrunchies",
+          "player": "Darrell Henderson",
+          "pos": "RB",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 15,
+          "pick_no": 150,
+          "managerKey": "pflower",
+          "player": "Melvin Gordon",
+          "pos": "RB",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 16,
+          "pick_no": 151,
+          "managerKey": "pflower",
+          "player": "Jarvis Landry",
+          "pos": "WR",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 16,
+          "pick_no": 152,
+          "managerKey": "numbercrunchies",
+          "player": "Russell Gage",
+          "pos": "WR",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 16,
+          "pick_no": 153,
+          "managerKey": "rycow",
+          "player": "DeAndre Thompkins",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 16,
+          "pick_no": 154,
+          "managerKey": "mattgross",
+          "player": "Khalil Shakir",
+          "pos": "WR",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 16,
+          "pick_no": 155,
+          "managerKey": "dtpt",
+          "player": "DeVante Parker",
+          "pos": "WR",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 16,
+          "pick_no": 156,
+          "managerKey": "stork1120",
+          "player": "Mac Jones",
+          "pos": "QB",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 16,
+          "pick_no": 157,
+          "managerKey": "tomlockhart",
+          "player": "David Njoku",
+          "pos": "TE",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 16,
+          "pick_no": 158,
+          "managerKey": "nickgilb2",
+          "player": "Nyheim Hines",
+          "pos": "RB",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 16,
+          "pick_no": 159,
+          "managerKey": "dirtybombs",
+          "player": "Cordarrelle Patterson",
+          "pos": "RB",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 16,
+          "pick_no": 160,
+          "managerKey": "connorcowan",
+          "player": "Kirk Cousins",
+          "pos": "QB",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 17,
+          "pick_no": 161,
+          "managerKey": "connorcowan",
+          "player": "Mecole Hardman",
+          "pos": "WR",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 17,
+          "pick_no": 162,
+          "managerKey": "dirtybombs",
+          "player": "Odell Beckham",
+          "pos": "WR",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 17,
+          "pick_no": 163,
+          "managerKey": "nickgilb2",
+          "player": "Tua Tagovailoa",
+          "pos": "QB",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 17,
+          "pick_no": 164,
+          "managerKey": "tomlockhart",
+          "player": "Jamaal Williams",
+          "pos": "RB",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 17,
+          "pick_no": 165,
+          "managerKey": "stork1120",
+          "player": "Robert Woods",
+          "pos": "WR",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 17,
+          "pick_no": 166,
+          "managerKey": "dtpt",
+          "player": "Malik Willis",
+          "pos": "QB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 17,
+          "pick_no": 167,
+          "managerKey": "mattgross",
+          "player": "Jelani Woods",
+          "pos": "TE",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 17,
+          "pick_no": 168,
+          "managerKey": "rycow",
+          "player": "Trey McBride",
+          "pos": "TE",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 17,
+          "pick_no": 169,
+          "managerKey": "numbercrunchies",
+          "player": "Van Jefferson",
+          "pos": "WR",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 17,
+          "pick_no": 170,
+          "managerKey": "pflower",
+          "player": "Tyler Boyd",
+          "pos": "WR",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 18,
+          "pick_no": 171,
+          "managerKey": "pflower",
+          "player": "Kyren Williams",
+          "pos": "RB",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 18,
+          "pick_no": 172,
+          "managerKey": "numbercrunchies",
+          "player": "Ronald Jones",
+          "pos": "RB",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 18,
+          "pick_no": 173,
+          "managerKey": "rycow",
+          "player": "Zach Wilson",
+          "pos": "QB",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 18,
+          "pick_no": 174,
+          "managerKey": "mattgross",
+          "player": "Mark Ingram",
+          "pos": "RB",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 18,
+          "pick_no": 175,
+          "managerKey": "dtpt",
+          "player": "David Bell",
+          "pos": "WR",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 18,
+          "pick_no": 176,
+          "managerKey": "stork1120",
+          "player": "KJ Hamler",
+          "pos": "WR",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 18,
+          "pick_no": 177,
+          "managerKey": "tomlockhart",
+          "player": "Eno Benjamin",
+          "pos": "RB",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 18,
+          "pick_no": 178,
+          "managerKey": "nickgilb2",
+          "player": "Isaiah McKenzie",
+          "pos": "WR",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 18,
+          "pick_no": 179,
+          "managerKey": "dirtybombs",
+          "player": "Raheem Mostert",
+          "pos": "RB",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 18,
+          "pick_no": 180,
+          "managerKey": "connorcowan",
+          "player": "Curtis Samuel",
+          "pos": "WR",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 19,
+          "pick_no": 181,
+          "managerKey": "connorcowan",
+          "player": "Jeff Wilson",
+          "pos": "RB",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 19,
+          "pick_no": 182,
+          "managerKey": "dirtybombs",
+          "player": "Trey Sermon",
+          "pos": "RB",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 19,
+          "pick_no": 183,
+          "managerKey": "nickgilb2",
+          "player": "Hunter Henry",
+          "pos": "TE",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 19,
+          "pick_no": 184,
+          "managerKey": "tomlockhart",
+          "player": "Zach Ertz",
+          "pos": "TE",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 19,
+          "pick_no": 185,
+          "managerKey": "stork1120",
+          "player": "D'Onta Foreman",
+          "pos": "RB",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 19,
+          "pick_no": 186,
+          "managerKey": "dtpt",
+          "player": "Hassan Haskins",
+          "pos": "RB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 19,
+          "pick_no": 187,
+          "managerKey": "mattgross",
+          "player": "Desmond Ridder",
+          "pos": "QB",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 19,
+          "pick_no": 188,
+          "managerKey": "rycow",
+          "player": "Kenny Golladay",
+          "pos": "WR",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 19,
+          "pick_no": 189,
+          "managerKey": "numbercrunchies",
+          "player": "Donovan Peoples-Jones",
+          "pos": "WR",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 19,
+          "pick_no": 190,
+          "managerKey": "pflower",
+          "player": "Tyquan Thornton",
+          "pos": "WR",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 20,
+          "pick_no": 191,
+          "managerKey": "pflower",
+          "player": "D'Ernest Johnson",
+          "pos": "RB",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 20,
+          "pick_no": 192,
+          "managerKey": "numbercrunchies",
+          "player": "Laviska Shenault",
+          "pos": "WR",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 20,
+          "pick_no": 193,
+          "managerKey": "rycow",
+          "player": "Pierre Strong",
+          "pos": "RB",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 20,
+          "pick_no": 194,
+          "managerKey": "mattgross",
+          "player": "Tyler Badie",
+          "pos": "RB",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 20,
+          "pick_no": 195,
+          "managerKey": "dtpt",
+          "player": "Robbie Anderson",
+          "pos": "WR",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 20,
+          "pick_no": 196,
+          "managerKey": "stork1120",
+          "player": "J.D. McKissic",
+          "pos": "RB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 20,
+          "pick_no": 197,
+          "managerKey": "tomlockhart",
+          "player": "Kyle Philips",
+          "pos": "WR",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 20,
+          "pick_no": 198,
+          "managerKey": "nickgilb2",
+          "player": "Noah Fant",
+          "pos": "TE",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 20,
+          "pick_no": 199,
+          "managerKey": "dirtybombs",
+          "player": "Justyn Ross",
+          "pos": "WR",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 20,
+          "pick_no": 200,
+          "managerKey": "connorcowan",
+          "player": "Jalen Guyton",
+          "pos": "WR",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 21,
+          "pick_no": 201,
+          "managerKey": "connorcowan",
+          "player": "Snoop Conner",
+          "pos": "RB",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 21,
+          "pick_no": 202,
+          "managerKey": "dirtybombs",
+          "player": "Kenny Pickett",
+          "pos": "QB",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 21,
+          "pick_no": 203,
+          "managerKey": "nickgilb2",
+          "player": "Jerome Ford",
+          "pos": "RB",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 21,
+          "pick_no": 204,
+          "managerKey": "tomlockhart",
+          "player": "Parris Campbell",
+          "pos": "WR",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 21,
+          "pick_no": 205,
+          "managerKey": "stork1120",
+          "player": "Benny Snell",
+          "pos": "RB",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 21,
+          "pick_no": 206,
+          "managerKey": "dtpt",
+          "player": "Danny Gray",
+          "pos": "WR",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 21,
+          "pick_no": 207,
+          "managerKey": "mattgross",
+          "player": "Ty Chandler",
+          "pos": "RB",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 21,
+          "pick_no": 208,
+          "managerKey": "rycow",
+          "player": "Terrace Marshall",
+          "pos": "WR",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 21,
+          "pick_no": 209,
+          "managerKey": "numbercrunchies",
+          "player": "Evan Engram",
+          "pos": "TE",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 21,
+          "pick_no": 210,
+          "managerKey": "pflower",
+          "player": "Robert Tonyan",
+          "pos": "TE",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 22,
+          "pick_no": 211,
+          "managerKey": "pflower",
+          "player": "Darrel Williams",
+          "pos": "RB",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 22,
+          "pick_no": 212,
+          "managerKey": "numbercrunchies",
+          "player": "Cedrick Wilson",
+          "pos": "WR",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 22,
+          "pick_no": 213,
+          "managerKey": "rycow",
+          "player": "Brevin Jordan",
+          "pos": "TE",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 22,
+          "pick_no": 214,
+          "managerKey": "mattgross",
+          "player": "Taysom Hill",
+          "pos": "TE",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 22,
+          "pick_no": 215,
+          "managerKey": "dtpt",
+          "player": "Daniel Bellinger",
+          "pos": "TE",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 22,
+          "pick_no": 216,
+          "managerKey": "stork1120",
+          "player": "Jalen Reagor",
+          "pos": "WR",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 22,
+          "pick_no": 217,
+          "managerKey": "tomlockhart",
+          "player": "Greg Dulcich",
+          "pos": "TE",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 22,
+          "pick_no": 218,
+          "managerKey": "nickgilb2",
+          "player": "Mo Alie-Cox",
+          "pos": "TE",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 22,
+          "pick_no": 219,
+          "managerKey": "dirtybombs",
+          "player": "Sammy Watkins",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 22,
+          "pick_no": 220,
+          "managerKey": "connorcowan",
+          "player": "Gerald Everett",
+          "pos": "TE",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 23,
+          "pick_no": 221,
+          "managerKey": "connorcowan",
+          "player": "Tutu Atwell",
+          "pos": "WR",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 23,
+          "pick_no": 222,
+          "managerKey": "dirtybombs",
+          "player": "Baker Mayfield",
+          "pos": "QB",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 23,
+          "pick_no": 223,
+          "managerKey": "nickgilb2",
+          "player": "Daniel Jones",
+          "pos": "QB",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 23,
+          "pick_no": 224,
+          "managerKey": "tomlockhart",
+          "player": "Chris Evans",
+          "pos": "RB",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 23,
+          "pick_no": 225,
+          "managerKey": "stork1120",
+          "player": "Calvin Austin",
+          "pos": "WR",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 23,
+          "pick_no": 226,
+          "managerKey": "dtpt",
+          "player": "Gus Edwards",
+          "pos": "RB",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 23,
+          "pick_no": 227,
+          "managerKey": "mattgross",
+          "player": "Derrius Guice",
+          "pos": "RB",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 23,
+          "pick_no": 228,
+          "managerKey": "rycow",
+          "player": "Ke'Shawn Vaughn",
+          "pos": "RB",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 23,
+          "pick_no": 229,
+          "managerKey": "numbercrunchies",
+          "player": "Aaron Rodgers",
+          "pos": "QB",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 23,
+          "pick_no": 230,
+          "managerKey": "pflower",
+          "player": "Corey Davis",
+          "pos": "WR",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 24,
+          "pick_no": 231,
+          "managerKey": "pflower",
+          "player": "Randall Cobb",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 24,
+          "pick_no": 232,
+          "managerKey": "numbercrunchies",
+          "player": "Hayden Hurst",
+          "pos": "TE",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 24,
+          "pick_no": 233,
+          "managerKey": "rycow",
+          "player": "Marlon Mack",
+          "pos": "RB",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 24,
+          "pick_no": 234,
+          "managerKey": "mattgross",
+          "player": "Kyle Trask",
+          "pos": "QB",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 24,
+          "pick_no": 235,
+          "managerKey": "dtpt",
+          "player": "Boston Scott",
+          "pos": "RB",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 24,
+          "pick_no": 236,
+          "managerKey": "stork1120",
+          "player": "William Fuller",
+          "pos": "WR",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 24,
+          "pick_no": 237,
+          "managerKey": "tomlockhart",
+          "player": "Jaylen Warren",
+          "pos": "RB",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 24,
+          "pick_no": 238,
+          "managerKey": "nickgilb2",
+          "player": "Zack Moss",
+          "pos": "RB",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 24,
+          "pick_no": 239,
+          "managerKey": "dirtybombs",
+          "player": "Tim Patrick",
+          "pos": "WR",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 24,
+          "pick_no": 240,
+          "managerKey": "connorcowan",
+          "player": "Jordan Mason",
+          "pos": "RB",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 25,
+          "pick_no": 241,
+          "managerKey": "connorcowan",
+          "player": "Davis Mills",
+          "pos": "QB",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 25,
+          "pick_no": 242,
+          "managerKey": "dirtybombs",
+          "player": "Tom Brady",
+          "pos": "QB",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 25,
+          "pick_no": 243,
+          "managerKey": "nickgilb2",
+          "player": "Jameis Winston",
+          "pos": "QB",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 25,
+          "pick_no": 244,
+          "managerKey": "tomlockhart",
+          "player": "Velus Jones",
+          "pos": "WR",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 25,
+          "pick_no": 245,
+          "managerKey": "stork1120",
+          "player": "Josh Gordon",
+          "pos": "WR",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 25,
+          "pick_no": 246,
+          "managerKey": "dtpt",
+          "player": "Devin Duvernay",
+          "pos": "WR",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 25,
+          "pick_no": 247,
+          "managerKey": "mattgross",
+          "player": "D'Vonte Price",
+          "pos": "RB",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 25,
+          "pick_no": 248,
+          "managerKey": "rycow",
+          "player": "Kendrick Bourne",
+          "pos": "WR",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 25,
+          "pick_no": 249,
+          "managerKey": "numbercrunchies",
+          "player": "Bryan Edwards",
+          "pos": "WR",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 25,
+          "pick_no": 250,
+          "managerKey": "pflower",
+          "player": "Myles Gaskin",
+          "pos": "RB",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 26,
+          "pick_no": 251,
+          "managerKey": "pflower",
+          "player": "Matt Ryan",
+          "pos": "QB",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 26,
+          "pick_no": 252,
+          "managerKey": "numbercrunchies",
+          "player": "Sony Michel",
+          "pos": "RB",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 26,
+          "pick_no": 253,
+          "managerKey": "rycow",
+          "player": "Samaje Perine",
+          "pos": "RB",
+          "nflTeam": "CIN",
+          "isKeeper": false
+        },
+        {
+          "round": 26,
+          "pick_no": 254,
+          "managerKey": "mattgross",
+          "player": "Jordan Love",
+          "pos": "QB",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 26,
+          "pick_no": 255,
+          "managerKey": "dtpt",
+          "player": "A.J. Green",
+          "pos": "WR",
+          "nflTeam": "ARI",
+          "isKeeper": false
+        },
+        {
+          "round": 26,
+          "pick_no": 256,
+          "managerKey": "stork1120",
+          "player": "Marquez Callaway",
+          "pos": "WR",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 26,
+          "pick_no": 257,
+          "managerKey": "tomlockhart",
+          "player": "Zay Jones",
+          "pos": "WR",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 26,
+          "pick_no": 258,
+          "managerKey": "nickgilb2",
+          "player": "Tyler Higbee",
+          "pos": "TE",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 26,
+          "pick_no": 259,
+          "managerKey": "dirtybombs",
+          "player": "Jerick McKinnon",
+          "pos": "RB",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 26,
+          "pick_no": 260,
+          "managerKey": "connorcowan",
+          "player": "Joshua Kelley",
+          "pos": "RB",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 27,
+          "pick_no": 261,
+          "managerKey": "connorcowan",
+          "player": "Damien Williams",
+          "pos": "RB",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 27,
+          "pick_no": 262,
+          "managerKey": "dirtybombs",
+          "player": "Kenyan Drake",
+          "pos": "RB",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 27,
+          "pick_no": 263,
+          "managerKey": "nickgilb2",
+          "player": "Quez Watkins",
+          "pos": "WR",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 27,
+          "pick_no": 264,
+          "managerKey": "tomlockhart",
+          "player": "Julius Chestnut",
+          "pos": "RB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 27,
+          "pick_no": 265,
+          "managerKey": "stork1120",
+          "player": "Travis Homer",
+          "pos": "RB",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 27,
+          "pick_no": 266,
+          "managerKey": "dtpt",
+          "player": "Cade Otton",
+          "pos": "TE",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 27,
+          "pick_no": 267,
+          "managerKey": "mattgross",
+          "player": "Bo Melton",
+          "pos": "WR",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 27,
+          "pick_no": 268,
+          "managerKey": "rycow",
+          "player": "Marcus Mariota",
+          "pos": "QB",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 27,
+          "pick_no": 269,
+          "managerKey": "numbercrunchies",
+          "player": "Darius Slayton",
+          "pos": "WR",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 27,
+          "pick_no": 270,
+          "managerKey": "pflower",
+          "player": "Marvin Jones",
+          "pos": "WR",
+          "nflTeam": "JAX",
+          "isKeeper": false
+        },
+        {
+          "round": 28,
+          "pick_no": 271,
+          "managerKey": "pflower",
+          "player": "Trestan Ebner",
+          "pos": "RB",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 28,
+          "pick_no": 272,
+          "managerKey": "numbercrunchies",
+          "player": "Amari Rodgers",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 28,
+          "pick_no": 273,
+          "managerKey": "rycow",
+          "player": "Tylan Wallace",
+          "pos": "WR",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 28,
+          "pick_no": 274,
+          "managerKey": "mattgross",
+          "player": "Erik Ezukanma",
+          "pos": "WR",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 28,
+          "pick_no": 275,
+          "managerKey": "dtpt",
+          "player": "Samori Toure",
+          "pos": "WR",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 28,
+          "pick_no": 276,
+          "managerKey": "stork1120",
+          "player": "KaVontae Turpin",
+          "pos": "WR",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 28,
+          "pick_no": 277,
+          "managerKey": "tomlockhart",
+          "player": "Mike Davis",
+          "pos": "RB",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 28,
+          "pick_no": 278,
+          "managerKey": "nickgilb2",
+          "player": "Nick Westbrook-Ikhine",
+          "pos": "WR",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 28,
+          "pick_no": 279,
+          "managerKey": "dirtybombs",
+          "player": "Lance McCutcheon",
+          "pos": "WR",
+          "nflTeam": "LAR",
+          "isKeeper": false
+        },
+        {
+          "round": 28,
+          "pick_no": 280,
+          "managerKey": "connorcowan",
+          "player": "Jauan Jennings",
+          "pos": "WR",
+          "nflTeam": "SF",
+          "isKeeper": false
+        },
+        {
+          "round": 29,
+          "pick_no": 281,
+          "managerKey": "connorcowan",
+          "player": "Dee Eskridge",
+          "pos": "WR",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 29,
+          "pick_no": 282,
+          "managerKey": "dirtybombs",
+          "player": "Ryan Tannehill",
+          "pos": "QB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 29,
+          "pick_no": 283,
+          "managerKey": "nickgilb2",
+          "player": "James Proche",
+          "pos": "WR",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 29,
+          "pick_no": 284,
+          "managerKey": "tomlockhart",
+          "player": "Ashton Dulin",
+          "pos": "WR",
+          "nflTeam": "IND",
+          "isKeeper": false
+        },
+        {
+          "round": 29,
+          "pick_no": 285,
+          "managerKey": "stork1120",
+          "player": "Sam Howell",
+          "pos": "QB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 29,
+          "pick_no": 286,
+          "managerKey": "dtpt",
+          "player": "Jashaun Corbin",
+          "pos": "RB",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 29,
+          "pick_no": 287,
+          "managerKey": "mattgross",
+          "player": "Dontrell Hilliard",
+          "pos": "RB",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 29,
+          "pick_no": 288,
+          "managerKey": "rycow",
+          "player": "Ihmir Smith-Marsette",
+          "pos": "WR",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 29,
+          "pick_no": 289,
+          "managerKey": "numbercrunchies",
+          "player": "Abram Smith",
+          "pos": "RB",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 29,
+          "pick_no": 290,
+          "managerKey": "pflower",
+          "player": "Jamison Crowder",
+          "pos": "WR",
+          "nflTeam": "BUF",
+          "isKeeper": false
+        },
+        {
+          "round": 30,
+          "pick_no": 291,
+          "managerKey": "pflower",
+          "player": "Matt Breida",
+          "pos": "RB",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 30,
+          "pick_no": 292,
+          "managerKey": "numbercrunchies",
+          "player": "Dyami Brown",
+          "pos": "WR",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 30,
+          "pick_no": 293,
+          "managerKey": "rycow",
+          "player": "Matt Corral",
+          "pos": "QB",
+          "nflTeam": "CAR",
+          "isKeeper": false
+        },
+        {
+          "round": 30,
+          "pick_no": 294,
+          "managerKey": "mattgross",
+          "player": "Sterling Shepard",
+          "pos": "WR",
+          "nflTeam": "NYG",
+          "isKeeper": false
+        },
+        {
+          "round": 30,
+          "pick_no": 295,
+          "managerKey": "dtpt",
+          "player": "Logan Thomas",
+          "pos": "TE",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 30,
+          "pick_no": 296,
+          "managerKey": "stork1120",
+          "player": "Austin Hooper",
+          "pos": "TE",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 30,
+          "pick_no": 297,
+          "managerKey": "tomlockhart",
+          "player": "Jonnu Smith",
+          "pos": "TE",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 30,
+          "pick_no": 298,
+          "managerKey": "nickgilb2",
+          "player": "DeeJay Dallas",
+          "pos": "RB",
+          "nflTeam": "SEA",
+          "isKeeper": false
+        },
+        {
+          "round": 30,
+          "pick_no": 299,
+          "managerKey": "dirtybombs",
+          "player": "ZaQuandre White",
+          "pos": "RB",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 30,
+          "pick_no": 300,
+          "managerKey": "connorcowan",
+          "player": "Jared Goff",
+          "pos": "QB",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 31,
+          "pick_no": 301,
+          "managerKey": "connorcowan",
+          "player": "Donald Parham",
+          "pos": "TE",
+          "nflTeam": "LAC",
+          "isKeeper": false
+        },
+        {
+          "round": 31,
+          "pick_no": 302,
+          "managerKey": "dirtybombs",
+          "player": "Jerrion Ealy",
+          "pos": "RB",
+          "nflTeam": "KC",
+          "isKeeper": false
+        },
+        {
+          "round": 31,
+          "pick_no": 303,
+          "managerKey": "nickgilb2",
+          "player": "Tyler Huntley",
+          "pos": "QB",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 31,
+          "pick_no": 304,
+          "managerKey": "tomlockhart",
+          "player": "Braxton Berrios",
+          "pos": "WR",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 31,
+          "pick_no": 305,
+          "managerKey": "stork1120",
+          "player": "Cameron Brate",
+          "pos": "TE",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 31,
+          "pick_no": 306,
+          "managerKey": "dtpt",
+          "player": "Kevin Harris",
+          "pos": "RB",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 31,
+          "pick_no": 307,
+          "managerKey": "mattgross",
+          "player": "Tyree Jackson",
+          "pos": "TE",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 31,
+          "pick_no": 308,
+          "managerKey": "rycow",
+          "player": "Denzel Mims",
+          "pos": "WR",
+          "nflTeam": "NYJ",
+          "isKeeper": false
+        },
+        {
+          "round": 31,
+          "pick_no": 309,
+          "managerKey": "numbercrunchies",
+          "player": "Kylin Hill",
+          "pos": "RB",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 31,
+          "pick_no": 310,
+          "managerKey": "pflower",
+          "player": "Kennedy Brooks",
+          "pos": "RB",
+          "nflTeam": "PHI",
+          "isKeeper": false
+        },
+        {
+          "round": 32,
+          "pick_no": 311,
+          "managerKey": "pflower",
+          "player": "Anthony Schwartz",
+          "pos": "WR",
+          "nflTeam": "CLE",
+          "isKeeper": false
+        },
+        {
+          "round": 32,
+          "pick_no": 312,
+          "managerKey": "numbercrunchies",
+          "player": "James Washington",
+          "pos": "WR",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 32,
+          "pick_no": 313,
+          "managerKey": "rycow",
+          "player": "Mike Boone",
+          "pos": "RB",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 32,
+          "pick_no": 314,
+          "managerKey": "mattgross",
+          "player": "Jake Ferguson",
+          "pos": "TE",
+          "nflTeam": "DAL",
+          "isKeeper": false
+        },
+        {
+          "round": 32,
+          "pick_no": 315,
+          "managerKey": "dtpt",
+          "player": "Montrell Washington",
+          "pos": "WR",
+          "nflTeam": "DEN",
+          "isKeeper": false
+        },
+        {
+          "round": 32,
+          "pick_no": 316,
+          "managerKey": "stork1120",
+          "player": "Rob Gronkowski",
+          "pos": "TE",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 32,
+          "pick_no": 317,
+          "managerKey": "tomlockhart",
+          "player": "Jaelon Darden",
+          "pos": "WR",
+          "nflTeam": "TB",
+          "isKeeper": false
+        },
+        {
+          "round": 32,
+          "pick_no": 318,
+          "managerKey": "nickgilb2",
+          "player": "Kene Nwangwu",
+          "pos": "RB",
+          "nflTeam": "MIN",
+          "isKeeper": false
+        },
+        {
+          "round": 32,
+          "pick_no": 319,
+          "managerKey": "dirtybombs",
+          "player": "Rex Burkhead",
+          "pos": "RB",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        },
+        {
+          "round": 32,
+          "pick_no": 320,
+          "managerKey": "connorcowan",
+          "player": "Salvon Ahmed",
+          "pos": "RB",
+          "nflTeam": "MIA",
+          "isKeeper": false
+        },
+        {
+          "round": 33,
+          "pick_no": 321,
+          "managerKey": "connorcowan",
+          "player": "Ameer Abdullah",
+          "pos": "RB",
+          "nflTeam": "LV",
+          "isKeeper": false
+        },
+        {
+          "round": 33,
+          "pick_no": 322,
+          "managerKey": "dirtybombs",
+          "player": "Mitch Trubisky",
+          "pos": "QB",
+          "nflTeam": "PIT",
+          "isKeeper": false
+        },
+        {
+          "round": 33,
+          "pick_no": 323,
+          "managerKey": "nickgilb2",
+          "player": "Tony Jones",
+          "pos": "RB",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 33,
+          "pick_no": 324,
+          "managerKey": "tomlockhart",
+          "player": "Josh Reynolds",
+          "pos": "WR",
+          "nflTeam": "DET",
+          "isKeeper": false
+        },
+        {
+          "round": 33,
+          "pick_no": 325,
+          "managerKey": "stork1120",
+          "player": "Chigoziem Okonkwo",
+          "pos": "TE",
+          "nflTeam": "TEN",
+          "isKeeper": false
+        },
+        {
+          "round": 33,
+          "pick_no": 326,
+          "managerKey": "dtpt",
+          "player": "Equanimeous St. Brown",
+          "pos": "WR",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 33,
+          "pick_no": 327,
+          "managerKey": "mattgross",
+          "player": "Byron Pringle",
+          "pos": "WR",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 33,
+          "pick_no": 328,
+          "managerKey": "rycow",
+          "player": "Tyler Goodson",
+          "pos": "RB",
+          "nflTeam": "GB",
+          "isKeeper": false
+        },
+        {
+          "round": 33,
+          "pick_no": 329,
+          "managerKey": "numbercrunchies",
+          "player": "Deonte Harty",
+          "pos": "WR",
+          "nflTeam": "NO",
+          "isKeeper": false
+        },
+        {
+          "round": 33,
+          "pick_no": 330,
+          "managerKey": "pflower",
+          "player": "Cole Beasley",
+          "pos": "WR",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 34,
+          "pick_no": 331,
+          "managerKey": "pflower",
+          "player": "Antonio Brown",
+          "pos": "WR",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 34,
+          "pick_no": 332,
+          "managerKey": "numbercrunchies",
+          "player": "Nelson Agholor",
+          "pos": "WR",
+          "nflTeam": "NE",
+          "isKeeper": false
+        },
+        {
+          "round": 34,
+          "pick_no": 333,
+          "managerKey": "rycow",
+          "player": "Jaret Patterson",
+          "pos": "RB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 34,
+          "pick_no": 334,
+          "managerKey": "mattgross",
+          "player": "Charlie Kolar",
+          "pos": "TE",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 34,
+          "pick_no": 335,
+          "managerKey": "dtpt",
+          "player": "Carson Wentz",
+          "pos": "QB",
+          "nflTeam": "WAS",
+          "isKeeper": false
+        },
+        {
+          "round": 34,
+          "pick_no": 336,
+          "managerKey": "stork1120",
+          "player": "Chris Carson",
+          "pos": "RB",
+          "nflTeam": null,
+          "isKeeper": false
+        },
+        {
+          "round": 34,
+          "pick_no": 337,
+          "managerKey": "tomlockhart",
+          "player": "Justice Hill",
+          "pos": "RB",
+          "nflTeam": "BAL",
+          "isKeeper": false
+        },
+        {
+          "round": 34,
+          "pick_no": 338,
+          "managerKey": "nickgilb2",
+          "player": "N'Keal Harry",
+          "pos": "WR",
+          "nflTeam": "CHI",
+          "isKeeper": false
+        },
+        {
+          "round": 34,
+          "pick_no": 339,
+          "managerKey": "dirtybombs",
+          "player": "Olamide Zaccheaus",
+          "pos": "WR",
+          "nflTeam": "ATL",
+          "isKeeper": false
+        },
+        {
+          "round": 34,
+          "pick_no": 340,
+          "managerKey": "connorcowan",
+          "player": "O.J. Howard",
+          "pos": "TE",
+          "nflTeam": "HOU",
+          "isKeeper": false
+        }
+      ]
+    }
+  ]
+}

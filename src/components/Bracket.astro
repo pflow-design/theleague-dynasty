@@ -1,0 +1,93 @@
+---
+import type { Season, BracketGame, BracketRef } from '../lib/data.ts';
+import { teamNameFor } from '../lib/data.ts';
+interface Props { season: Season; }
+const { season } = Astro.props;
+const games = season.playoffs?.winners ?? [];
+
+// Resolve winner/loser of each match so "Winner of M2" refs become team names.
+const winnerKey: Record<number, string | undefined> = {};
+const loserKey: Record<number, string | undefined> = {};
+for (const g of games) { winnerKey[g.m] = g.winner?.key; loserKey[g.m] = g.loser?.key; }
+const refKey = (ref: BracketRef | null): string | undefined => {
+  if (!ref) return undefined;
+  if (ref.key) return ref.key;
+  if (ref.fromWinner) return winnerKey[ref.fromWinner];
+  if (ref.fromLoser) return loserKey[ref.fromLoser];
+  return undefined;
+};
+
+// Round r is played in week playoffWeekStart + (r-1); look up each side's score.
+const scoreFor = (week: number, a?: string, b?: string): [number?, number?] => {
+  if (!a || !b) return [undefined, undefined];
+  const rows = season.weeklyScores[String(week)] || [];
+  const row = rows.find((x) => x.managerKey === a && x.oppKey === b);
+  return row ? [row.points, row.oppPoints] : [undefined, undefined];
+};
+
+const maxR = games.length ? Math.max(...games.map((g) => g.r)) : 0;
+const roundName = (r: number) => {
+  if (r === maxR) return 'Championship';
+  if (r === maxR - 1) return 'Semifinals';
+  if (r === 1) return 'Round 1';
+  return `Round ${r}`;
+};
+
+interface Side { key?: string; name: string; score?: number; won: boolean; }
+interface Cell { m: number; p: number | null; sides: Side[]; }
+const byRound: { r: number; name: string; games: Cell[] }[] = [];
+for (let r = 1; r <= maxR; r++) {
+  const week = season.playoffWeekStart + (r - 1);
+  const cells: Cell[] = games.filter((g) => g.r === r).sort((a, b) => a.m - b.m).map((g) => {
+    const k1 = refKey(g.t1), k2 = refKey(g.t2);
+    const [s1, s2] = scoreFor(week, k1, k2);
+    const win = g.winner?.key;
+    return {
+      m: g.m, p: g.p,
+      sides: [
+        { key: k1, name: k1 ? teamNameFor(k1, season.year) : 'TBD', score: s1, won: !!k1 && k1 === win },
+        { key: k2, name: k2 ? teamNameFor(k2, season.year) : 'TBD', score: s2, won: !!k2 && k2 === win },
+      ],
+    };
+  });
+  if (cells.length) byRound.push({ r, name: roundName(r), games: cells });
+}
+const gameLabel = (p: number | null) => (p === 1 ? '🏆 Title' : p === 3 ? '3rd place' : p === 5 ? '5th place' : null);
+---
+{byRound.length > 0 && (
+  <div class="bracket">
+    {byRound.map((round) => (
+      <div class="round">
+        <div class="round-name">{round.name}</div>
+        {round.games.map((cell) => (
+          <div class={`game${cell.p === 1 ? ' final' : ''}`}>
+            {gameLabel(cell.p) && <div class="glabel">{gameLabel(cell.p)}</div>}
+            {cell.sides.map((sd) => (
+              <div class={`side${sd.won ? ' won' : ''}`}>
+                <span class="nm">{sd.name}</span>
+                <span class="sc">{typeof sd.score === 'number' ? sd.score.toFixed(2) : '—'}</span>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    ))}
+  </div>
+)}
+
+<style>
+  .bracket { display: flex; gap: 18px; overflow-x: auto; padding: 4px 2px 10px; }
+  .round { display: flex; flex-direction: column; justify-content: space-around; gap: 14px; min-width: 200px; }
+  .round-name { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); font-weight: 800; text-align: center; }
+  .game { background: #fff; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; box-shadow: 0 1px 6px rgba(0,0,0,.05); }
+  .game.final { border-color: var(--gold); box-shadow: 0 2px 12px rgba(242,183,5,.28); }
+  .glabel { background: var(--brand-900); color: #fff; font-size: 9px; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; padding: 3px 8px; text-align: center; }
+  .game.final .glabel { background: var(--gold); color: var(--brand-900); }
+  .side { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 8px 11px; font-size: 13px; }
+  .side + .side { border-top: 1px solid #eef4f0; }
+  .side .nm { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .side .sc { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 700; }
+  .side.won { background: #f3faf6; }
+  .side.won .nm { color: var(--brand-900); font-weight: 800; }
+  .side.won .sc { color: var(--brand-700); }
+</style>

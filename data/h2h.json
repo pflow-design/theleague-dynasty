@@ -1,0 +1,3793 @@
+{
+  "pairs": [
+    {
+      "a": "connorcowan",
+      "b": "dtpt",
+      "games": 6,
+      "aWins": 2,
+      "bWins": 4,
+      "ties": 0,
+      "aPts": 738.36,
+      "bPts": 835.18,
+      "playoffGames": 0,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 1,
+          "aKey": "connorcowan",
+          "bKey": "dtpt",
+          "aPts": 159.62,
+          "bPts": 149.98,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 10,
+          "aKey": "connorcowan",
+          "bKey": "dtpt",
+          "aPts": 120.08,
+          "bPts": 123.1,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 7,
+          "aKey": "connorcowan",
+          "bKey": "dtpt",
+          "aPts": 97.96,
+          "bPts": 143,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 6,
+          "aKey": "connorcowan",
+          "bKey": "dtpt",
+          "aPts": 114.9,
+          "bPts": 112.6,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 1,
+          "aKey": "connorcowan",
+          "bKey": "dtpt",
+          "aPts": 113.6,
+          "bPts": 159.06,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "aKey": "connorcowan",
+          "bKey": "dtpt",
+          "aPts": 132.2,
+          "bPts": 147.44,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 10
+      }
+    },
+    {
+      "a": "pflower",
+      "b": "stork1120",
+      "games": 10,
+      "aWins": 7,
+      "bWins": 3,
+      "ties": 0,
+      "aPts": 1194.3,
+      "bPts": 1152.86,
+      "playoffGames": 2,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 1,
+          "aKey": "pflower",
+          "bKey": "stork1120",
+          "aPts": 118.52,
+          "bPts": 137.96,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 10,
+          "aKey": "pflower",
+          "bKey": "stork1120",
+          "aPts": 114.72,
+          "bPts": 100.14,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 16,
+          "aKey": "pflower",
+          "bKey": "stork1120",
+          "aPts": 99.6,
+          "bPts": 155.8,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 5,
+          "aKey": "pflower",
+          "bKey": "stork1120",
+          "aPts": 122.46,
+          "bPts": 110.22,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 14,
+          "aKey": "pflower",
+          "bKey": "stork1120",
+          "aPts": 106.94,
+          "bPts": 99.64,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 3,
+          "aKey": "pflower",
+          "bKey": "stork1120",
+          "aPts": 147.8,
+          "bPts": 138.6,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 12,
+          "aKey": "pflower",
+          "bKey": "stork1120",
+          "aPts": 156.98,
+          "bPts": 132.92,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 3,
+          "aKey": "pflower",
+          "bKey": "stork1120",
+          "aPts": 88.06,
+          "bPts": 114.6,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "aKey": "pflower",
+          "bKey": "stork1120",
+          "aPts": 87.12,
+          "bPts": 84.08,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "aKey": "pflower",
+          "bKey": "stork1120",
+          "aPts": 152.1,
+          "bPts": 78.9,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 15
+      }
+    },
+    {
+      "a": "dirtybombs",
+      "b": "mattgross",
+      "games": 8,
+      "aWins": 4,
+      "bWins": 4,
+      "ties": 0,
+      "aPts": 1065.38,
+      "bPts": 1041.64,
+      "playoffGames": 2,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 1,
+          "aKey": "dirtybombs",
+          "bKey": "mattgross",
+          "aPts": 123.06,
+          "bPts": 119.12,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 10,
+          "aKey": "dirtybombs",
+          "bKey": "mattgross",
+          "aPts": 146.1,
+          "bPts": 161,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 9,
+          "aKey": "dirtybombs",
+          "bKey": "mattgross",
+          "aPts": 143.96,
+          "bPts": 116.5,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 15,
+          "aKey": "dirtybombs",
+          "bKey": "mattgross",
+          "aPts": 97.52,
+          "bPts": 128.52,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 17,
+          "aKey": "dirtybombs",
+          "bKey": "mattgross",
+          "aPts": 152,
+          "bPts": 117.18,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 5,
+          "aKey": "dirtybombs",
+          "bKey": "mattgross",
+          "aPts": 147.08,
+          "bPts": 115.36,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 14,
+          "aKey": "dirtybombs",
+          "bKey": "mattgross",
+          "aPts": 110,
+          "bPts": 121.82,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "aKey": "dirtybombs",
+          "bKey": "mattgross",
+          "aPts": 145.66,
+          "bPts": 162.14,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 7
+      }
+    },
+    {
+      "a": "nickgilb2",
+      "b": "rycow",
+      "games": 10,
+      "aWins": 4,
+      "bWins": 6,
+      "ties": 0,
+      "aPts": 1295.34,
+      "bPts": 1557.32,
+      "playoffGames": 3,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 1,
+          "aKey": "nickgilb2",
+          "bKey": "rycow",
+          "aPts": 155,
+          "bPts": 144.92,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 10,
+          "aKey": "nickgilb2",
+          "bKey": "rycow",
+          "aPts": 195.28,
+          "bPts": 98.44,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 1,
+          "aKey": "nickgilb2",
+          "bKey": "rycow",
+          "aPts": 96.64,
+          "bPts": 75.96,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 10,
+          "aKey": "nickgilb2",
+          "bKey": "rycow",
+          "aPts": 112.5,
+          "bPts": 178.72,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 17,
+          "aKey": "nickgilb2",
+          "bKey": "rycow",
+          "aPts": 122.42,
+          "bPts": 139.54,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 8,
+          "aKey": "nickgilb2",
+          "bKey": "rycow",
+          "aPts": 130.06,
+          "bPts": 141.88,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 15,
+          "aKey": "nickgilb2",
+          "bKey": "rycow",
+          "aPts": 88.64,
+          "bPts": 228.9,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 17,
+          "aKey": "nickgilb2",
+          "bKey": "rycow",
+          "aPts": 186.68,
+          "bPts": 160.92,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 3,
+          "aKey": "nickgilb2",
+          "bKey": "rycow",
+          "aPts": 98.84,
+          "bPts": 182.82,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "aKey": "nickgilb2",
+          "bKey": "rycow",
+          "aPts": 109.28,
+          "bPts": 205.22,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 12
+      }
+    },
+    {
+      "a": "numbercrunchies",
+      "b": "tomlockhart",
+      "games": 8,
+      "aWins": 3,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 1078.2,
+      "bPts": 1051.92,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 1,
+          "aKey": "numbercrunchies",
+          "bKey": "tomlockhart",
+          "aPts": 132.3,
+          "bPts": 113.9,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 10,
+          "aKey": "numbercrunchies",
+          "bKey": "tomlockhart",
+          "aPts": 193.64,
+          "bPts": 97.8,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 4,
+          "aKey": "numbercrunchies",
+          "bKey": "tomlockhart",
+          "aPts": 106.62,
+          "bPts": 169.72,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 13,
+          "aKey": "numbercrunchies",
+          "bKey": "tomlockhart",
+          "aPts": 130.2,
+          "bPts": 150.76,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 16,
+          "aKey": "numbercrunchies",
+          "bKey": "tomlockhart",
+          "aPts": 137.6,
+          "bPts": 118.38,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 8,
+          "aKey": "numbercrunchies",
+          "bKey": "tomlockhart",
+          "aPts": 156.4,
+          "bPts": 168.18,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 3,
+          "aKey": "numbercrunchies",
+          "bKey": "tomlockhart",
+          "aPts": 110.46,
+          "bPts": 114.62,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "aKey": "numbercrunchies",
+          "bKey": "tomlockhart",
+          "aPts": 110.98,
+          "bPts": 118.56,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 12
+      }
+    },
+    {
+      "a": "dirtybombs",
+      "b": "stork1120",
+      "games": 7,
+      "aWins": 3,
+      "bWins": 4,
+      "ties": 0,
+      "aPts": 892.6,
+      "bPts": 927.48,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 2,
+          "aKey": "dirtybombs",
+          "bKey": "stork1120",
+          "aPts": 95.28,
+          "bPts": 137.96,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 11,
+          "aKey": "dirtybombs",
+          "bKey": "stork1120",
+          "aPts": 94.24,
+          "bPts": 160,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 7,
+          "aKey": "dirtybombs",
+          "bKey": "stork1120",
+          "aPts": 124.04,
+          "bPts": 154.66,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 7,
+          "aKey": "dirtybombs",
+          "bKey": "stork1120",
+          "aPts": 176.5,
+          "bPts": 127.96,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 15,
+          "aKey": "dirtybombs",
+          "bKey": "stork1120",
+          "aPts": 139.42,
+          "bPts": 160.2,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "aKey": "dirtybombs",
+          "bKey": "stork1120",
+          "aPts": 124.58,
+          "bPts": 108.54,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 14,
+          "aKey": "dirtybombs",
+          "bKey": "stork1120",
+          "aPts": 138.54,
+          "bPts": 78.16,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 14
+      }
+    },
+    {
+      "a": "connorcowan",
+      "b": "pflower",
+      "games": 8,
+      "aWins": 3,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 1029.66,
+      "bPts": 1104.1,
+      "playoffGames": 2,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 2,
+          "aKey": "connorcowan",
+          "bKey": "pflower",
+          "aPts": 148.78,
+          "bPts": 133.96,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 11,
+          "aKey": "connorcowan",
+          "bKey": "pflower",
+          "aPts": 100.8,
+          "bPts": 145.3,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 8,
+          "aKey": "connorcowan",
+          "bKey": "pflower",
+          "aPts": 113.18,
+          "bPts": 127.12,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 16,
+          "aKey": "connorcowan",
+          "bKey": "pflower",
+          "aPts": 96.98,
+          "bPts": 104,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 9,
+          "aKey": "connorcowan",
+          "bKey": "pflower",
+          "aPts": 128.98,
+          "bPts": 153.54,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "aKey": "connorcowan",
+          "bKey": "pflower",
+          "aPts": 138.42,
+          "bPts": 177.76,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 14,
+          "aKey": "connorcowan",
+          "bKey": "pflower",
+          "aPts": 151.66,
+          "bPts": 146.66,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "aKey": "connorcowan",
+          "bKey": "pflower",
+          "aPts": 150.86,
+          "bPts": 115.76,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 16
+      }
+    },
+    {
+      "a": "dtpt",
+      "b": "mattgross",
+      "games": 9,
+      "aWins": 5,
+      "bWins": 4,
+      "ties": 0,
+      "aPts": 1111.34,
+      "bPts": 1205.66,
+      "playoffGames": 2,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 2,
+          "aKey": "dtpt",
+          "bKey": "mattgross",
+          "aPts": 96.78,
+          "bPts": 186.42,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 11,
+          "aKey": "dtpt",
+          "bKey": "mattgross",
+          "aPts": 136.34,
+          "bPts": 130.06,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 15,
+          "aKey": "dtpt",
+          "bKey": "mattgross",
+          "aPts": 136.26,
+          "bPts": 183.2,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 1,
+          "aKey": "dtpt",
+          "bKey": "mattgross",
+          "aPts": 93.54,
+          "bPts": 144.8,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 10,
+          "aKey": "dtpt",
+          "bKey": "mattgross",
+          "aPts": 86.78,
+          "bPts": 112.3,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 9,
+          "aKey": "dtpt",
+          "bKey": "mattgross",
+          "aPts": 159.9,
+          "bPts": 135.78,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 15,
+          "aKey": "dtpt",
+          "bKey": "mattgross",
+          "aPts": 133.98,
+          "bPts": 121,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "aKey": "dtpt",
+          "bKey": "mattgross",
+          "aPts": 131.82,
+          "bPts": 123.9,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 14,
+          "aKey": "dtpt",
+          "bKey": "mattgross",
+          "aPts": 135.94,
+          "bPts": 68.2,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 14
+      }
+    },
+    {
+      "a": "nickgilb2",
+      "b": "numbercrunchies",
+      "games": 7,
+      "aWins": 6,
+      "bWins": 1,
+      "ties": 0,
+      "aPts": 942.1,
+      "bPts": 900.02,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 2,
+          "aKey": "nickgilb2",
+          "bKey": "numbercrunchies",
+          "aPts": 145.94,
+          "bPts": 134,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 11,
+          "aKey": "nickgilb2",
+          "bKey": "numbercrunchies",
+          "aPts": 138.72,
+          "bPts": 132.06,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 7,
+          "aKey": "nickgilb2",
+          "bKey": "numbercrunchies",
+          "aPts": 125.84,
+          "bPts": 98.56,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 9,
+          "aKey": "nickgilb2",
+          "bKey": "numbercrunchies",
+          "aPts": 172.34,
+          "bPts": 140.94,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "aKey": "nickgilb2",
+          "bKey": "numbercrunchies",
+          "aPts": 170.42,
+          "bPts": 135.92,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 14,
+          "aKey": "nickgilb2",
+          "bKey": "numbercrunchies",
+          "aPts": 96.12,
+          "bPts": 93.88,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "aKey": "nickgilb2",
+          "bKey": "numbercrunchies",
+          "aPts": 92.72,
+          "bPts": 164.66,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 15
+      }
+    },
+    {
+      "a": "rycow",
+      "b": "tomlockhart",
+      "games": 10,
+      "aWins": 7,
+      "bWins": 3,
+      "ties": 0,
+      "aPts": 1580.26,
+      "bPts": 1382.18,
+      "playoffGames": 3,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 2,
+          "aKey": "rycow",
+          "bKey": "tomlockhart",
+          "aPts": 189.12,
+          "bPts": 128.86,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 11,
+          "aKey": "rycow",
+          "bKey": "tomlockhart",
+          "aPts": 86.36,
+          "bPts": 120.48,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 15,
+          "aKey": "rycow",
+          "bKey": "tomlockhart",
+          "aPts": 112.68,
+          "bPts": 134.02,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 7,
+          "aKey": "rycow",
+          "bKey": "tomlockhart",
+          "aPts": 195.88,
+          "bPts": 150.36,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 4,
+          "aKey": "rycow",
+          "bKey": "tomlockhart",
+          "aPts": 117.84,
+          "bPts": 126.88,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 13,
+          "aKey": "rycow",
+          "bKey": "tomlockhart",
+          "aPts": 156.58,
+          "bPts": 153.2,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 16,
+          "aKey": "rycow",
+          "bKey": "tomlockhart",
+          "aPts": 175.68,
+          "bPts": 107.38,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "aKey": "rycow",
+          "bKey": "tomlockhart",
+          "aPts": 193.44,
+          "bPts": 138.42,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 14,
+          "aKey": "rycow",
+          "bKey": "tomlockhart",
+          "aPts": 179.96,
+          "bPts": 158.74,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 17,
+          "aKey": "rycow",
+          "bKey": "tomlockhart",
+          "aPts": 172.72,
+          "bPts": 163.84,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 17
+      }
+    },
+    {
+      "a": "mattgross",
+      "b": "pflower",
+      "games": 7,
+      "aWins": 2,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 899.04,
+      "bPts": 903.22,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 3,
+          "aKey": "mattgross",
+          "bKey": "pflower",
+          "aPts": 135.1,
+          "bPts": 150.8,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 12,
+          "aKey": "mattgross",
+          "bKey": "pflower",
+          "aPts": 144.42,
+          "bPts": 92.2,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 7,
+          "aKey": "mattgross",
+          "bKey": "pflower",
+          "aPts": 141.26,
+          "bPts": 96.14,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 1,
+          "aKey": "mattgross",
+          "bKey": "pflower",
+          "aPts": 130.32,
+          "bPts": 138.26,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 10,
+          "aKey": "mattgross",
+          "bKey": "pflower",
+          "aPts": 134.88,
+          "bPts": 140.52,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 17,
+          "aKey": "mattgross",
+          "bKey": "pflower",
+          "aPts": 101.3,
+          "bPts": 142.38,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 8,
+          "aKey": "mattgross",
+          "bKey": "pflower",
+          "aPts": 111.76,
+          "bPts": 142.92,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 8
+      }
+    },
+    {
+      "a": "connorcowan",
+      "b": "stork1120",
+      "games": 8,
+      "aWins": 4,
+      "bWins": 4,
+      "ties": 0,
+      "aPts": 946.62,
+      "bPts": 972.46,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 3,
+          "aKey": "connorcowan",
+          "bKey": "stork1120",
+          "aPts": 115.96,
+          "bPts": 131.64,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 12,
+          "aKey": "connorcowan",
+          "bKey": "stork1120",
+          "aPts": 114.04,
+          "bPts": 144.86,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 4,
+          "aKey": "connorcowan",
+          "bKey": "stork1120",
+          "aPts": 124.06,
+          "bPts": 106.38,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 13,
+          "aKey": "connorcowan",
+          "bKey": "stork1120",
+          "aPts": 98.32,
+          "bPts": 132.28,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 15,
+          "aKey": "connorcowan",
+          "bKey": "stork1120",
+          "aPts": 130.82,
+          "bPts": 84.7,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 4,
+          "aKey": "connorcowan",
+          "bKey": "stork1120",
+          "aPts": 138.88,
+          "bPts": 120.44,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 13,
+          "aKey": "connorcowan",
+          "bKey": "stork1120",
+          "aPts": 108.34,
+          "bPts": 106.58,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 8,
+          "aKey": "connorcowan",
+          "bKey": "stork1120",
+          "aPts": 116.2,
+          "bPts": 145.58,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 8
+      }
+    },
+    {
+      "a": "dirtybombs",
+      "b": "dtpt",
+      "games": 7,
+      "aWins": 5,
+      "bWins": 2,
+      "ties": 0,
+      "aPts": 1018.72,
+      "bPts": 920.46,
+      "playoffGames": 0,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 3,
+          "aKey": "dirtybombs",
+          "bKey": "dtpt",
+          "aPts": 101.06,
+          "bPts": 119.5,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 12,
+          "aKey": "dirtybombs",
+          "bKey": "dtpt",
+          "aPts": 136.24,
+          "bPts": 177.22,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 8,
+          "aKey": "dirtybombs",
+          "bKey": "dtpt",
+          "aPts": 155.46,
+          "bPts": 144.36,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 2,
+          "aKey": "dirtybombs",
+          "bKey": "dtpt",
+          "aPts": 174.42,
+          "bPts": 102.46,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 11,
+          "aKey": "dirtybombs",
+          "bKey": "dtpt",
+          "aPts": 161.5,
+          "bPts": 120.98,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 3,
+          "aKey": "dirtybombs",
+          "bKey": "dtpt",
+          "aPts": 158.12,
+          "bPts": 150.32,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "aKey": "dirtybombs",
+          "bKey": "dtpt",
+          "aPts": 131.92,
+          "bPts": 105.62,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 12
+      }
+    },
+    {
+      "a": "nickgilb2",
+      "b": "tomlockhart",
+      "games": 11,
+      "aWins": 6,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 1419.86,
+      "bPts": 1360.24,
+      "playoffGames": 5,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 3,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 115.24,
+          "bPts": 116.26,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 12,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 146.7,
+          "bPts": 120.02,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 18,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 82.3,
+          "bPts": 88.32,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 8,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 169.26,
+          "bPts": 143.36,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 15,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 150.74,
+          "bPts": 127.22,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 18,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 94.32,
+          "bPts": 112.76,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 2,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 160.4,
+          "bPts": 113.54,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 11,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 141.74,
+          "bPts": 132.6,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 18,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 94.82,
+          "bPts": 141.08,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 134.06,
+          "bPts": 131.84,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 18,
+          "aKey": "nickgilb2",
+          "bKey": "tomlockhart",
+          "aPts": 130.28,
+          "bPts": 133.24,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 18
+      }
+    },
+    {
+      "a": "numbercrunchies",
+      "b": "rycow",
+      "games": 8,
+      "aWins": 2,
+      "bWins": 6,
+      "ties": 0,
+      "aPts": 1022.62,
+      "bPts": 1130.32,
+      "playoffGames": 2,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 3,
+          "aKey": "numbercrunchies",
+          "bKey": "rycow",
+          "aPts": 105.68,
+          "bPts": 184.52,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 12,
+          "aKey": "numbercrunchies",
+          "bKey": "rycow",
+          "aPts": 180,
+          "bPts": 123.76,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 6,
+          "aKey": "numbercrunchies",
+          "bKey": "rycow",
+          "aPts": 106.54,
+          "bPts": 111.72,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 15,
+          "aKey": "numbercrunchies",
+          "bKey": "rycow",
+          "aPts": 120,
+          "bPts": 129.24,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 5,
+          "aKey": "numbercrunchies",
+          "bKey": "rycow",
+          "aPts": 118.44,
+          "bPts": 153.62,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 14,
+          "aKey": "numbercrunchies",
+          "bKey": "rycow",
+          "aPts": 142.86,
+          "bPts": 176.7,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 8,
+          "aKey": "numbercrunchies",
+          "bKey": "rycow",
+          "aPts": 139.12,
+          "bPts": 97.02,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "aKey": "numbercrunchies",
+          "bKey": "rycow",
+          "aPts": 109.98,
+          "bPts": 153.74,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 16
+      }
+    },
+    {
+      "a": "connorcowan",
+      "b": "rycow",
+      "games": 8,
+      "aWins": 3,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 1005.12,
+      "bPts": 1046.98,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 4,
+          "aKey": "connorcowan",
+          "bKey": "rycow",
+          "aPts": 136.48,
+          "bPts": 101.56,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 13,
+          "aKey": "connorcowan",
+          "bKey": "rycow",
+          "aPts": 116.22,
+          "bPts": 132.64,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 16,
+          "aKey": "connorcowan",
+          "bKey": "rycow",
+          "aPts": 125.76,
+          "bPts": 81.36,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 2,
+          "aKey": "connorcowan",
+          "bKey": "rycow",
+          "aPts": 122.12,
+          "bPts": 136.68,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 11,
+          "aKey": "connorcowan",
+          "bKey": "rycow",
+          "aPts": 129.54,
+          "bPts": 140.46,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 1,
+          "aKey": "connorcowan",
+          "bKey": "rycow",
+          "aPts": 152.48,
+          "bPts": 144.62,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 10,
+          "aKey": "connorcowan",
+          "bKey": "rycow",
+          "aPts": 68.34,
+          "bPts": 151.8,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "aKey": "connorcowan",
+          "bKey": "rycow",
+          "aPts": 154.18,
+          "bPts": 157.86,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 6
+      }
+    },
+    {
+      "a": "dirtybombs",
+      "b": "pflower",
+      "games": 8,
+      "aWins": 7,
+      "bWins": 1,
+      "ties": 0,
+      "aPts": 1243.56,
+      "bPts": 951.78,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 4,
+          "aKey": "dirtybombs",
+          "bKey": "pflower",
+          "aPts": 116.86,
+          "bPts": 140.68,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 13,
+          "aKey": "dirtybombs",
+          "bKey": "pflower",
+          "aPts": 148.1,
+          "bPts": 104.94,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 4,
+          "aKey": "dirtybombs",
+          "bKey": "pflower",
+          "aPts": 155.64,
+          "bPts": 94.5,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 13,
+          "aKey": "dirtybombs",
+          "bKey": "pflower",
+          "aPts": 172.36,
+          "bPts": 111.96,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 4,
+          "aKey": "dirtybombs",
+          "bKey": "pflower",
+          "aPts": 148.94,
+          "bPts": 124.3,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 13,
+          "aKey": "dirtybombs",
+          "bKey": "pflower",
+          "aPts": 180.2,
+          "bPts": 126.86,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 16,
+          "aKey": "dirtybombs",
+          "bKey": "pflower",
+          "aPts": 168.52,
+          "bPts": 122.48,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "aKey": "dirtybombs",
+          "bKey": "pflower",
+          "aPts": 152.94,
+          "bPts": 126.06,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 6
+      }
+    },
+    {
+      "a": "dtpt",
+      "b": "nickgilb2",
+      "games": 9,
+      "aWins": 4,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 1112.48,
+      "bPts": 1248.9,
+      "playoffGames": 2,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 4,
+          "aKey": "dtpt",
+          "bKey": "nickgilb2",
+          "aPts": 147.62,
+          "bPts": 123.8,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 13,
+          "aKey": "dtpt",
+          "bKey": "nickgilb2",
+          "aPts": 106.02,
+          "bPts": 102.6,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 17,
+          "aKey": "dtpt",
+          "bKey": "nickgilb2",
+          "aPts": 122.52,
+          "bPts": 106.1,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 4,
+          "aKey": "dtpt",
+          "bKey": "nickgilb2",
+          "aPts": 148.38,
+          "bPts": 101.38,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 13,
+          "aKey": "dtpt",
+          "bKey": "nickgilb2",
+          "aPts": 129.24,
+          "bPts": 134.8,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 3,
+          "aKey": "dtpt",
+          "bKey": "nickgilb2",
+          "aPts": 142.02,
+          "bPts": 178.26,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 12,
+          "aKey": "dtpt",
+          "bKey": "nickgilb2",
+          "aPts": 81.66,
+          "bPts": 177.6,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 8,
+          "aKey": "dtpt",
+          "bKey": "nickgilb2",
+          "aPts": 106.42,
+          "bPts": 180.46,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "aKey": "dtpt",
+          "bKey": "nickgilb2",
+          "aPts": 128.6,
+          "bPts": 143.9,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 16
+      }
+    },
+    {
+      "a": "stork1120",
+      "b": "tomlockhart",
+      "games": 7,
+      "aWins": 6,
+      "bWins": 1,
+      "ties": 0,
+      "aPts": 1083.9,
+      "bPts": 848.98,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 4,
+          "aKey": "stork1120",
+          "bKey": "tomlockhart",
+          "aPts": 133.1,
+          "bPts": 151.68,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 13,
+          "aKey": "stork1120",
+          "bKey": "tomlockhart",
+          "aPts": 139.7,
+          "bPts": 124.78,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 1,
+          "aKey": "stork1120",
+          "bKey": "tomlockhart",
+          "aPts": 119.66,
+          "bPts": 75.28,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 10,
+          "aKey": "stork1120",
+          "bKey": "tomlockhart",
+          "aPts": 148.42,
+          "bPts": 132.66,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 9,
+          "aKey": "stork1120",
+          "bKey": "tomlockhart",
+          "aPts": 182.78,
+          "bPts": 91.76,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 17,
+          "aKey": "stork1120",
+          "bKey": "tomlockhart",
+          "aPts": 206.54,
+          "bPts": 125.24,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "aKey": "stork1120",
+          "bKey": "tomlockhart",
+          "aPts": 153.7,
+          "bPts": 147.58,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 7
+      }
+    },
+    {
+      "a": "mattgross",
+      "b": "numbercrunchies",
+      "games": 7,
+      "aWins": 2,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 868.1,
+      "bPts": 965.78,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 4,
+          "aKey": "mattgross",
+          "bKey": "numbercrunchies",
+          "aPts": 157.56,
+          "bPts": 171.26,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 13,
+          "aKey": "mattgross",
+          "bKey": "numbercrunchies",
+          "aPts": 164.1,
+          "bPts": 157.42,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 17,
+          "aKey": "mattgross",
+          "bKey": "numbercrunchies",
+          "aPts": 121.98,
+          "bPts": 168.72,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 8,
+          "aKey": "mattgross",
+          "bKey": "numbercrunchies",
+          "aPts": 187.26,
+          "bPts": 130.5,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 7,
+          "aKey": "mattgross",
+          "bKey": "numbercrunchies",
+          "aPts": 84.46,
+          "bPts": 125.26,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "aKey": "mattgross",
+          "bKey": "numbercrunchies",
+          "aPts": 97.04,
+          "bPts": 117.08,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "aKey": "mattgross",
+          "bKey": "numbercrunchies",
+          "aPts": 55.7,
+          "bPts": 95.54,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 11
+      }
+    },
+    {
+      "a": "mattgross",
+      "b": "stork1120",
+      "games": 7,
+      "aWins": 4,
+      "bWins": 3,
+      "ties": 0,
+      "aPts": 1080.68,
+      "bPts": 874.8,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 5,
+          "aKey": "mattgross",
+          "bKey": "stork1120",
+          "aPts": 212.44,
+          "bPts": 81.02,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 14,
+          "aKey": "mattgross",
+          "bKey": "stork1120",
+          "aPts": 194.48,
+          "bPts": 143.38,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 3,
+          "aKey": "mattgross",
+          "bKey": "stork1120",
+          "aPts": 189.38,
+          "bPts": 125,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 12,
+          "aKey": "mattgross",
+          "bKey": "stork1120",
+          "aPts": 157.7,
+          "bPts": 109.48,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 8,
+          "aKey": "mattgross",
+          "bKey": "stork1120",
+          "aPts": 132.36,
+          "bPts": 178.46,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "aKey": "mattgross",
+          "bKey": "stork1120",
+          "aPts": 102.62,
+          "bPts": 108.96,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "aKey": "mattgross",
+          "bKey": "stork1120",
+          "aPts": 91.7,
+          "bPts": 128.5,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 16
+      }
+    },
+    {
+      "a": "dirtybombs",
+      "b": "numbercrunchies",
+      "games": 8,
+      "aWins": 4,
+      "bWins": 4,
+      "ties": 0,
+      "aPts": 1055.42,
+      "bPts": 1159.6,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 5,
+          "aKey": "dirtybombs",
+          "bKey": "numbercrunchies",
+          "aPts": 111.94,
+          "bPts": 178.38,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 14,
+          "aKey": "dirtybombs",
+          "bKey": "numbercrunchies",
+          "aPts": 104.06,
+          "bPts": 178.68,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 5,
+          "aKey": "dirtybombs",
+          "bKey": "numbercrunchies",
+          "aPts": 87.52,
+          "bPts": 124.54,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 14,
+          "aKey": "dirtybombs",
+          "bKey": "numbercrunchies",
+          "aPts": 148.84,
+          "bPts": 125.94,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 6,
+          "aKey": "dirtybombs",
+          "bKey": "numbercrunchies",
+          "aPts": 155.02,
+          "bPts": 136.86,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 1,
+          "aKey": "dirtybombs",
+          "bKey": "numbercrunchies",
+          "aPts": 105.58,
+          "bPts": 148.02,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "aKey": "dirtybombs",
+          "bKey": "numbercrunchies",
+          "aPts": 178.8,
+          "bPts": 158.7,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 17,
+          "aKey": "dirtybombs",
+          "bKey": "numbercrunchies",
+          "aPts": 163.66,
+          "bPts": 108.48,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 17
+      }
+    },
+    {
+      "a": "dtpt",
+      "b": "rycow",
+      "games": 6,
+      "aWins": 3,
+      "bWins": 3,
+      "ties": 0,
+      "aPts": 726.86,
+      "bPts": 813.72,
+      "playoffGames": 0,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 5,
+          "aKey": "dtpt",
+          "bKey": "rycow",
+          "aPts": 157.06,
+          "bPts": 126.36,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 14,
+          "aKey": "dtpt",
+          "bKey": "rycow",
+          "aPts": 137.08,
+          "bPts": 101.12,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 5,
+          "aKey": "dtpt",
+          "bKey": "rycow",
+          "aPts": 124.56,
+          "bPts": 111.24,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 14,
+          "aKey": "dtpt",
+          "bKey": "rycow",
+          "aPts": 97.22,
+          "bPts": 156.04,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 7,
+          "aKey": "dtpt",
+          "bKey": "rycow",
+          "aPts": 96.22,
+          "bPts": 160.34,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "aKey": "dtpt",
+          "bKey": "rycow",
+          "aPts": 114.72,
+          "bPts": 158.62,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 7
+      }
+    },
+    {
+      "a": "connorcowan",
+      "b": "nickgilb2",
+      "games": 6,
+      "aWins": 1,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 696.56,
+      "bPts": 818.36,
+      "playoffGames": 0,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 5,
+          "aKey": "connorcowan",
+          "bKey": "nickgilb2",
+          "aPts": 133.1,
+          "bPts": 148.9,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 14,
+          "aKey": "connorcowan",
+          "bKey": "nickgilb2",
+          "aPts": 89.56,
+          "bPts": 106.3,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 3,
+          "aKey": "connorcowan",
+          "bKey": "nickgilb2",
+          "aPts": 177.24,
+          "bPts": 191.76,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 12,
+          "aKey": "connorcowan",
+          "bKey": "nickgilb2",
+          "aPts": 117.14,
+          "bPts": 124.72,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 7,
+          "aKey": "connorcowan",
+          "bKey": "nickgilb2",
+          "aPts": 47.68,
+          "bPts": 137.04,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "aKey": "connorcowan",
+          "bKey": "nickgilb2",
+          "aPts": 131.84,
+          "bPts": 109.64,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 7
+      }
+    },
+    {
+      "a": "pflower",
+      "b": "tomlockhart",
+      "games": 9,
+      "aWins": 3,
+      "bWins": 6,
+      "ties": 0,
+      "aPts": 978.94,
+      "bPts": 1223.64,
+      "playoffGames": 3,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 5,
+          "aKey": "pflower",
+          "bKey": "tomlockhart",
+          "aPts": 150.08,
+          "bPts": 130.96,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 14,
+          "aKey": "pflower",
+          "bKey": "tomlockhart",
+          "aPts": 99.96,
+          "bPts": 98.46,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 17,
+          "aKey": "pflower",
+          "bKey": "tomlockhart",
+          "aPts": 81.18,
+          "bPts": 143.22,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 3,
+          "aKey": "pflower",
+          "bKey": "tomlockhart",
+          "aPts": 84.56,
+          "bPts": 139.94,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 12,
+          "aKey": "pflower",
+          "bKey": "tomlockhart",
+          "aPts": 149.46,
+          "bPts": 133.36,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 17,
+          "aKey": "pflower",
+          "bKey": "tomlockhart",
+          "aPts": 120.12,
+          "bPts": 186.9,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 7,
+          "aKey": "pflower",
+          "bKey": "tomlockhart",
+          "aPts": 77.94,
+          "bPts": 150.4,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 15,
+          "aKey": "pflower",
+          "bKey": "tomlockhart",
+          "aPts": 91.54,
+          "bPts": 99.26,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "aKey": "pflower",
+          "bKey": "tomlockhart",
+          "aPts": 124.1,
+          "bPts": 141.14,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 9
+      }
+    },
+    {
+      "a": "mattgross",
+      "b": "nickgilb2",
+      "games": 7,
+      "aWins": 2,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 986.46,
+      "bPts": 1026.26,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 6,
+          "aKey": "mattgross",
+          "bKey": "nickgilb2",
+          "aPts": 164.14,
+          "bPts": 133.02,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 16,
+          "aKey": "mattgross",
+          "bKey": "nickgilb2",
+          "aPts": 148.86,
+          "bPts": 167.76,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 5,
+          "aKey": "mattgross",
+          "bKey": "nickgilb2",
+          "aPts": 160.32,
+          "bPts": 99.7,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 14,
+          "aKey": "mattgross",
+          "bKey": "nickgilb2",
+          "aPts": 134.48,
+          "bPts": 155.2,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 4,
+          "aKey": "mattgross",
+          "bKey": "nickgilb2",
+          "aPts": 131.52,
+          "bPts": 156.12,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 13,
+          "aKey": "mattgross",
+          "bKey": "nickgilb2",
+          "aPts": 127.62,
+          "bPts": 162.04,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "aKey": "mattgross",
+          "bKey": "nickgilb2",
+          "aPts": 119.52,
+          "bPts": 152.42,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 9
+      }
+    },
+    {
+      "a": "dtpt",
+      "b": "stork1120",
+      "games": 6,
+      "aWins": 4,
+      "bWins": 2,
+      "ties": 0,
+      "aPts": 729.92,
+      "bPts": 648.06,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 6,
+          "aKey": "dtpt",
+          "bKey": "stork1120",
+          "aPts": 117.96,
+          "bPts": 89.22,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 6,
+          "aKey": "dtpt",
+          "bKey": "stork1120",
+          "aPts": 96.36,
+          "bPts": 104.78,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 16,
+          "aKey": "dtpt",
+          "bKey": "stork1120",
+          "aPts": 101.36,
+          "bPts": 116.4,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 5,
+          "aKey": "dtpt",
+          "bKey": "stork1120",
+          "aPts": 99.74,
+          "bPts": 88.14,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 14,
+          "aKey": "dtpt",
+          "bKey": "stork1120",
+          "aPts": 170.98,
+          "bPts": 142.72,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "aKey": "dtpt",
+          "bKey": "stork1120",
+          "aPts": 143.52,
+          "bPts": 106.8,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 9
+      }
+    },
+    {
+      "a": "dirtybombs",
+      "b": "rycow",
+      "games": 6,
+      "aWins": 2,
+      "bWins": 4,
+      "ties": 0,
+      "aPts": 794.76,
+      "bPts": 860.42,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 6,
+          "aKey": "dirtybombs",
+          "bKey": "rycow",
+          "aPts": 88.02,
+          "bPts": 117.6,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 3,
+          "aKey": "dirtybombs",
+          "bKey": "rycow",
+          "aPts": 145.76,
+          "bPts": 123.58,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 12,
+          "aKey": "dirtybombs",
+          "bKey": "rycow",
+          "aPts": 179.34,
+          "bPts": 150.18,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 9,
+          "aKey": "dirtybombs",
+          "bKey": "rycow",
+          "aPts": 104.02,
+          "bPts": 162.4,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "aKey": "dirtybombs",
+          "bKey": "rycow",
+          "aPts": 125.6,
+          "bPts": 140.46,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "aKey": "dirtybombs",
+          "bKey": "rycow",
+          "aPts": 152.02,
+          "bPts": 166.2,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 15
+      }
+    },
+    {
+      "a": "numbercrunchies",
+      "b": "pflower",
+      "games": 6,
+      "aWins": 3,
+      "bWins": 3,
+      "ties": 0,
+      "aPts": 794.6,
+      "bPts": 750.18,
+      "playoffGames": 0,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 6,
+          "aKey": "numbercrunchies",
+          "bKey": "pflower",
+          "aPts": 120.22,
+          "bPts": 121.5,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 1,
+          "aKey": "numbercrunchies",
+          "bKey": "pflower",
+          "aPts": 122.04,
+          "bPts": 94.08,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 10,
+          "aKey": "numbercrunchies",
+          "bKey": "pflower",
+          "aPts": 135.12,
+          "bPts": 132.58,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 2,
+          "aKey": "numbercrunchies",
+          "bKey": "pflower",
+          "aPts": 141.04,
+          "bPts": 141.7,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 11,
+          "aKey": "numbercrunchies",
+          "bKey": "pflower",
+          "aPts": 120.64,
+          "bPts": 145.94,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "aKey": "numbercrunchies",
+          "bKey": "pflower",
+          "aPts": 155.54,
+          "bPts": 114.38,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 7
+      }
+    },
+    {
+      "a": "connorcowan",
+      "b": "tomlockhart",
+      "games": 7,
+      "aWins": 2,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 789.04,
+      "bPts": 1158.78,
+      "playoffGames": 0,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 6,
+          "aKey": "connorcowan",
+          "bKey": "tomlockhart",
+          "aPts": 161.98,
+          "bPts": 95.52,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 5,
+          "aKey": "connorcowan",
+          "bKey": "tomlockhart",
+          "aPts": 85.62,
+          "bPts": 264.14,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 14,
+          "aKey": "connorcowan",
+          "bKey": "tomlockhart",
+          "aPts": 81.54,
+          "bPts": 136.26,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 5,
+          "aKey": "connorcowan",
+          "bKey": "tomlockhart",
+          "aPts": 125.96,
+          "bPts": 182.7,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 14,
+          "aKey": "connorcowan",
+          "bKey": "tomlockhart",
+          "aPts": 99.12,
+          "bPts": 184.96,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "aKey": "connorcowan",
+          "bKey": "tomlockhart",
+          "aPts": 105.68,
+          "bPts": 168.72,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "aKey": "connorcowan",
+          "bKey": "tomlockhart",
+          "aPts": 129.14,
+          "bPts": 126.48,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 13
+      }
+    },
+    {
+      "a": "connorcowan",
+      "b": "mattgross",
+      "games": 8,
+      "aWins": 4,
+      "bWins": 4,
+      "ties": 0,
+      "aPts": 1159.38,
+      "bPts": 1016.74,
+      "playoffGames": 2,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 7,
+          "aKey": "connorcowan",
+          "bKey": "mattgross",
+          "aPts": 143.86,
+          "bPts": 146.22,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 6,
+          "aKey": "connorcowan",
+          "bKey": "mattgross",
+          "aPts": 112.84,
+          "bPts": 147.4,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 2,
+          "aKey": "connorcowan",
+          "bKey": "mattgross",
+          "aPts": 125.76,
+          "bPts": 88.42,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 11,
+          "aKey": "connorcowan",
+          "bKey": "mattgross",
+          "aPts": 142.48,
+          "bPts": 164.76,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 16,
+          "aKey": "connorcowan",
+          "bKey": "mattgross",
+          "aPts": 159.14,
+          "bPts": 96.44,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 3,
+          "aKey": "connorcowan",
+          "bKey": "mattgross",
+          "aPts": 150.52,
+          "bPts": 178.04,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "aKey": "connorcowan",
+          "bKey": "mattgross",
+          "aPts": 176.16,
+          "bPts": 96.46,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "aKey": "connorcowan",
+          "bKey": "mattgross",
+          "aPts": 148.62,
+          "bPts": 99,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 15
+      }
+    },
+    {
+      "a": "numbercrunchies",
+      "b": "stork1120",
+      "games": 8,
+      "aWins": 6,
+      "bWins": 2,
+      "ties": 0,
+      "aPts": 1097,
+      "bPts": 941.46,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 7,
+          "aKey": "numbercrunchies",
+          "bKey": "stork1120",
+          "aPts": 198.02,
+          "bPts": 114.72,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 15,
+          "aKey": "numbercrunchies",
+          "bKey": "stork1120",
+          "aPts": 148.44,
+          "bPts": 138.02,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 2,
+          "aKey": "numbercrunchies",
+          "bKey": "stork1120",
+          "aPts": 126.1,
+          "bPts": 111.8,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 11,
+          "aKey": "numbercrunchies",
+          "bKey": "stork1120",
+          "aPts": 111.88,
+          "bPts": 129.34,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 1,
+          "aKey": "numbercrunchies",
+          "bKey": "stork1120",
+          "aPts": 117.54,
+          "bPts": 70.66,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 10,
+          "aKey": "numbercrunchies",
+          "bKey": "stork1120",
+          "aPts": 98.64,
+          "bPts": 125.56,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "aKey": "numbercrunchies",
+          "bKey": "stork1120",
+          "aPts": 151.04,
+          "bPts": 147.72,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "aKey": "numbercrunchies",
+          "bKey": "stork1120",
+          "aPts": 145.34,
+          "bPts": 103.64,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 13
+      }
+    },
+    {
+      "a": "dtpt",
+      "b": "tomlockhart",
+      "games": 7,
+      "aWins": 2,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 775.04,
+      "bPts": 973.84,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 7,
+          "aKey": "dtpt",
+          "bKey": "tomlockhart",
+          "aPts": 114.22,
+          "bPts": 128.4,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 9,
+          "aKey": "dtpt",
+          "bKey": "tomlockhart",
+          "aPts": 112.32,
+          "bPts": 94.78,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 1,
+          "aKey": "dtpt",
+          "bKey": "tomlockhart",
+          "aPts": 97.88,
+          "bPts": 108.48,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 10,
+          "aKey": "dtpt",
+          "bKey": "tomlockhart",
+          "aPts": 109.2,
+          "bPts": 173.94,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "aKey": "dtpt",
+          "bKey": "tomlockhart",
+          "aPts": 82.52,
+          "bPts": 150.2,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "aKey": "dtpt",
+          "bKey": "tomlockhart",
+          "aPts": 160.28,
+          "bPts": 122.04,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "aKey": "dtpt",
+          "bKey": "tomlockhart",
+          "aPts": 98.62,
+          "bPts": 196,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 15
+      }
+    },
+    {
+      "a": "pflower",
+      "b": "rycow",
+      "games": 5,
+      "aWins": 1,
+      "bWins": 4,
+      "ties": 0,
+      "aPts": 495.04,
+      "bPts": 600.8,
+      "playoffGames": 0,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 7,
+          "aKey": "pflower",
+          "bKey": "rycow",
+          "aPts": 135.24,
+          "bPts": 74.5,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 9,
+          "aKey": "pflower",
+          "bKey": "rycow",
+          "aPts": 82.72,
+          "bPts": 91.58,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 6,
+          "aKey": "pflower",
+          "bKey": "rycow",
+          "aPts": 78.68,
+          "bPts": 147.42,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 1,
+          "aKey": "pflower",
+          "bKey": "rycow",
+          "aPts": 85.82,
+          "bPts": 133.16,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "aKey": "pflower",
+          "bKey": "rycow",
+          "aPts": 112.58,
+          "bPts": 154.14,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 10
+      }
+    },
+    {
+      "a": "dirtybombs",
+      "b": "nickgilb2",
+      "games": 8,
+      "aWins": 5,
+      "bWins": 3,
+      "ties": 0,
+      "aPts": 1141.22,
+      "bPts": 1094.22,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 7,
+          "aKey": "dirtybombs",
+          "bKey": "nickgilb2",
+          "aPts": 110.28,
+          "bPts": 127.44,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 2,
+          "aKey": "dirtybombs",
+          "bKey": "nickgilb2",
+          "aPts": 182.2,
+          "bPts": 156.16,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 11,
+          "aKey": "dirtybombs",
+          "bKey": "nickgilb2",
+          "aPts": 136.36,
+          "bPts": 118.9,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 16,
+          "aKey": "dirtybombs",
+          "bKey": "nickgilb2",
+          "aPts": 123.02,
+          "bPts": 196.7,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 1,
+          "aKey": "dirtybombs",
+          "bKey": "nickgilb2",
+          "aPts": 135.36,
+          "bPts": 165.92,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 10,
+          "aKey": "dirtybombs",
+          "bKey": "nickgilb2",
+          "aPts": 106.32,
+          "bPts": 88.38,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "aKey": "dirtybombs",
+          "bKey": "nickgilb2",
+          "aPts": 168.86,
+          "bPts": 152.74,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "aKey": "dirtybombs",
+          "bKey": "nickgilb2",
+          "aPts": 178.82,
+          "bPts": 87.98,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 13
+      }
+    },
+    {
+      "a": "rycow",
+      "b": "stork1120",
+      "games": 6,
+      "aWins": 3,
+      "bWins": 3,
+      "ties": 0,
+      "aPts": 872.48,
+      "bPts": 817.68,
+      "playoffGames": 0,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 8,
+          "aKey": "rycow",
+          "bKey": "stork1120",
+          "aPts": 131.32,
+          "bPts": 165.22,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 8,
+          "aKey": "rycow",
+          "bKey": "stork1120",
+          "aPts": 171.18,
+          "bPts": 167.52,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 2,
+          "aKey": "rycow",
+          "bKey": "stork1120",
+          "aPts": 110.98,
+          "bPts": 127.4,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 11,
+          "aKey": "rycow",
+          "bKey": "stork1120",
+          "aPts": 132.18,
+          "bPts": 143.38,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "aKey": "rycow",
+          "bKey": "stork1120",
+          "aPts": 163.9,
+          "bPts": 150.42,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "aKey": "rycow",
+          "bKey": "stork1120",
+          "aPts": 162.92,
+          "bPts": 63.74,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 11
+      }
+    },
+    {
+      "a": "mattgross",
+      "b": "tomlockhart",
+      "games": 6,
+      "aWins": 2,
+      "bWins": 4,
+      "ties": 0,
+      "aPts": 752.18,
+      "bPts": 789.34,
+      "playoffGames": 0,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 8,
+          "aKey": "mattgross",
+          "bKey": "tomlockhart",
+          "aPts": 186.54,
+          "bPts": 149.78,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 2,
+          "aKey": "mattgross",
+          "bKey": "tomlockhart",
+          "aPts": 174.58,
+          "bPts": 147.42,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 11,
+          "aKey": "mattgross",
+          "bKey": "tomlockhart",
+          "aPts": 128.6,
+          "bPts": 137.56,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 6,
+          "aKey": "mattgross",
+          "bKey": "tomlockhart",
+          "aPts": 81.26,
+          "bPts": 115.46,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 1,
+          "aKey": "mattgross",
+          "bKey": "tomlockhart",
+          "aPts": 95.28,
+          "bPts": 114.02,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "aKey": "mattgross",
+          "bKey": "tomlockhart",
+          "aPts": 85.92,
+          "bPts": 125.1,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 10
+      }
+    },
+    {
+      "a": "dtpt",
+      "b": "numbercrunchies",
+      "games": 8,
+      "aWins": 3,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 991.46,
+      "bPts": 1097.54,
+      "playoffGames": 2,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 8,
+          "aKey": "dtpt",
+          "bKey": "numbercrunchies",
+          "aPts": 125.32,
+          "bPts": 142.22,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 16,
+          "aKey": "dtpt",
+          "bKey": "numbercrunchies",
+          "aPts": 150.58,
+          "bPts": 111.26,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 3,
+          "aKey": "dtpt",
+          "bKey": "numbercrunchies",
+          "aPts": 116.72,
+          "bPts": 162.18,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 12,
+          "aKey": "dtpt",
+          "bKey": "numbercrunchies",
+          "aPts": 136.16,
+          "bPts": 132.62,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 4,
+          "aKey": "dtpt",
+          "bKey": "numbercrunchies",
+          "aPts": 135.2,
+          "bPts": 121.6,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 13,
+          "aKey": "dtpt",
+          "bKey": "numbercrunchies",
+          "aPts": 123.42,
+          "bPts": 134.24,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 16,
+          "aKey": "dtpt",
+          "bKey": "numbercrunchies",
+          "aPts": 85.96,
+          "bPts": 158.64,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "aKey": "dtpt",
+          "bKey": "numbercrunchies",
+          "aPts": 118.1,
+          "bPts": 134.78,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 6
+      }
+    },
+    {
+      "a": "nickgilb2",
+      "b": "pflower",
+      "games": 8,
+      "aWins": 5,
+      "bWins": 3,
+      "ties": 0,
+      "aPts": 1183.26,
+      "bPts": 1061.28,
+      "playoffGames": 2,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 8,
+          "aKey": "nickgilb2",
+          "bKey": "pflower",
+          "aPts": 156.38,
+          "bPts": 179.98,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 15,
+          "aKey": "nickgilb2",
+          "bKey": "pflower",
+          "aPts": 170.18,
+          "bPts": 120.5,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 6,
+          "aKey": "nickgilb2",
+          "bKey": "pflower",
+          "aPts": 113.92,
+          "bPts": 147.9,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 5,
+          "aKey": "nickgilb2",
+          "bKey": "pflower",
+          "aPts": 152.12,
+          "bPts": 112.34,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 14,
+          "aKey": "nickgilb2",
+          "bKey": "pflower",
+          "aPts": 153.84,
+          "bPts": 179.76,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "aKey": "nickgilb2",
+          "bKey": "pflower",
+          "aPts": 157.4,
+          "bPts": 120.54,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "aKey": "nickgilb2",
+          "bKey": "pflower",
+          "aPts": 139.44,
+          "bPts": 116.86,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 17,
+          "aKey": "nickgilb2",
+          "bKey": "pflower",
+          "aPts": 139.98,
+          "bPts": 83.4,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 17
+      }
+    },
+    {
+      "a": "connorcowan",
+      "b": "dirtybombs",
+      "games": 7,
+      "aWins": 2,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 905.14,
+      "bPts": 953.9,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 8,
+          "aKey": "connorcowan",
+          "bKey": "dirtybombs",
+          "aPts": 142.94,
+          "bPts": 123.14,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 15,
+          "aKey": "connorcowan",
+          "bKey": "dirtybombs",
+          "aPts": 121.08,
+          "bPts": 124.84,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 1,
+          "aKey": "connorcowan",
+          "bKey": "dirtybombs",
+          "aPts": 130.82,
+          "bPts": 105.92,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 10,
+          "aKey": "connorcowan",
+          "bKey": "dirtybombs",
+          "aPts": 151.16,
+          "bPts": 192.36,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 8,
+          "aKey": "connorcowan",
+          "bKey": "dirtybombs",
+          "aPts": 127.14,
+          "bPts": 139.12,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "aKey": "connorcowan",
+          "bKey": "dirtybombs",
+          "aPts": 124.48,
+          "bPts": 131.3,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "aKey": "connorcowan",
+          "bKey": "dirtybombs",
+          "aPts": 107.52,
+          "bPts": 137.22,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 11
+      }
+    },
+    {
+      "a": "dirtybombs",
+      "b": "tomlockhart",
+      "games": 7,
+      "aWins": 4,
+      "bWins": 3,
+      "ties": 0,
+      "aPts": 1000.02,
+      "bPts": 939.68,
+      "playoffGames": 2,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 9,
+          "aKey": "dirtybombs",
+          "bKey": "tomlockhart",
+          "aPts": 166.4,
+          "bPts": 121.1,
+          "isPlayoff": false
+        },
+        {
+          "year": 2022,
+          "week": 16,
+          "aKey": "dirtybombs",
+          "bKey": "tomlockhart",
+          "aPts": 155.48,
+          "bPts": 109.5,
+          "isPlayoff": true
+        },
+        {
+          "year": 2023,
+          "week": 6,
+          "aKey": "dirtybombs",
+          "bKey": "tomlockhart",
+          "aPts": 136.54,
+          "bPts": 103,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 3,
+          "aKey": "dirtybombs",
+          "bKey": "tomlockhart",
+          "aPts": 175.66,
+          "bPts": 137,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 12,
+          "aKey": "dirtybombs",
+          "bKey": "tomlockhart",
+          "aPts": 114.76,
+          "bPts": 129,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 8,
+          "aKey": "dirtybombs",
+          "bKey": "tomlockhart",
+          "aPts": 135.98,
+          "bPts": 138.18,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "aKey": "dirtybombs",
+          "bKey": "tomlockhart",
+          "aPts": 115.2,
+          "bPts": 201.9,
+          "isPlayoff": true
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 16
+      }
+    },
+    {
+      "a": "nickgilb2",
+      "b": "stork1120",
+      "games": 6,
+      "aWins": 4,
+      "bWins": 2,
+      "ties": 0,
+      "aPts": 917.76,
+      "bPts": 734.3,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 9,
+          "aKey": "nickgilb2",
+          "bKey": "stork1120",
+          "aPts": 150.08,
+          "bPts": 82.9,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 9,
+          "aKey": "nickgilb2",
+          "bKey": "stork1120",
+          "aPts": 134.72,
+          "bPts": 86.64,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 6,
+          "aKey": "nickgilb2",
+          "bKey": "stork1120",
+          "aPts": 132.76,
+          "bPts": 147.58,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 16,
+          "aKey": "nickgilb2",
+          "bKey": "stork1120",
+          "aPts": 227.32,
+          "bPts": 154.86,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 1,
+          "aKey": "nickgilb2",
+          "bKey": "stork1120",
+          "aPts": 150.72,
+          "bPts": 132.62,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "aKey": "nickgilb2",
+          "bKey": "stork1120",
+          "aPts": 122.16,
+          "bPts": 129.7,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 10
+      }
+    },
+    {
+      "a": "mattgross",
+      "b": "rycow",
+      "games": 8,
+      "aWins": 3,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 1073.16,
+      "bPts": 1122.28,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 9,
+          "aKey": "mattgross",
+          "bKey": "rycow",
+          "aPts": 124.74,
+          "bPts": 85.42,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 4,
+          "aKey": "mattgross",
+          "bKey": "rycow",
+          "aPts": 164.26,
+          "bPts": 138.54,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 13,
+          "aKey": "mattgross",
+          "bKey": "rycow",
+          "aPts": 172.32,
+          "bPts": 172.36,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 16,
+          "aKey": "mattgross",
+          "bKey": "rycow",
+          "aPts": 145.64,
+          "bPts": 173.08,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 3,
+          "aKey": "mattgross",
+          "bKey": "rycow",
+          "aPts": 110.04,
+          "bPts": 136.68,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 12,
+          "aKey": "mattgross",
+          "bKey": "rycow",
+          "aPts": 99.66,
+          "bPts": 157.28,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "aKey": "mattgross",
+          "bKey": "rycow",
+          "aPts": 161.3,
+          "bPts": 118.88,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "aKey": "mattgross",
+          "bKey": "rycow",
+          "aPts": 95.2,
+          "bPts": 140.04,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 13
+      }
+    },
+    {
+      "a": "connorcowan",
+      "b": "numbercrunchies",
+      "games": 6,
+      "aWins": 1,
+      "bWins": 5,
+      "ties": 0,
+      "aPts": 724.66,
+      "bPts": 861.08,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 9,
+          "aKey": "connorcowan",
+          "bKey": "numbercrunchies",
+          "aPts": 120.1,
+          "bPts": 143.24,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 9,
+          "aKey": "connorcowan",
+          "bKey": "numbercrunchies",
+          "aPts": 114.36,
+          "bPts": 150.2,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 3,
+          "aKey": "connorcowan",
+          "bKey": "numbercrunchies",
+          "aPts": 91.78,
+          "bPts": 136.78,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 12,
+          "aKey": "connorcowan",
+          "bKey": "numbercrunchies",
+          "aPts": 70.56,
+          "bPts": 97.92,
+          "isPlayoff": false
+        },
+        {
+          "year": 2024,
+          "week": 15,
+          "aKey": "connorcowan",
+          "bKey": "numbercrunchies",
+          "aPts": 150.76,
+          "bPts": 203.34,
+          "isPlayoff": true
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "aKey": "connorcowan",
+          "bKey": "numbercrunchies",
+          "aPts": 177.1,
+          "bPts": 129.6,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 9
+      }
+    },
+    {
+      "a": "dtpt",
+      "b": "pflower",
+      "games": 7,
+      "aWins": 5,
+      "bWins": 2,
+      "ties": 0,
+      "aPts": 844.12,
+      "bPts": 803.52,
+      "playoffGames": 1,
+      "meetings": [
+        {
+          "year": 2022,
+          "week": 9,
+          "aKey": "dtpt",
+          "bKey": "pflower",
+          "aPts": 108.9,
+          "bPts": 108.64,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 2,
+          "aKey": "dtpt",
+          "bKey": "pflower",
+          "aPts": 123.86,
+          "bPts": 93.38,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 11,
+          "aKey": "dtpt",
+          "bKey": "pflower",
+          "aPts": 101.9,
+          "bPts": 119.84,
+          "isPlayoff": false
+        },
+        {
+          "year": 2023,
+          "week": 15,
+          "aKey": "dtpt",
+          "bKey": "pflower",
+          "aPts": 68.76,
+          "bPts": 128.5,
+          "isPlayoff": true
+        },
+        {
+          "year": 2024,
+          "week": 8,
+          "aKey": "dtpt",
+          "bKey": "pflower",
+          "aPts": 151.02,
+          "bPts": 141.6,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "aKey": "dtpt",
+          "bKey": "pflower",
+          "aPts": 170.26,
+          "bPts": 94.82,
+          "isPlayoff": false
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "aKey": "dtpt",
+          "bKey": "pflower",
+          "aPts": 119.42,
+          "bPts": 116.74,
+          "isPlayoff": false
+        }
+      ],
+      "lastMeeting": {
+        "year": 2025,
+        "week": 13
+      }
+    }
+  ]
+}

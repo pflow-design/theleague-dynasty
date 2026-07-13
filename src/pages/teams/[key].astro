@@ -1,0 +1,159 @@
+---
+import Base from '../../layouts/Base.astro';
+import { managers, seasons, completeSeasons, h2h, drafts, transactions, label, teamNameFor, avatarUrl } from '../../lib/data.ts';
+
+export function getStaticPaths() {
+  return managers.map((m) => ({ params: { key: m.key } }));
+}
+const key = Astro.params.key!;
+const mgr = managers.find((m) => m.key === key)!;
+const avatar = avatarUrl(key);
+
+// Season-by-season
+const seasonRows = completeSeasons.map((s) => {
+  const st = s.standings.find((x) => x.managerKey === key);
+  if (!st) return null;
+  const isChamp = s.champion?.key === key;
+  const madePlayoffs = (st.rank ?? 99) <= s.playoffTeams;
+  return { year: s.year, team: st.team, w: st.w, l: st.l, t: st.t, pf: st.pf, pa: st.pa, rank: st.rank, isChamp, madePlayoffs };
+}).filter(Boolean) as any[];
+
+// Head-to-head vs every opponent
+const rivalries = (h2h as any).pairs
+  .filter((p: any) => p.a === key || p.b === key)
+  .map((p: any) => {
+    const isA = p.a === key;
+    const oppKey = isA ? p.b : p.a;
+    const wins = isA ? p.aWins : p.bWins;
+    const losses = isA ? p.bWins : p.aWins;
+    const pf = isA ? p.aPts : p.bPts;
+    const pa = isA ? p.bPts : p.aPts;
+    return { oppKey, oppName: label(oppKey), games: p.games, wins, losses, ties: p.ties, pf, pa };
+  })
+  .sort((a: any, b: any) => (b.wins - b.losses) - (a.wins - a.losses));
+
+// Draft picks made by this franchise
+const myPicks = (drafts as any).drafts
+  .flatMap((d: any) => d.picks.filter((p: any) => p.managerKey === key).map((p: any) => ({ ...p, year: d.year, kind: d.kind })))
+  .sort((a: any, b: any) => (b.year - a.year) || (a.pick_no - b.pick_no));
+
+// Trades involving this franchise
+const myTrades = (transactions as any).trades
+  .filter((t: any) => t.sides.some((s: any) => s.managerKey === key));
+
+const fmt0 = (n: number) => n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+---
+<Base title={mgr.display} subtitle={mgr.teamName}>
+  <p class="backlink"><a href="/teams/">← All teams</a></p>
+
+  <div class="profile card">
+    {avatar && <img class="p-av" src={avatar} alt="" />}
+    <div class="p-stats">
+      <div class="p-stat"><b>{mgr.titles || 0}</b><span>Titles</span></div>
+      <div class="p-stat"><b>{mgr.w}-{mgr.l}</b><span>Career Record</span></div>
+      <div class="p-stat"><b>{((mgr.w / (mgr.w + mgr.l || 1)) * 100).toFixed(0)}%</b><span>Win Rate</span></div>
+      <div class="p-stat"><b>{fmt0(mgr.pf)}</b><span>Points For</span></div>
+      <div class="p-stat"><b>{mgr.playoffApps}</b><span>Playoff Apps</span></div>
+    </div>
+  </div>
+
+  <div class="sec-hdr"><span class="icon">📅</span><h2>Season by Season</h2></div>
+  <div class="table-scroll">
+    <table class="stbl sortable">
+      <thead><tr><th>Year</th><th>Team Name</th><th class="r">Finish</th><th class="r">W-L</th><th class="r">PF</th><th class="r">PA</th></tr></thead>
+      <tbody>
+        {seasonRows.map((r) => (
+          <tr>
+            <td class="tn"><a class="team-link" href={`/seasons/${r.year}/`}>{r.year}</a></td>
+            <td>{r.team}</td>
+            <td class="r">{r.isChamp ? '🏆 Champion' : r.madePlayoffs ? `#${r.rank} · playoffs` : `#${r.rank}`}</td>
+            <td class="r rec">{r.w}-{r.l}{r.t ? `-${r.t}` : ''}</td>
+            <td class="r">{r.pf.toFixed(2)}</td>
+            <td class="r">{r.pa.toFixed(2)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sec-hdr"><span class="icon">⚔️</span><h2>Rivalries</h2></div>
+  <div class="table-scroll">
+    <table class="stbl sortable">
+      <thead><tr><th>Opponent</th><th class="r">Record</th><th class="r">PF</th><th class="r">PA</th></tr></thead>
+      <tbody>
+        {rivalries.map((r: any) => (
+          <tr>
+            <td class="tn"><a class="team-link" href={`/teams/${r.oppKey}/`}>{r.oppName}</a></td>
+            <td class="r rec">{r.wins}-{r.losses}{r.ties ? `-${r.ties}` : ''}</td>
+            <td class="r">{r.pf.toFixed(1)}</td>
+            <td class="r">{r.pa.toFixed(1)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sec-hdr"><span class="icon">🎯</span><h2>Draft History</h2></div>
+  <div class="table-scroll">
+    <table class="stbl">
+      <thead><tr><th>Year</th><th class="r">Pick</th><th>Player</th><th>Pos</th><th>Type</th></tr></thead>
+      <tbody>
+        {myPicks.map((p: any) => (
+          <tr>
+            <td class="tn">{p.year}</td>
+            <td class="r rec">{p.round}.{String(p.pick_no).padStart(2, '0')}</td>
+            <td>{p.player}</td>
+            <td><span class="sub">{p.pos ?? ''}</span></td>
+            <td><span class={`pill ${p.kind === 'startup' ? 'ghost' : 'green'}`}>{p.kind}</span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  {myTrades.length > 0 && (
+    <>
+      <div class="sec-hdr"><span class="icon">🔁</span><h2>Trades</h2></div>
+      <div class="trades">
+        {myTrades.map((t: any) => (
+          <div class="trade card">
+            <div class="t-head"><span class="pill green">{t.year} · Wk {t.week}</span></div>
+            <div class="t-sides">
+              {t.sides.map((sd: any) => (
+                <div class="t-side">
+                  <a class="t-name" href={`/teams/${sd.managerKey}/`}>{label(sd.managerKey)}</a>
+                  <div class="t-got">received</div>
+                  <ul>
+                    {sd.adds.map((a: any) => <li>{a.name} <span class="sub">{a.pos}</span></li>)}
+                    {sd.picks.map((pk: any) => <li class="pick">{pk.season} R{pk.round} pick</li>)}
+                    {sd.adds.length === 0 && sd.picks.length === 0 && <li class="sub">—</li>}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  )}
+</Base>
+
+<style>
+  .backlink { margin-bottom: 12px; }
+  .backlink a { text-decoration: none; font-weight: 700; font-size: 13px; }
+  .profile { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+  .p-av { width: 64px; height: 64px; border-radius: 14px; object-fit: cover; background: #dcefe4; }
+  .p-stats { display: flex; gap: 26px; flex-wrap: wrap; }
+  .p-stat b { display: block; font-size: 24px; font-weight: 900; color: var(--brand-900); line-height: 1; }
+  .p-stat span { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
+  .team-link { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--muted); font-weight: 700; }
+  .team-link:hover { color: var(--brand-700); border-bottom-color: var(--brand-700); }
+  .trades { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .t-head { margin-bottom: 10px; }
+  .t-sides { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .t-name { font-weight: 800; color: var(--brand-900); text-decoration: none; }
+  .t-got { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin: 4px 0; }
+  .t-side ul { list-style: none; font-size: 13px; }
+  .t-side li { padding: 2px 0; }
+  .t-side li.pick { color: var(--brand-700); font-weight: 600; }
+</style>

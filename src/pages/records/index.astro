@@ -1,0 +1,77 @@
+---
+import Base from '../../layouts/Base.astro';
+import { records, champions, label, teamNameFor } from '../../lib/data.ts';
+
+const R = records as any;
+const holder = (r: any, year?: number) => (r ? `${teamNameFor(r.key, year ?? r.year)}` : '—');
+const when = (r: any) => (r ? `${r.year}${r.week ? ` · Wk ${r.week}` : ''}` : '');
+
+const book = [
+  { icon: '🔥', label: 'Highest Single Week', value: R.highWeek?.value?.toFixed(2), who: holder(R.highWeek), when: when(R.highWeek) },
+  { icon: '🧊', label: 'Lowest Single Week', value: R.lowWeek?.value?.toFixed(2), who: holder(R.lowWeek), when: when(R.lowWeek) },
+  { icon: '💥', label: 'Biggest Blowout', value: `+${R.blowout?.value?.toFixed(2)}`, who: R.blowout ? `${teamNameFor(R.blowout.key, R.blowout.year)} over ${teamNameFor(R.blowout.oppKey, R.blowout.year)}` : '—', when: `${when(R.blowout)} · ${R.blowout?.score ?? ''}` },
+  { icon: '😰', label: 'Closest Game', value: `${R.nailbiter?.value?.toFixed(2)}`, who: R.nailbiter ? `${teamNameFor(R.nailbiter.key, R.nailbiter.year)} over ${teamNameFor(R.nailbiter.oppKey, R.nailbiter.year)}` : '—', when: `${when(R.nailbiter)} · ${R.nailbiter?.score ?? ''}` },
+  { icon: '📈', label: 'Most Points, Season', value: R.highSeason?.value?.toFixed(2), who: holder(R.highSeason), when: when(R.highSeason) },
+  { icon: '🏅', label: 'Most Wins, Season', value: R.mostWins?.value, who: holder(R.mostWins), when: when(R.mostWins) },
+  { icon: '🔗', label: 'Longest Win Streak', value: R.longestWinStreak?.value, who: holder(R.longestWinStreak), when: `ended ${when(R.longestWinStreak)}` },
+  { icon: '💀', label: 'Longest Losing Streak', value: R.longestLossStreak?.value, who: holder(R.longestLossStreak), when: `ended ${when(R.longestLossStreak)}` },
+  { icon: '⭐', label: 'Best Single-Player Week', value: R.bestPlayerWeek?.value?.toFixed(2), who: R.bestPlayerWeek ? `${R.bestPlayerWeek.player} (${R.bestPlayerWeek.pos})` : '—', when: `${teamNameFor(R.bestPlayerWeek?.key, R.bestPlayerWeek?.year)} · ${when(R.bestPlayerWeek)}` },
+];
+
+const timeline = (champions as any).byYear.slice().sort((a: any, b: any) => b.year - a.year);
+const titles = Object.entries((champions as any).titlesByManager as Record<string, number>)
+  .map(([key, n]) => ({ key, n })).sort((a, b) => b.n - a.n);
+---
+<Base title="Record Book" subtitle="All-time bests across every completed regular season (playoff games excluded, unless noted).">
+
+  <div class="rgrid">
+    {book.map((b) => (
+      <div class="rcard card">
+        <div class="rc-top"><span class="rc-icon">{b.icon}</span><span class="rc-val">{b.value ?? '—'}</span></div>
+        <div class="rc-label">{b.label}</div>
+        <div class="rc-who">{b.who}</div>
+        <div class="sub">{b.when}</div>
+      </div>
+    ))}
+  </div>
+
+  <div class="sec-hdr"><span class="icon">🏆</span><h2>Champions</h2></div>
+  <div class="grid2">
+    <div class="table-scroll">
+      <table class="stbl">
+        <thead><tr><th>Year</th><th>Champion</th><th>Manager</th></tr></thead>
+        <tbody>
+          {timeline.map((c: any) => (
+            <tr>
+              <td class="tn">{c.year}</td>
+              <td>🏆 {c.team}</td>
+              <td><a class="team-link" href={`/teams/${c.champion}/`}>{label(c.champion)}</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <div class="card-title">Titles by Franchise</div>
+      <table class="rtbl">
+        {titles.map((t) => (
+          <tr>
+            <td class="rc">{label(t.key)}</td>
+            <td class="rv">{'🏆'.repeat(t.n)} {t.n}</td>
+          </tr>
+        ))}
+      </table>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .rgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+  .rc-top { display: flex; align-items: center; justify-content: space-between; }
+  .rc-icon { font-size: 22px; }
+  .rc-val { font-size: 26px; font-weight: 900; color: var(--brand-700); font-variant-numeric: tabular-nums; }
+  .rc-label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); font-weight: 800; margin-top: 8px; }
+  .rc-who { font-weight: 800; color: var(--brand-900); margin-top: 3px; }
+  .team-link { color: var(--brand-700); text-decoration: none; font-weight: 700; }
+  .team-link:hover { text-decoration: underline; }
+</style>

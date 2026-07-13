@@ -1,0 +1,739 @@
+{
+  "trades": [
+    {
+      "year": 2026,
+      "week": 1,
+      "date": "2026-07-12",
+      "sides": [
+        {
+          "managerKey": "pflower",
+          "adds": [
+            {
+              "id": "7588",
+              "name": "Javonte Williams",
+              "pos": "RB"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2028",
+              "round": 2,
+              "from": "rycow"
+            }
+          ]
+        },
+        {
+          "managerKey": "rycow",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2027",
+              "round": 1,
+              "from": "pflower"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "week": 10,
+      "date": "2025-11-12",
+      "sides": [
+        {
+          "managerKey": "mattgross",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2026",
+              "round": 1,
+              "from": "rycow"
+            },
+            {
+              "season": "2027",
+              "round": 1,
+              "from": "rycow"
+            },
+            {
+              "season": "2027",
+              "round": 3,
+              "from": "rycow"
+            }
+          ]
+        },
+        {
+          "managerKey": "rycow",
+          "adds": [
+            {
+              "id": "4034",
+              "name": "Christian McCaffrey",
+              "pos": "RB"
+            },
+            {
+              "id": "5045",
+              "name": "Courtland Sutton",
+              "pos": "WR"
+            }
+          ],
+          "picks": []
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "week": 1,
+      "date": "2025-09-04",
+      "sides": [
+        {
+          "managerKey": "connorcowan",
+          "adds": [
+            {
+              "id": "9753",
+              "name": "Zach Charbonnet",
+              "pos": "RB"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2026",
+              "round": 3,
+              "from": "numbercrunchies"
+            },
+            {
+              "season": "2027",
+              "round": 2,
+              "from": "numbercrunchies"
+            }
+          ]
+        },
+        {
+          "managerKey": "numbercrunchies",
+          "adds": [
+            {
+              "id": "6803",
+              "name": "Brandon Aiyuk",
+              "pos": "WR"
+            },
+            {
+              "id": "8144",
+              "name": "Chris Olave",
+              "pos": "WR"
+            }
+          ],
+          "picks": []
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "week": 1,
+      "date": "2025-04-28",
+      "sides": [
+        {
+          "managerKey": "tomlockhart",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2025",
+              "round": 2,
+              "from": "pflower"
+            },
+            {
+              "season": "2025",
+              "round": 4,
+              "from": "pflower"
+            }
+          ]
+        },
+        {
+          "managerKey": "pflower",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2025",
+              "round": 2,
+              "from": "tomlockhart"
+            },
+            {
+              "season": "2025",
+              "round": 3,
+              "from": "tomlockhart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "week": 1,
+      "date": "2025-03-20",
+      "sides": [
+        {
+          "managerKey": "tomlockhart",
+          "adds": [
+            {
+              "id": "11564",
+              "name": "Drake Maye",
+              "pos": "QB"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2026",
+              "round": 6,
+              "from": "rycow"
+            }
+          ]
+        },
+        {
+          "managerKey": "rycow",
+          "adds": [
+            {
+              "id": "8137",
+              "name": "George Pickens",
+              "pos": "WR"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2026",
+              "round": 5,
+              "from": "tomlockhart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "week": 12,
+      "date": "2024-11-24",
+      "sides": [
+        {
+          "managerKey": "nickgilb2",
+          "adds": [
+            {
+              "id": "1466",
+              "name": "Travis Kelce",
+              "pos": "TE"
+            },
+            {
+              "id": "3198",
+              "name": "Derrick Henry",
+              "pos": "RB"
+            }
+          ],
+          "picks": []
+        },
+        {
+          "managerKey": "dtpt",
+          "adds": [
+            {
+              "id": "9501",
+              "name": "DeMario Douglas",
+              "pos": "WR"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2025",
+              "round": 1,
+              "from": "nickgilb2"
+            },
+            {
+              "season": "2026",
+              "round": 1,
+              "from": "nickgilb2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "week": 11,
+      "date": "2024-11-13",
+      "sides": [
+        {
+          "managerKey": "mattgross",
+          "adds": [
+            {
+              "id": "7596",
+              "name": "Elijah Moore",
+              "pos": "WR"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2025",
+              "round": 2,
+              "from": "rycow"
+            }
+          ]
+        },
+        {
+          "managerKey": "rycow",
+          "adds": [
+            {
+              "id": "4137",
+              "name": "James Conner",
+              "pos": "RB"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2025",
+              "round": 6,
+              "from": "mattgross"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "date": "2024-05-08",
+      "sides": [
+        {
+          "managerKey": "tomlockhart",
+          "adds": [
+            {
+              "id": "5849",
+              "name": "Kyler Murray",
+              "pos": "QB"
+            }
+          ],
+          "picks": []
+        },
+        {
+          "managerKey": "connorcowan",
+          "adds": [
+            {
+              "id": "10222",
+              "name": "Jayden Reed",
+              "pos": "WR"
+            }
+          ],
+          "picks": []
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "week": 11,
+      "date": "2023-11-19",
+      "sides": [
+        {
+          "managerKey": "rycow",
+          "adds": [
+            {
+              "id": "2216",
+              "name": "Mike Evans",
+              "pos": "WR"
+            },
+            {
+              "id": "5248",
+              "name": "Gus Edwards",
+              "pos": "RB"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2024",
+              "round": 4,
+              "from": "dtpt"
+            }
+          ]
+        },
+        {
+          "managerKey": "dtpt",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2024",
+              "round": 1,
+              "from": "rycow"
+            },
+            {
+              "season": "2024",
+              "round": 3,
+              "from": "rycow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "week": 11,
+      "date": "2023-11-18",
+      "sides": [
+        {
+          "managerKey": "rycow",
+          "adds": [
+            {
+              "id": "1479",
+              "name": "Keenan Allen",
+              "pos": "WR"
+            }
+          ],
+          "picks": []
+        },
+        {
+          "managerKey": "connorcowan",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2025",
+              "round": 1,
+              "from": "rycow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "week": 10,
+      "date": "2023-11-15",
+      "sides": [
+        {
+          "managerKey": "nickgilb2",
+          "adds": [
+            {
+              "id": "6826",
+              "name": "Cole Kmet",
+              "pos": "TE"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2024",
+              "round": 2,
+              "from": "numbercrunchies"
+            }
+          ]
+        },
+        {
+          "managerKey": "numbercrunchies",
+          "adds": [
+            {
+              "id": "10225",
+              "name": "Jonathan Mingo",
+              "pos": "WR"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2024",
+              "round": 1,
+              "from": "nickgilb2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "week": 10,
+      "date": "2023-11-12",
+      "sides": [
+        {
+          "managerKey": "nickgilb2",
+          "adds": [
+            {
+              "id": "3214",
+              "name": "Hunter Henry",
+              "pos": "TE"
+            }
+          ],
+          "picks": []
+        },
+        {
+          "managerKey": "dtpt",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2024",
+              "round": 4,
+              "from": "nickgilb2"
+            },
+            {
+              "season": "2024",
+              "round": 5,
+              "from": "nickgilb2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "week": 9,
+      "date": "2023-11-04",
+      "sides": [
+        {
+          "managerKey": "tomlockhart",
+          "adds": [
+            {
+              "id": "2449",
+              "name": "Stefon Diggs",
+              "pos": "WR"
+            }
+          ],
+          "picks": []
+        },
+        {
+          "managerKey": "connorcowan",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2024",
+              "round": 1,
+              "from": "tomlockhart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "week": 1,
+      "date": "2023-06-06",
+      "sides": [
+        {
+          "managerKey": "tomlockhart",
+          "adds": [
+            {
+              "id": "4985",
+              "name": "Rashaad Penny",
+              "pos": "RB"
+            },
+            {
+              "id": "7564",
+              "name": "Ja'Marr Chase",
+              "pos": "WR"
+            }
+          ],
+          "picks": []
+        },
+        {
+          "managerKey": "connorcowan",
+          "adds": [
+            {
+              "id": "8129",
+              "name": "Dameon Pierce",
+              "pos": "RB"
+            },
+            {
+              "id": "8144",
+              "name": "Chris Olave",
+              "pos": "WR"
+            },
+            {
+              "id": "9488",
+              "name": "Jaxon Smith-Njigba",
+              "pos": "WR"
+            }
+          ],
+          "picks": []
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "week": 1,
+      "date": "2023-05-03",
+      "sides": [
+        {
+          "managerKey": "tomlockhart",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2023",
+              "round": 2,
+              "from": "numbercrunchies"
+            },
+            {
+              "season": "2023",
+              "round": 3,
+              "from": "numbercrunchies"
+            }
+          ]
+        },
+        {
+          "managerKey": "numbercrunchies",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2023",
+              "round": 3,
+              "from": "tomlockhart"
+            },
+            {
+              "season": "2024",
+              "round": 2,
+              "from": "tomlockhart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "week": 11,
+      "date": "2022-11-20",
+      "sides": [
+        {
+          "managerKey": "nickgilb2",
+          "adds": [
+            {
+              "id": "5872",
+              "name": "Deebo Samuel",
+              "pos": "WR"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2023",
+              "round": 4,
+              "from": "rycow"
+            }
+          ]
+        },
+        {
+          "managerKey": "rycow",
+          "adds": [],
+          "picks": [
+            {
+              "season": "2023",
+              "round": 1,
+              "from": "nickgilb2"
+            },
+            {
+              "season": "2023",
+              "round": 3,
+              "from": "nickgilb2"
+            },
+            {
+              "season": "2024",
+              "round": 2,
+              "from": "nickgilb2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "week": 10,
+      "date": "2022-11-11",
+      "sides": [
+        {
+          "managerKey": "nickgilb2",
+          "adds": [
+            {
+              "id": "2309",
+              "name": "Amari Cooper",
+              "pos": "WR"
+            }
+          ],
+          "picks": []
+        },
+        {
+          "managerKey": "rycow",
+          "adds": [
+            {
+              "id": "8136",
+              "name": "Rachaad White",
+              "pos": "RB"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2023",
+              "round": 2,
+              "from": "nickgilb2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "week": 9,
+      "date": "2022-11-06",
+      "sides": [
+        {
+          "managerKey": "nickgilb2",
+          "adds": [
+            {
+              "id": "4035",
+              "name": "Alvin Kamara",
+              "pos": "RB"
+            }
+          ],
+          "picks": []
+        },
+        {
+          "managerKey": "mattgross",
+          "adds": [
+            {
+              "id": "6943",
+              "name": "Gabe Davis",
+              "pos": "WR"
+            }
+          ],
+          "picks": []
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "week": 2,
+      "date": "2022-09-17",
+      "sides": [
+        {
+          "managerKey": "nickgilb2",
+          "adds": [
+            {
+              "id": "7526",
+              "name": "Jaylen Waddle",
+              "pos": "WR"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2023",
+              "round": 2,
+              "from": "stork1120"
+            }
+          ]
+        },
+        {
+          "managerKey": "stork1120",
+          "adds": [
+            {
+              "id": "7547",
+              "name": "Amon-Ra St. Brown",
+              "pos": "WR"
+            },
+            {
+              "id": "7670",
+              "name": "Joshua Palmer",
+              "pos": "WR"
+            }
+          ],
+          "picks": [
+            {
+              "season": "2023",
+              "round": 4,
+              "from": "nickgilb2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

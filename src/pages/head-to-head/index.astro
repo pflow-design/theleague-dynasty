@@ -1,0 +1,93 @@
+---
+import Base from '../../layouts/Base.astro';
+import { managers, h2h, label } from '../../lib/data.ts';
+
+const mgrs = managers.map((m) => ({ key: m.key, name: m.display })).sort((a, b) => a.name.localeCompare(b.name));
+const pairs = (h2h as any).pairs.map((p: any) => ({
+  a: p.a, b: p.b, aWins: p.aWins, bWins: p.bWins, ties: p.ties, games: p.games,
+  aPts: p.aPts, bPts: p.bPts, playoffGames: p.playoffGames,
+  meetings: p.meetings.map((m: any) => ({ year: m.year, week: m.week, aKey: m.aKey, aPts: m.aPts, bPts: m.bPts, isPlayoff: m.isPlayoff })),
+}));
+const nameMap = Object.fromEntries(managers.map((m) => [m.key, m.display]));
+---
+<Base title="Head-to-Head" subtitle="Pick any two managers to see their complete all-time rivalry.">
+  <div class="picker card">
+    <label>Manager A
+      <select id="selA">{mgrs.map((m, i) => <option value={m.key} selected={i === 0}>{m.name}</option>)}</select>
+    </label>
+    <span class="vs">vs</span>
+    <label>Manager B
+      <select id="selB">{mgrs.map((m, i) => <option value={m.key} selected={i === 1}>{m.name}</option>)}</select>
+    </label>
+  </div>
+
+  <div id="result"></div>
+</Base>
+
+<script define:vars={{ pairs, nameMap }}>
+  const byId = {};
+  for (const p of pairs) byId[[p.a, p.b].sort().join('|')] = p;
+  const selA = document.getElementById('selA');
+  const selB = document.getElementById('selB');
+  const out = document.getElementById('result');
+
+  function render() {
+    const a = selA.value, b = selB.value;
+    if (a === b) { out.innerHTML = `<div class="card empty">Pick two different managers.</div>`; return; }
+    const P = byId[[a, b].sort().join('|')];
+    if (!P) { out.innerHTML = `<div class="card empty">These two have never played.</div>`; return; }
+    // Orient stats to the A/B the user picked (data stores sorted a<b).
+    const flip = P.a !== a;
+    const aWins = flip ? P.bWins : P.aWins;
+    const bWins = flip ? P.aWins : P.bWins;
+    const aPts = flip ? P.bPts : P.aPts;
+    const bPts = flip ? P.aPts : P.bPts;
+    const nA = nameMap[a], nB = nameMap[b];
+
+    const rows = P.meetings.slice().reverse().map((m) => {
+      // meeting stored with aKey = sorted-first key; map to picked orientation
+      const firstIsA = m.aKey === a;
+      const pA = firstIsA ? m.aPts : m.bPts;
+      const pB = firstIsA ? m.bPts : m.aPts;
+      const aw = pA > pB;
+      return `<tr>
+        <td class="tn">${m.year}${m.isPlayoff ? ' 🏟️' : ''}</td>
+        <td class="r">Wk ${m.week}</td>
+        <td class="r ${aw ? 'pos' : ''}">${pA.toFixed(2)}</td>
+        <td class="r ${!aw ? 'pos' : ''}">${pB.toFixed(2)}</td>
+        <td class="tn">${aw ? nA : nB}</td>
+      </tr>`;
+    }).join('');
+
+    out.innerHTML = `
+      <div class="h2h-head card">
+        <div class="side ${aWins >= bWins ? 'lead' : ''}"><div class="nm">${nA}</div><div class="wl">${aWins}</div></div>
+        <div class="mid"><div class="sub">all-time series</div><div class="dash">${aWins}–${bWins}${P.ties ? `–${P.ties}` : ''}</div><div class="sub">${P.games} meetings${P.playoffGames ? ` · ${P.playoffGames} playoff` : ''}</div></div>
+        <div class="side ${bWins > aWins ? 'lead' : ''}"><div class="nm">${nB}</div><div class="wl">${bWins}</div></div>
+      </div>
+      <div class="pts card">
+        <div><b>${aPts.toFixed(1)}</b><span>${nA} total pts</span></div>
+        <div><b>${bPts.toFixed(1)}</b><span>${nB} total pts</span></div>
+      </div>
+      <div class="table-scroll"><table class="stbl"><thead><tr><th>Year</th><th class="r">Week</th><th class="r">${nA}</th><th class="r">${nB}</th><th>Winner</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }
+  selA.addEventListener('change', render);
+  selB.addEventListener('change', render);
+  render();
+</script>
+
+<style>
+  .picker { display: flex; align-items: flex-end; gap: 18px; flex-wrap: wrap; margin-bottom: 18px; }
+  .picker label { font-weight: 800; color: var(--brand-900); font-size: 12px; text-transform: uppercase; letter-spacing: 1px; display: flex; flex-direction: column; gap: 6px; }
+  .picker select { font: inherit; text-transform: none; letter-spacing: 0; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line); background: #fff; font-weight: 700; min-width: 180px; }
+  .picker .vs { font-weight: 900; color: var(--muted); padding-bottom: 8px; }
+  :global(.h2h-head) { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; text-align: center; margin-bottom: 14px; }
+  :global(.h2h-head .nm) { font-weight: 800; color: var(--brand-900); }
+  :global(.h2h-head .wl) { font-size: 40px; font-weight: 900; color: var(--muted); line-height: 1; }
+  :global(.h2h-head .side.lead .wl) { color: var(--brand-700); }
+  :global(.h2h-head .dash) { font-size: 20px; font-weight: 900; color: var(--brand-900); }
+  :global(.pts) { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; text-align: center; margin-bottom: 14px; }
+  :global(.pts b) { display: block; font-size: 24px; font-weight: 900; color: var(--brand-700); }
+  :global(.pts span) { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+  :global(.empty) { color: var(--muted); text-align: center; }
+</style>

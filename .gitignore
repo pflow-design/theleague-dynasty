@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output (deployed to Pages via Actions; not committed)
+public/
+.astro/
+
+# Raw Sleeper API dumps — large, regenerable via `npm run data:pull`.
+# The players catalog is ~2MB; season dumps include full box scores.
+data/raw/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Secrets (none needed — Sleeper read API is public — but never commit any)
+.env
+.env.*

@@ -1,0 +1,1781 @@
+{
+  "year": 2023,
+  "leagueId": "916933648128040960",
+  "status": "complete",
+  "upcoming": false,
+  "teams": 10,
+  "regularSeasonWeeks": 14,
+  "playoffWeekStart": 15,
+  "playoffTeams": 6,
+  "medianGames": false,
+  "champion": {
+    "key": "rycow",
+    "roster": 5,
+    "team": "COWBALLS"
+  },
+  "runnerUp": {
+    "key": "nickgilb2",
+    "roster": 2
+  },
+  "standings": [
+    {
+      "roster_id": 9,
+      "managerKey": "dirtybombs",
+      "manager": "DirtyBombs",
+      "team": "DirtyBombs",
+      "w": 11,
+      "l": 3,
+      "t": 0,
+      "pf": 2066.3,
+      "pa": 1806.26,
+      "ppts": 2339.82,
+      "diff": 260.04,
+      "rank": 1
+    },
+    {
+      "roster_id": 4,
+      "managerKey": "mattgross",
+      "manager": "MattGross",
+      "team": "Popcorn Playaz",
+      "w": 10,
+      "l": 4,
+      "t": 0,
+      "pf": 2131.16,
+      "pa": 1749.02,
+      "ppts": 2476.74,
+      "diff": 382.14,
+      "rank": 2
+    },
+    {
+      "roster_id": 5,
+      "managerKey": "rycow",
+      "manager": "RyCow",
+      "team": "COWBALLS",
+      "w": 9,
+      "l": 5,
+      "t": 0,
+      "pf": 1954.12,
+      "pa": 1851.4,
+      "ppts": 2361.6,
+      "diff": 102.72,
+      "rank": 3
+    },
+    {
+      "roster_id": 2,
+      "managerKey": "nickgilb2",
+      "manager": "nickgilb2",
+      "team": "Big Worm's Perm",
+      "w": 8,
+      "l": 6,
+      "t": 0,
+      "pf": 1835.5,
+      "pa": 1916.5,
+      "ppts": 2157.46,
+      "diff": -81,
+      "rank": 4
+    },
+    {
+      "roster_id": 1,
+      "managerKey": "tomlockhart",
+      "manager": "tomlockhart",
+      "team": "FUCK CITY",
+      "w": 6,
+      "l": 8,
+      "t": 0,
+      "pf": 1978.6,
+      "pa": 1823.26,
+      "ppts": 2279.28,
+      "diff": 155.34,
+      "rank": 5
+    },
+    {
+      "roster_id": 10,
+      "managerKey": "numbercrunchies",
+      "manager": "NumberCrunchies",
+      "team": "NumberCrunchies",
+      "w": 6,
+      "l": 8,
+      "t": 0,
+      "pf": 1763.04,
+      "pa": 1816.7,
+      "ppts": 2069.98,
+      "diff": -53.66,
+      "rank": 6
+    },
+    {
+      "roster_id": 8,
+      "managerKey": "stork1120",
+      "manager": "Stork1120",
+      "team": "Stork1120",
+      "w": 6,
+      "l": 8,
+      "t": 0,
+      "pf": 1705.82,
+      "pa": 1771.08,
+      "ppts": 2004.88,
+      "diff": -65.26,
+      "rank": 7
+    },
+    {
+      "roster_id": 7,
+      "managerKey": "dtpt",
+      "manager": "DTPT",
+      "team": "DTPT",
+      "w": 6,
+      "l": 8,
+      "t": 0,
+      "pf": 1654.4,
+      "pa": 1721.56,
+      "ppts": 1976.6,
+      "diff": -67.16,
+      "rank": 8
+    },
+    {
+      "roster_id": 3,
+      "managerKey": "pflower",
+      "manager": "pflower",
+      "team": "🍼 Bottle Service 👶🏻",
+      "w": 6,
+      "l": 8,
+      "t": 0,
+      "pf": 1563.64,
+      "pa": 1754.02,
+      "ppts": 1986.96,
+      "diff": -190.38,
+      "rank": 9
+    },
+    {
+      "roster_id": 6,
+      "managerKey": "connorcowan",
+      "manager": "connorcowan",
+      "team": "The Wagon ©",
+      "w": 2,
+      "l": 12,
+      "t": 0,
+      "pf": 1655.9,
+      "pa": 2098.68,
+      "ppts": 2133.74,
+      "diff": -442.78,
+      "rank": 10
+    }
+  ],
+  "playoffs": {
+    "winners": [
+      {
+        "m": 1,
+        "r": 1,
+        "p": null,
+        "t1": {
+          "key": "nickgilb2",
+          "roster": 2
+        },
+        "t2": {
+          "key": "tomlockhart",
+          "roster": 1
+        },
+        "winner": {
+          "key": "nickgilb2",
+          "roster": 2
+        },
+        "loser": {
+          "key": "tomlockhart",
+          "roster": 1
+        }
+      },
+      {
+        "m": 2,
+        "r": 1,
+        "p": null,
+        "t1": {
+          "key": "numbercrunchies",
+          "roster": 10
+        },
+        "t2": {
+          "key": "rycow",
+          "roster": 5
+        },
+        "winner": {
+          "key": "rycow",
+          "roster": 5
+        },
+        "loser": {
+          "key": "numbercrunchies",
+          "roster": 10
+        }
+      },
+      {
+        "m": 3,
+        "r": 2,
+        "p": null,
+        "t1": {
+          "key": "dirtybombs",
+          "roster": 9
+        },
+        "t2": {
+          "key": "nickgilb2",
+          "roster": 2
+        },
+        "winner": {
+          "key": "nickgilb2",
+          "roster": 2
+        },
+        "loser": {
+          "key": "dirtybombs",
+          "roster": 9
+        }
+      },
+      {
+        "m": 4,
+        "r": 2,
+        "p": null,
+        "t1": {
+          "key": "mattgross",
+          "roster": 4
+        },
+        "t2": {
+          "key": "rycow",
+          "roster": 5
+        },
+        "winner": {
+          "key": "rycow",
+          "roster": 5
+        },
+        "loser": {
+          "key": "mattgross",
+          "roster": 4
+        }
+      },
+      {
+        "m": 5,
+        "r": 2,
+        "p": 5,
+        "t1": {
+          "key": "tomlockhart",
+          "roster": 1
+        },
+        "t2": {
+          "key": "numbercrunchies",
+          "roster": 10
+        },
+        "winner": {
+          "key": "numbercrunchies",
+          "roster": 10
+        },
+        "loser": {
+          "key": "tomlockhart",
+          "roster": 1
+        }
+      },
+      {
+        "m": 6,
+        "r": 3,
+        "p": 1,
+        "t1": {
+          "key": "nickgilb2",
+          "roster": 2
+        },
+        "t2": {
+          "key": "rycow",
+          "roster": 5
+        },
+        "winner": {
+          "key": "rycow",
+          "roster": 5
+        },
+        "loser": {
+          "key": "nickgilb2",
+          "roster": 2
+        }
+      },
+      {
+        "m": 7,
+        "r": 3,
+        "p": 3,
+        "t1": {
+          "key": "dirtybombs",
+          "roster": 9
+        },
+        "t2": {
+          "key": "mattgross",
+          "roster": 4
+        },
+        "winner": {
+          "key": "dirtybombs",
+          "roster": 9
+        },
+        "loser": {
+          "key": "mattgross",
+          "roster": 4
+        }
+      }
+    ],
+    "losers": [
+      {
+        "m": 1,
+        "r": 1,
+        "p": null,
+        "t1": {
+          "key": "stork1120",
+          "roster": 8
+        },
+        "t2": {
+          "key": "connorcowan",
+          "roster": 6
+        },
+        "winner": {
+          "key": "connorcowan",
+          "roster": 6
+        },
+        "loser": {
+          "key": "stork1120",
+          "roster": 8
+        }
+      },
+      {
+        "m": 2,
+        "r": 1,
+        "p": null,
+        "t1": {
+          "key": "dtpt",
+          "roster": 7
+        },
+        "t2": {
+          "key": "pflower",
+          "roster": 3
+        },
+        "winner": {
+          "key": "pflower",
+          "roster": 3
+        },
+        "loser": {
+          "key": "dtpt",
+          "roster": 7
+        }
+      },
+      {
+        "m": 3,
+        "r": 2,
+        "p": 1,
+        "t1": {
+          "key": "connorcowan",
+          "roster": 6
+        },
+        "t2": {
+          "key": "pflower",
+          "roster": 3
+        },
+        "winner": {
+          "key": "pflower",
+          "roster": 3
+        },
+        "loser": {
+          "key": "connorcowan",
+          "roster": 6
+        }
+      },
+      {
+        "m": 4,
+        "r": 2,
+        "p": 3,
+        "t1": {
+          "key": "stork1120",
+          "roster": 8
+        },
+        "t2": {
+          "key": "dtpt",
+          "roster": 7
+        },
+        "winner": {
+          "key": "stork1120",
+          "roster": 8
+        },
+        "loser": {
+          "key": "dtpt",
+          "roster": 7
+        }
+      }
+    ]
+  },
+  "weeklyScores": {
+    "1": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 96.64,
+        "oppKey": "rycow",
+        "oppPoints": 75.96,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 75.96,
+        "oppKey": "nickgilb2",
+        "oppPoints": 96.64,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 130.82,
+        "oppKey": "dirtybombs",
+        "oppPoints": 105.92,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 105.92,
+        "oppKey": "connorcowan",
+        "oppPoints": 130.82,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 144.8,
+        "oppKey": "dtpt",
+        "oppPoints": 93.54,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 93.54,
+        "oppKey": "mattgross",
+        "oppPoints": 144.8,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 94.08,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 122.04,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 122.04,
+        "oppKey": "pflower",
+        "oppPoints": 94.08,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 75.28,
+        "oppKey": "stork1120",
+        "oppPoints": 119.66,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 119.66,
+        "oppKey": "tomlockhart",
+        "oppPoints": 75.28,
+        "result": "W",
+        "isPlayoff": false
+      }
+    ],
+    "2": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 156.16,
+        "oppKey": "dirtybombs",
+        "oppPoints": 182.2,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 182.2,
+        "oppKey": "nickgilb2",
+        "oppPoints": 156.16,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 136.68,
+        "oppKey": "connorcowan",
+        "oppPoints": 122.12,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 122.12,
+        "oppKey": "rycow",
+        "oppPoints": 136.68,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 93.38,
+        "oppKey": "dtpt",
+        "oppPoints": 123.86,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 123.86,
+        "oppKey": "pflower",
+        "oppPoints": 93.38,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 147.42,
+        "oppKey": "mattgross",
+        "oppPoints": 174.58,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 174.58,
+        "oppKey": "tomlockhart",
+        "oppPoints": 147.42,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 111.8,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 126.1,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 126.1,
+        "oppKey": "stork1120",
+        "oppPoints": 111.8,
+        "result": "W",
+        "isPlayoff": false
+      }
+    ],
+    "3": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 191.76,
+        "oppKey": "connorcowan",
+        "oppPoints": 177.24,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 177.24,
+        "oppKey": "nickgilb2",
+        "oppPoints": 191.76,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 123.58,
+        "oppKey": "dirtybombs",
+        "oppPoints": 145.76,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 145.76,
+        "oppKey": "rycow",
+        "oppPoints": 123.58,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 116.72,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 162.18,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 162.18,
+        "oppKey": "dtpt",
+        "oppPoints": 116.72,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 189.38,
+        "oppKey": "stork1120",
+        "oppPoints": 125,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 125,
+        "oppKey": "mattgross",
+        "oppPoints": 189.38,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 139.94,
+        "oppKey": "pflower",
+        "oppPoints": 84.56,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 84.56,
+        "oppKey": "tomlockhart",
+        "oppPoints": 139.94,
+        "result": "L",
+        "isPlayoff": false
+      }
+    ],
+    "4": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 101.38,
+        "oppKey": "dtpt",
+        "oppPoints": 148.38,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 148.38,
+        "oppKey": "nickgilb2",
+        "oppPoints": 101.38,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 164.26,
+        "oppKey": "rycow",
+        "oppPoints": 138.54,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 138.54,
+        "oppKey": "mattgross",
+        "oppPoints": 164.26,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 94.5,
+        "oppKey": "dirtybombs",
+        "oppPoints": 155.64,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 155.64,
+        "oppKey": "pflower",
+        "oppPoints": 94.5,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 124.06,
+        "oppKey": "stork1120",
+        "oppPoints": 106.38,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 106.38,
+        "oppKey": "connorcowan",
+        "oppPoints": 124.06,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 169.72,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 106.62,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 106.62,
+        "oppKey": "tomlockhart",
+        "oppPoints": 169.72,
+        "result": "L",
+        "isPlayoff": false
+      }
+    ],
+    "5": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 99.7,
+        "oppKey": "mattgross",
+        "oppPoints": 160.32,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 160.32,
+        "oppKey": "nickgilb2",
+        "oppPoints": 99.7,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 111.24,
+        "oppKey": "dtpt",
+        "oppPoints": 124.56,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 124.56,
+        "oppKey": "rycow",
+        "oppPoints": 111.24,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 87.52,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 124.54,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 124.54,
+        "oppKey": "dirtybombs",
+        "oppPoints": 87.52,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 264.14,
+        "oppKey": "connorcowan",
+        "oppPoints": 85.62,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 85.62,
+        "oppKey": "tomlockhart",
+        "oppPoints": 264.14,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 122.46,
+        "oppKey": "stork1120",
+        "oppPoints": 110.22,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 110.22,
+        "oppKey": "pflower",
+        "oppPoints": 122.46,
+        "result": "L",
+        "isPlayoff": false
+      }
+    ],
+    "6": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 113.92,
+        "oppKey": "pflower",
+        "oppPoints": 147.9,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 147.9,
+        "oppKey": "nickgilb2",
+        "oppPoints": 113.92,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 111.72,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 106.54,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 106.54,
+        "oppKey": "rycow",
+        "oppPoints": 111.72,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 103,
+        "oppKey": "dirtybombs",
+        "oppPoints": 136.54,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 136.54,
+        "oppKey": "tomlockhart",
+        "oppPoints": 103,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 147.4,
+        "oppKey": "connorcowan",
+        "oppPoints": 112.84,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 112.84,
+        "oppKey": "mattgross",
+        "oppPoints": 147.4,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 96.36,
+        "oppKey": "stork1120",
+        "oppPoints": 104.78,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 104.78,
+        "oppKey": "dtpt",
+        "oppPoints": 96.36,
+        "result": "W",
+        "isPlayoff": false
+      }
+    ],
+    "7": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 125.84,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 98.56,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 98.56,
+        "oppKey": "nickgilb2",
+        "oppPoints": 125.84,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 150.36,
+        "oppKey": "rycow",
+        "oppPoints": 195.88,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 195.88,
+        "oppKey": "tomlockhart",
+        "oppPoints": 150.36,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 154.66,
+        "oppKey": "dirtybombs",
+        "oppPoints": 124.04,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 124.04,
+        "oppKey": "stork1120",
+        "oppPoints": 154.66,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 97.96,
+        "oppKey": "dtpt",
+        "oppPoints": 143,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 143,
+        "oppKey": "connorcowan",
+        "oppPoints": 97.96,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 96.14,
+        "oppKey": "mattgross",
+        "oppPoints": 141.26,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 141.26,
+        "oppKey": "pflower",
+        "oppPoints": 96.14,
+        "result": "W",
+        "isPlayoff": false
+      }
+    ],
+    "8": [
+      {
+        "managerKey": "tomlockhart",
+        "points": 143.36,
+        "oppKey": "nickgilb2",
+        "oppPoints": 169.26,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "nickgilb2",
+        "points": 169.26,
+        "oppKey": "tomlockhart",
+        "oppPoints": 143.36,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 171.18,
+        "oppKey": "stork1120",
+        "oppPoints": 167.52,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 167.52,
+        "oppKey": "rycow",
+        "oppPoints": 171.18,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 144.36,
+        "oppKey": "dirtybombs",
+        "oppPoints": 155.46,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 155.46,
+        "oppKey": "dtpt",
+        "oppPoints": 144.36,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 127.12,
+        "oppKey": "connorcowan",
+        "oppPoints": 113.18,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 113.18,
+        "oppKey": "pflower",
+        "oppPoints": 127.12,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 187.26,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 130.5,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 130.5,
+        "oppKey": "mattgross",
+        "oppPoints": 187.26,
+        "result": "L",
+        "isPlayoff": false
+      }
+    ],
+    "9": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 134.72,
+        "oppKey": "stork1120",
+        "oppPoints": 86.64,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 86.64,
+        "oppKey": "nickgilb2",
+        "oppPoints": 134.72,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 82.72,
+        "oppKey": "rycow",
+        "oppPoints": 91.58,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 91.58,
+        "oppKey": "pflower",
+        "oppPoints": 82.72,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 116.5,
+        "oppKey": "dirtybombs",
+        "oppPoints": 143.96,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 143.96,
+        "oppKey": "mattgross",
+        "oppPoints": 116.5,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 114.36,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 150.2,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 150.2,
+        "oppKey": "connorcowan",
+        "oppPoints": 114.36,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 94.78,
+        "oppKey": "dtpt",
+        "oppPoints": 112.32,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 112.32,
+        "oppKey": "tomlockhart",
+        "oppPoints": 94.78,
+        "result": "W",
+        "isPlayoff": false
+      }
+    ],
+    "10": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 112.5,
+        "oppKey": "rycow",
+        "oppPoints": 178.72,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 178.72,
+        "oppKey": "nickgilb2",
+        "oppPoints": 112.5,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 151.16,
+        "oppKey": "dirtybombs",
+        "oppPoints": 192.36,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 192.36,
+        "oppKey": "connorcowan",
+        "oppPoints": 151.16,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 112.3,
+        "oppKey": "dtpt",
+        "oppPoints": 86.78,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 86.78,
+        "oppKey": "mattgross",
+        "oppPoints": 112.3,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 132.58,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 135.12,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 135.12,
+        "oppKey": "pflower",
+        "oppPoints": 132.58,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 132.66,
+        "oppKey": "stork1120",
+        "oppPoints": 148.42,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 148.42,
+        "oppKey": "tomlockhart",
+        "oppPoints": 132.66,
+        "result": "W",
+        "isPlayoff": false
+      }
+    ],
+    "11": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 118.9,
+        "oppKey": "dirtybombs",
+        "oppPoints": 136.36,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 136.36,
+        "oppKey": "nickgilb2",
+        "oppPoints": 118.9,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 140.46,
+        "oppKey": "connorcowan",
+        "oppPoints": 129.54,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 129.54,
+        "oppKey": "rycow",
+        "oppPoints": 140.46,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 119.84,
+        "oppKey": "dtpt",
+        "oppPoints": 101.9,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 101.9,
+        "oppKey": "pflower",
+        "oppPoints": 119.84,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 137.56,
+        "oppKey": "mattgross",
+        "oppPoints": 128.6,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 128.6,
+        "oppKey": "tomlockhart",
+        "oppPoints": 137.56,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 129.34,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 111.88,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 111.88,
+        "oppKey": "stork1120",
+        "oppPoints": 129.34,
+        "result": "L",
+        "isPlayoff": false
+      }
+    ],
+    "12": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 124.72,
+        "oppKey": "connorcowan",
+        "oppPoints": 117.14,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 117.14,
+        "oppKey": "nickgilb2",
+        "oppPoints": 124.72,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 150.18,
+        "oppKey": "dirtybombs",
+        "oppPoints": 179.34,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 179.34,
+        "oppKey": "rycow",
+        "oppPoints": 150.18,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 136.16,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 132.62,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 132.62,
+        "oppKey": "dtpt",
+        "oppPoints": 136.16,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 157.7,
+        "oppKey": "stork1120",
+        "oppPoints": 109.48,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 109.48,
+        "oppKey": "mattgross",
+        "oppPoints": 157.7,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 133.36,
+        "oppKey": "pflower",
+        "oppPoints": 149.46,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 149.46,
+        "oppKey": "tomlockhart",
+        "oppPoints": 133.36,
+        "result": "W",
+        "isPlayoff": false
+      }
+    ],
+    "13": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 134.8,
+        "oppKey": "dtpt",
+        "oppPoints": 129.24,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 129.24,
+        "oppKey": "nickgilb2",
+        "oppPoints": 134.8,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 172.32,
+        "oppKey": "rycow",
+        "oppPoints": 172.36,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 172.36,
+        "oppKey": "mattgross",
+        "oppPoints": 172.32,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 111.96,
+        "oppKey": "dirtybombs",
+        "oppPoints": 172.36,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 172.36,
+        "oppKey": "pflower",
+        "oppPoints": 111.96,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 98.32,
+        "oppKey": "stork1120",
+        "oppPoints": 132.28,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 132.28,
+        "oppKey": "connorcowan",
+        "oppPoints": 98.32,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 150.76,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 130.2,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 130.2,
+        "oppKey": "tomlockhart",
+        "oppPoints": 150.76,
+        "result": "L",
+        "isPlayoff": false
+      }
+    ],
+    "14": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 155.2,
+        "oppKey": "mattgross",
+        "oppPoints": 134.48,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 134.48,
+        "oppKey": "nickgilb2",
+        "oppPoints": 155.2,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "rycow",
+        "points": 156.04,
+        "oppKey": "dtpt",
+        "oppPoints": 97.22,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 97.22,
+        "oppKey": "rycow",
+        "oppPoints": 156.04,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 148.84,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 125.94,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 125.94,
+        "oppKey": "dirtybombs",
+        "oppPoints": 148.84,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 136.26,
+        "oppKey": "connorcowan",
+        "oppPoints": 81.54,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 81.54,
+        "oppKey": "tomlockhart",
+        "oppPoints": 136.26,
+        "result": "L",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "pflower",
+        "points": 106.94,
+        "oppKey": "stork1120",
+        "oppPoints": 99.64,
+        "result": "W",
+        "isPlayoff": false
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 99.64,
+        "oppKey": "pflower",
+        "oppPoints": 106.94,
+        "result": "L",
+        "isPlayoff": false
+      }
+    ],
+    "15": [
+      {
+        "managerKey": "tomlockhart",
+        "points": 127.22,
+        "oppKey": "nickgilb2",
+        "oppPoints": 150.74,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "nickgilb2",
+        "points": 150.74,
+        "oppKey": "tomlockhart",
+        "oppPoints": 127.22,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "rycow",
+        "points": 129.24,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 120,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 120,
+        "oppKey": "rycow",
+        "oppPoints": 129.24,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 130.82,
+        "oppKey": "stork1120",
+        "oppPoints": 84.7,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 84.7,
+        "oppKey": "connorcowan",
+        "oppPoints": 130.82,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "pflower",
+        "points": 128.5,
+        "oppKey": "dtpt",
+        "oppPoints": 68.76,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 68.76,
+        "oppKey": "pflower",
+        "oppPoints": 128.5,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 128.52,
+        "oppKey": "dirtybombs",
+        "oppPoints": 97.52,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 97.52,
+        "oppKey": "mattgross",
+        "oppPoints": 128.52,
+        "result": "L",
+        "isPlayoff": true
+      }
+    ],
+    "16": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 196.7,
+        "oppKey": "dirtybombs",
+        "oppPoints": 123.02,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 123.02,
+        "oppKey": "nickgilb2",
+        "oppPoints": 196.7,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 145.64,
+        "oppKey": "rycow",
+        "oppPoints": 173.08,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "rycow",
+        "points": 173.08,
+        "oppKey": "mattgross",
+        "oppPoints": 145.64,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 118.38,
+        "oppKey": "numbercrunchies",
+        "oppPoints": 137.6,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "numbercrunchies",
+        "points": 137.6,
+        "oppKey": "tomlockhart",
+        "oppPoints": 118.38,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "pflower",
+        "points": 104,
+        "oppKey": "connorcowan",
+        "oppPoints": 96.98,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "connorcowan",
+        "points": 96.98,
+        "oppKey": "pflower",
+        "oppPoints": 104,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "dtpt",
+        "points": 101.36,
+        "oppKey": "stork1120",
+        "oppPoints": 116.4,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "stork1120",
+        "points": 116.4,
+        "oppKey": "dtpt",
+        "oppPoints": 101.36,
+        "result": "W",
+        "isPlayoff": true
+      }
+    ],
+    "17": [
+      {
+        "managerKey": "nickgilb2",
+        "points": 122.42,
+        "oppKey": "rycow",
+        "oppPoints": 139.54,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "rycow",
+        "points": 139.54,
+        "oppKey": "nickgilb2",
+        "oppPoints": 122.42,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "mattgross",
+        "points": 117.18,
+        "oppKey": "dirtybombs",
+        "oppPoints": 152,
+        "result": "L",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "dirtybombs",
+        "points": 152,
+        "oppKey": "mattgross",
+        "oppPoints": 117.18,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "tomlockhart",
+        "points": 186.9,
+        "oppKey": "pflower",
+        "oppPoints": 120.12,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "pflower",
+        "points": 120.12,
+        "oppKey": "tomlockhart",
+        "oppPoints": 186.9,
+        "result": "L",
+        "isPlayoff": true
+      }
+    ],
+    "18": [
+      {
+        "managerKey": "tomlockhart",
+        "points": 112.76,
+        "oppKey": "nickgilb2",
+        "oppPoints": 94.32,
+        "result": "W",
+        "isPlayoff": true
+      },
+      {
+        "managerKey": "nickgilb2",
+        "points": 94.32,
+        "oppKey": "tomlockhart",
+        "oppPoints": 112.76,
+        "result": "L",
+        "isPlayoff": true
+      }
+    ]
+  }
+}

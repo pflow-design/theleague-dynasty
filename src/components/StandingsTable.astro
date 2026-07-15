@@ -18,7 +18,8 @@ const rows = standings.map((s) => {
   const rankClass = isChamp ? 'rank champ' : isPlayoff ? 'rank po' : 'rank';
   const diff = typeof s.diff === 'number' ? s.diff : +(s.pf - s.pa).toFixed(2);
   const diffPos = diff >= 0;
-  return { s, isChamp, rankClass, diff, diffPos, avatar: avatarUrl(s.managerKey) };
+  const eff = s.ppts ? +((s.pf / s.ppts) * 100).toFixed(1) : null;
+  return { s, isChamp, rankClass, diff, diffPos, eff, avatar: avatarUrl(s.managerKey) };
 });
 ---
 <div class="table-scroll">
@@ -31,12 +32,13 @@ const rows = standings.map((s) => {
         <th class="r">W-L</th>
         <th class="r">PF</th>
         <th class="r">Max PF</th>
+        <th class="r">Eff %</th>
         <th class="r">PA</th>
         <th class="r">+/−</th>
       </tr>
     </thead>
     <tbody>
-      {rows.map(({ s, isChamp, rankClass, diff, diffPos, avatar }) => (
+      {rows.map(({ s, isChamp, rankClass, diff, diffPos, eff, avatar }) => (
         <tr>
           {showRank && <td><span class={rankClass}>{s.rank}</span></td>}
           <td class="tn">
@@ -52,6 +54,7 @@ const rows = standings.map((s) => {
           <td class="r rec">{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</td>
           <td class="r">{fmt(s.pf)}</td>
           <td class="r maxpf">{s.ppts ? fmt(s.ppts) : '—'}</td>
+          <td class="r eff">{eff !== null ? `${eff.toFixed(1)}%` : '—'}</td>
           <td class="r">{fmt(s.pa)}</td>
           <td class="r"><span class={diffPos ? 'pos' : 'neg'}>{diffPos ? '+' : '−'}{Math.abs(diff).toFixed(1)}</span></td>
         </tr>

@@ -41,7 +41,7 @@ export interface Season {
 export interface Manager {
   key: string; userId: string; display: string; avatar: string | null;
   teamName: string; teamNames: Record<string, string>; seasons: number[];
-  titles: number; w: number; l: number; t: number; pf: number; pa: number;
+  titles: number; w: number; l: number; t: number; pf: number; pa: number; ppts: number;
   playoffApps: number; bestFinish: number | null;
 }
 

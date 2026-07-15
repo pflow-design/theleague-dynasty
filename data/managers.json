@@ -26,6 +26,7 @@
       "t": 0,
       "pf": 7890.52,
       "pa": 7156.38,
+      "ppts": 9493.8,
       "playoffApps": 3,
       "bestFinish": 1
     },
@@ -55,6 +56,7 @@
       "t": 0,
       "pf": 7751.2,
       "pa": 7371.48,
+      "ppts": 9340.34,
       "playoffApps": 4,
       "bestFinish": 1
     },
@@ -78,6 +80,7 @@
       "t": 0,
       "pf": 7020.22,
       "pa": 7283.32,
+      "ppts": 8212.7,
       "playoffApps": 2,
       "bestFinish": 1
     },
@@ -101,6 +104,7 @@
       "t": 0,
       "pf": 7773.9,
       "pa": 7368.18,
+      "ppts": 8870.46,
       "playoffApps": 3,
       "bestFinish": null
     },
@@ -130,6 +134,7 @@
       "t": 0,
       "pf": 7540.33,
       "pa": 7437.62,
+      "ppts": 9275.96,
       "playoffApps": 3,
       "bestFinish": null
     },
@@ -153,6 +158,7 @@
       "t": 0,
       "pf": 7545.31,
       "pa": 7150.58,
+      "ppts": 8975,
       "playoffApps": 3,
       "bestFinish": null
     },
@@ -176,6 +182,7 @@
       "t": 0,
       "pf": 6929.08,
       "pa": 7364.34,
+      "ppts": 8293.48,
       "playoffApps": 2,
       "bestFinish": null
     },
@@ -205,6 +212,7 @@
       "t": 0,
       "pf": 6880.8,
       "pa": 7410.88,
+      "ppts": 8179.86,
       "playoffApps": 2,
       "bestFinish": null
     },
@@ -234,6 +242,7 @@
       "t": 0,
       "pf": 7568.84,
       "pa": 7409.82,
+      "ppts": 8820.62,
       "playoffApps": 2,
       "bestFinish": null
     },
@@ -263,6 +272,7 @@
       "t": 0,
       "pf": 6910.52,
       "pa": 7858.14,
+      "ppts": 8606.63,
       "playoffApps": 0,
       "bestFinish": null
     }

@@ -250,13 +250,13 @@ async function main() {
              teamNames: f.teamNames, seasons: f.seasons.sort(), titles };
   });
   // fill career records from season files
-  for (const m of managers) { m.w = 0; m.l = 0; m.t = 0; m.pf = 0; m.pa = 0; m.playoffApps = 0; m.bestFinish = null; }
+  for (const m of managers) { m.w = 0; m.l = 0; m.t = 0; m.pf = 0; m.pa = 0; m.ppts = 0; m.playoffApps = 0; m.bestFinish = null; }
   for (const y of completeYears) {
     const s = await readJson(path.join(SEASONS_DIR, `${y}.json`));
     for (const st of s.standings) {
       const m = managers.find((x) => x.key === st.managerKey);
       if (!m) continue;
-      m.w += st.w; m.l += st.l; m.t += st.t; m.pf = round2(m.pf + st.pf); m.pa = round2(m.pa + st.pa);
+      m.w += st.w; m.l += st.l; m.t += st.t; m.pf = round2(m.pf + st.pf); m.pa = round2(m.pa + st.pa); m.ppts = round2(m.ppts + (st.ppts || 0));
       if (st.rank <= s.playoffTeams) m.playoffApps++;
     }
     // best finish via champion / bracket placement (champion only for now)

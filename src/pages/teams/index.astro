@@ -1,7 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { managers, avatarUrl } from '../../lib/data.ts';
-const rows = managers.map((m) => ({ ...m, avatar: avatarUrl(m.key), pct: m.w + m.l ? m.w / (m.w + m.l) : 0 }));
+const rows = managers.map((m) => ({
+  ...m, avatar: avatarUrl(m.key),
+  pct: m.w + m.l ? m.w / (m.w + m.l) : 0,
+  eff: m.ppts ? (m.pf / m.ppts) * 100 : null,
+}));
 ---
 <Base title="Teams" subtitle="Every franchise in the dynasty — career records, titles and total points.">
   <div class="table-scroll">
@@ -13,6 +17,8 @@ const rows = managers.map((m) => ({ ...m, avatar: avatarUrl(m.key), pct: m.w + m
           <th class="r">W-L</th>
           <th class="r">Win%</th>
           <th class="r">PF</th>
+          <th class="r">Max PF</th>
+          <th class="r">Eff %</th>
           <th class="r">PA</th>
           <th class="r">Playoffs</th>
           <th class="r">Seasons</th>
@@ -30,6 +36,8 @@ const rows = managers.map((m) => ({ ...m, avatar: avatarUrl(m.key), pct: m.w + m
             <td class="r rec">{m.w}-{m.l}{m.t ? `-${m.t}` : ''}</td>
             <td class="r">{(m.pct * 100).toFixed(1)}%</td>
             <td class="r">{m.pf.toLocaleString('en-US', { maximumFractionDigits: 0 })}</td>
+            <td class="r maxpf">{m.ppts ? m.ppts.toLocaleString('en-US', { maximumFractionDigits: 0 }) : '—'}</td>
+            <td class="r">{m.eff !== null ? `${m.eff.toFixed(1)}%` : '—'}</td>
             <td class="r">{m.pa.toLocaleString('en-US', { maximumFractionDigits: 0 })}</td>
             <td class="r">{m.playoffApps}</td>
             <td class="r">{m.seasons.length}</td>
@@ -42,4 +50,5 @@ const rows = managers.map((m) => ({ ...m, avatar: avatarUrl(m.key), pct: m.w + m
 <style>
   .team-link { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--muted); font-weight: 700; }
   .team-link:hover { color: var(--brand-700); border-bottom-color: var(--brand-700); }
+  .maxpf { color: var(--muted); }
 </style>

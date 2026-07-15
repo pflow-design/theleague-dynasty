@@ -30,6 +30,7 @@ const rows = standings.map((s) => {
         <th>Manager</th>
         <th class="r">W-L</th>
         <th class="r">PF</th>
+        <th class="r">Max PF</th>
         <th class="r">PA</th>
         <th class="r">+/−</th>
       </tr>
@@ -50,6 +51,7 @@ const rows = standings.map((s) => {
           </td>
           <td class="r rec">{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</td>
           <td class="r">{fmt(s.pf)}</td>
+          <td class="r maxpf">{s.ppts ? fmt(s.ppts) : '—'}</td>
           <td class="r">{fmt(s.pa)}</td>
           <td class="r"><span class={diffPos ? 'pos' : 'neg'}>{diffPos ? '+' : '−'}{Math.abs(diff).toFixed(1)}</span></td>
         </tr>
@@ -62,4 +64,5 @@ const rows = standings.map((s) => {
   .team-link { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--muted); }
   .team-link:hover { color: var(--brand-700); border-bottom-color: var(--brand-700); }
   .avatar { margin-right: 2px; }
+  .maxpf { color: var(--muted); }
 </style>

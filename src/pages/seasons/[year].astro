@@ -197,6 +197,9 @@ const weeklyGames = weeks.map((w) => {
   .mu-hint { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--brand-500); margin-top: 6px; font-weight: 700; }
 
   .box-modal { position: fixed; inset: 0; background: rgba(3,6,18,.72); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 200; }
+  /* The `hidden` attribute must win over the display:flex above, or the (empty)
+     modal shows on load and can't be dismissed. Attribute+class outspecifies .box-modal. */
+  .box-modal[hidden] { display: none; }
   .box-inner { background: var(--bg-2); border: 1px solid var(--line); border-radius: 14px; max-width: 720px; width: 100%; max-height: 86vh; overflow: auto; padding: 22px; position: relative; }
   .box-close { position: absolute; top: 12px; right: 12px; border: none; background: var(--panel-2); color: #fff; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; font-weight: 700; }
   .box-title { color: var(--text); margin-bottom: 12px; }
